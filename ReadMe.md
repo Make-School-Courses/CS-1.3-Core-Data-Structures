@@ -7,6 +7,11 @@
 **Class Times:** Monday & Wednesday 4–6pm, Friday 10am–12pm (18 class sessions)
 
 
+| Class | Date                   | Topics Covered                             |
+| ----- | ---------------------- | ------------------------------------------ |
+| 1     | Monday, October 23     | [Number Bases](Class1.md)                  |
+
+
 ## Repository Setup Instructions
 
 Please follow [these instructions](Setup.md) exactly to set up your fork of this repository.
