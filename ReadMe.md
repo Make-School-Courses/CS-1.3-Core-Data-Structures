@@ -10,7 +10,7 @@
 | Class |          Date          |                  Topics                    |
 |:-----:|:----------------------:|:------------------------------------------:|
 |   1   |    Monday, October 23  | [Number Bases](Class1.md)                  |
-|   2   | Wednesday, October 25  | Recursion & Search Algorithms |
+|   2   | Wednesday, October 25  | [Recursion & Search Algorithms](Class2.md) |
 |   3   |    Friday, October 27  | String Algorithms             |
 |   4   |    Monday, October 30  | Array & Linked List           |
 |   5   | Wednesday, November 1  | List, Stack & Queue           |
