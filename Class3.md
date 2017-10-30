@@ -23,12 +23,18 @@
         > `PASS: 'noon' is a palindrome`<br/>
         > `PASS: 'RaceCar' is a palindrome`<br/>
         > `PASS: 'Taco, Cat' is a palindrome`<br/>
-    - Run `pytest test_palindromes.py` to run the [palindromes unit tests] and fix any failures
-- Implement string searching functions (try both iterative and recursive versions):
-    - Implement `contains(string, pattern)` - a boolean indicating whether `string` contains all of `pattern`
-    - Implement `find_index(string, pattern)` - the starting index of the first occurrence of `pattern` in `string`
-    - Implement `find_all_indexes(string, pattern)` - a list of the starting indexes of all occurrences of `pattern` in `string`
-- Write your own unit tests to ensure your string searching algorithms are robust
+    - Run `pytest palindromes_test.py` to run the [palindromes unit tests] and fix any failures
+- Implement string searching functions (try both iterative and recursive versions) using [strings starter code]:
+    - Implement `contains(text, pattern)` - a boolean indicating whether `pattern` occurs in `text`
+    - Implement `find_index(text, pattern)` - the starting index of the first occurrence of `pattern` in `text`
+    - Implement `find_all_indexes(text, pattern)` - a list of starting indexes of all occurrences of `pattern` in `text`
+    - Run `python strings.py text pattern` to test string searching algorithms
+        - Example: `python strings.py 'abra cadabra' 'abra'` gives the result:
+        > `contains('abra cadabra', 'abra') => True`<br/>
+        > `find_index('abra cadabra', 'abra') => 0`<br/>
+        > `find_all_indexes('abra cadabra', 'abra') => [0, 8]`<br/>
+    - Run `pytest strings_test.py` to run the [strings unit tests] and fix any failures
+- Write additional test cases to expand the [strings unit tests] to ensure your string searching algorithms are robust
     - Include several test cases that are both positive (examples) and negative (counterexamples)
 - Refactor functions to increase code reuse and avoid duplication ([DRY principle])
 - Annotate functions with complexity analysis of running time and space (memory)
@@ -53,4 +59,6 @@
 [Internet Anagram Server]: http://www.wordsmith.org/anagram/
 
 [palindromes starter code]: source/palindromes.py
-[palindromes unit tests]: source/test_palindromes.py
+[palindromes unit tests]: source/palindromes_test.py
+[strings starter code]: source/strings.py
+[strings unit tests]: source/strings_test.py
