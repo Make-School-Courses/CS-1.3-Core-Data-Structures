@@ -13,7 +13,7 @@
 |   2   | Wednesday, October 25  | [Recursion & Search Algorithms](Class2.md) |
 |   3   |    Friday, October 27  | [String Algorithms](Class3.md)             |
 |   4   |    Monday, October 30  | [Arrays & Linked Lists](Class4.md)         |
-|   5   | Wednesday, November 1  | List, Stack & Queue           |
+|   5   | Wednesday, November 1  | [Lists, Stacks & Queues](Class5.md)        |
 |   6   |    Friday, November 3  | *TBD*                         |
 |   7   |    Monday, November 6  | Map & Hash Table              |
 |   8   | Wednesday, November 8  | Set & Circular Buffer         |
