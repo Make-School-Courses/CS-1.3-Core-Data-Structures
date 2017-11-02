@@ -8,6 +8,8 @@
 ### Resources
 - Review Make School's [stack and queue slides]
 - Watch Make School's [stack and queue video lecture]
+- Watch HackerRank's [stack and queue video]
+- Watch Harvard's [stack video] and [queue video]
 - Play with VisuAlgo's [interactive stack and queue visualization][visualgo list]
 
 ### Challenges
@@ -55,6 +57,9 @@
 
 [stack and queue slides]: slides/StacksQueues.pdf
 [stack and queue video lecture]: https://www.youtube.com/watch?v=AXWnk4gege4
+[stack and queue video]: https://www.youtube.com/watch?v=wjI1WNcIntg
+[stack video]: https://www.youtube.com/watch?v=9Tp8wHD66lw
+[queue video]: https://www.youtube.com/watch?v=10jRKWI9s1k
 [visualgo list]: https://visualgo.net/list
 
 [stack starter code]: source/stack.py
