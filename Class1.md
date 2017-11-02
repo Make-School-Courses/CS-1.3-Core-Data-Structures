@@ -10,6 +10,9 @@
 - Play with Dan Wolff's live-updating [base conversion calculator]
 - Review Wikipedia's [comparison table] of signed number representations
 - Print and make a [Flippy Do] binary converter following Code.org's [instructions][Flippy Do instructions]
+- Watch Harvard's [hexadecimal video]
+- Watch Corey Schafer's [understanding bases video]
+- Watch Tech Quickie's [numbers and base systems video]
 
 ### Challenges
 - Practice binary and hexadecimal conversions on [number bases worksheet]
@@ -42,6 +45,9 @@
 [base conversion calculator]: https://baseconvert.com/
 [Flippy Do]: https://drive.google.com/file/d/0B6iNirqJ5EuVVTlla0RpR2RIa2s/view
 [Flippy Do instructions]: https://docs.google.com/document/d/1QnD9khmPUz1az3ZLc5L8vavR6lU0uScspotRhORnHxE/edit
+[hexadecimal video]: https://www.youtube.com/watch?v=nrFHGtGdOzA
+[understanding bases video]: https://www.youtube.com/watch?v=ZL-LhaaMTTE
+[numbers and base systems video]: https://www.youtube.com/watch?v=LpuPe81bc2w
 
 [starter code]: source/bases.py
 [unit tests]: source/bases_test.py
