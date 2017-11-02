@@ -12,6 +12,7 @@
 - Read The Hitchhiker's Guide to Python's tutorial on [testing your code]
 - Consult documentation for Python's [`unittest` module] and [`pytest` tool]
 - Play around with Wordsmith's [Internet Anagram Server]
+- Watch HackerRank's [anagram problem solution video]
 
 ### Challenges
 - Implement palindrome checking functions using [palindromes starter code]:
@@ -61,6 +62,7 @@
 [permutation]: https://en.wikipedia.org/wiki/Permutation
 [anagrams]: https://en.wikipedia.org/wiki/Anagram
 [Internet Anagram Server]: http://www.wordsmith.org/anagram/
+[anagram problem solution video]: https://www.youtube.com/watch?v=3MwRGPPB4tw
 
 [palindromes starter code]: source/palindromes.py
 [palindromes unit tests]: source/palindromes_test.py
