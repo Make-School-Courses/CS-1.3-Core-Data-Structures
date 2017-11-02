@@ -10,8 +10,8 @@
 - Read Interview Cake's [article on the idea behind big O notation][IC big O]
 - Read Stack Overflow's [plain English explanations of big O notation][SO big O]
 - Read Justin Abrams's [article on big O notation explained by a self-taught programmer][JA big O]
-- Watch HackerRank's [recursive algorithms video], [binary search video], and [big O notation video]
-- Watch Harvard's [recursion video] and [asymptotic notation video]
+- Watch HackerRank's [recursive algorithms video], [binary search algorithm video], and [big O notation video]
+- Watch Harvard's [old recursion video], [new recursion video], [stack frames video], [linear search video], [binary search video], [asymptotic notation video], and [computational complexity video]
 
 ### Challenges
 - Implement iterative [factorial] function using [recursion starter code]:
@@ -43,9 +43,14 @@
 [algorithm analysis slides]: slides/AlgorithmAnalysis.pdf
 [big O notation video]: https://www.youtube.com/watch?v=v4cd1O4zkGw
 [asymptotic notation video]: https://www.youtube.com/watch?v=iOq5kSKqeR4
+[computational complexity video]: https://www.youtube.com/watch?v=IM9sHGlYV5A
 [recursive algorithms video]: https://www.youtube.com/watch?v=KEEKn7Me-ms
-[recursion video]: https://www.youtube.com/watch?v=t4MSwiqfLaY
-[binary search video]: https://www.youtube.com/watch?v=P3YID7liBug
+[old recursion video]: https://www.youtube.com/watch?v=t4MSwiqfLaY
+[new recursion video]: https://www.youtube.com/watch?v=VrrnjYgDBEk
+[stack frames video]: https://www.youtube.com/watch?v=beqqGIdabrE
+[linear search video]: https://www.youtube.com/watch?v=vZWfKBdSgXI
+[binary search video]: https://www.youtube.com/watch?v=5xlIPT1FRcA
+[binary search algorithm video]: https://www.youtube.com/watch?v=P3YID7liBug
 [IC logarithms]: https://www.interviewcake.com/article/python/logarithms
 [IC big O]: https://www.interviewcake.com/article/python/big-o-notation-time-and-space-complexity
 [SO big O]: https://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation
