@@ -8,6 +8,8 @@
 ### Resources
 - Review Make School's [hash table slides]
 - Watch Make School's [hash table video lecture]
+- Watch HackerRank's [hash table video]
+- Watch Harvard's [old hash table video] and [new hash table video]
 - Play with VisuAlgo's [interactive hash table visualization][visualgo hash table]
 
 ### Challenges
@@ -37,6 +39,9 @@
 
 [hash table slides]: slides/HashTables.pdf
 [hash table video lecture]: https://www.youtube.com/watch?v=nLWXJ6IDKmQ
+[hash table video]: https://www.youtube.com/watch?v=shs0KM3wKv8
+[old hash table video]: https://www.youtube.com/watch?v=h2d9b_nEzoA
+[new hash table video]: https://www.youtube.com/watch?v=tjtFkT97Xmc
 [visualgo hash table]: https://visualgo.net/hashtable
 
 [hash table starter code]: source/hashtable.py
