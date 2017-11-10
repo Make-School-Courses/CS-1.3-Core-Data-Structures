@@ -1,4 +1,4 @@
-## Class 7: Sets & Circular Buffers
+## Class 8: Sets & Circular Buffers
 
 ### Topics
 - Abstract data types: [set], [multiset (bag)][multiset]
@@ -6,7 +6,7 @@
 - [Set operations]
 
 ### Challenges
-- Implement `Set` class (set with hash table) with the following [set operations] as instance methods and properties:
+- Implement `Set` class (backed by hash table) with the following [set operations] as instance methods and properties:
     - `__init__(elements=None)` - initialize a new empty set structure, and add each element if a sequence is given
     - `size` - property that tracks the number of elements in constant time
     - `contains(element)` - return a boolean indicating whether `element` is in this set
@@ -22,9 +22,17 @@
 - Compare the behaviors of your `Set` class to those of the [Python `set` type]
 
 ### Stretch Challenges
-- Implement `CircularBuffer` class with dynamic array
+- Implement `CircularBuffer` class (backed by dynamic array) with the following instance methods and properties:
+    - `__init__(max_size)` - initialize a new circular buffer that can store at most `max_size` items
+    - `size` - property that tracks the number of items in the buffer
+    - `is_empty` - check if the buffer is empty
+    - `is_full` - check if the buffer is full
+    - `enqueue(item)` - insert `item` at the back of the buffer
+    - `front` - return the item at the front of the buffer
+    - `dequeue` - remove and return the item at the front of the buffer
+- Annotate `enqueue` and `dequeue` methods with running time complexity analysis
 - Write unit tests for to ensure the `CircularBuffer` class is robust
-    - Include test cases for each class instance method
+    - Include test cases for each class instance method and property
 - Annotate `enqueue` and `dequeue` methods with running time complexity analysis
 
 
