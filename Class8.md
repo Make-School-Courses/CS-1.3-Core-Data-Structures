@@ -16,7 +16,7 @@
     - `intersection(other_set)` - return a new set that is the intersection of this set and `other_set`
     - `difference(other_set)` - return a new set that is the difference of this set and `other_set`
     - `is_subset(other_set)` - return a boolean indicating whether `other_set` is a subset of this set
-- Write unit tests for to ensure the `Set` class is robust
+- Write unit tests to ensure the `Set` class is robust
     - Include test cases for each class instance method
 - Annotate all instance methods with complexity analysis of running time and space (memory)
 - Compare the behaviors of your `Set` class to those of the [Python `set` type]
@@ -31,7 +31,7 @@
     - `front` - return the item at the front of the buffer
     - `dequeue` - remove and return the item at the front of the buffer
 - Annotate `enqueue` and `dequeue` methods with running time complexity analysis
-- Write unit tests for to ensure the `CircularBuffer` class is robust
+- Write unit tests to ensure the `CircularBuffer` class is robust
     - Include test cases for each class instance method and property
 - Annotate `enqueue` and `dequeue` methods with running time complexity analysis
 
