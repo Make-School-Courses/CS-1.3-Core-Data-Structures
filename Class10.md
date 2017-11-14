@@ -14,6 +14,9 @@
 - Play with VisuAlgo's [interactive binary search tree visualization][visualgo bst]
 
 ### Challenges
+- Implement recursive tree search methods on the `BinarySearchTree` class using [binary tree starter code]:
+    - `_find_node_recursive(item)` - return the node containing `item` in the tree, or `None` if not found (*hint: implement this first*)
+    - `_find_parent_node_recursive(item)` - return the parent of the node containing `item` (or the parent of where `item` would be if inserted) in the tree, or `None` if the tree is empty or has only a root node
 - Implement tree traversal methods on the `BinarySearchTree` class using [binary tree starter code]:
     - `_traverse_in_order_recursive` - traverse the tree with recursive in-order traversal (DFS)
     - `_traverse_pre_order_recursive` - traverse the tree with recursive pre-order traversal (DFS)
@@ -29,11 +32,28 @@
     - `_traverse_pre_order_iterative` - traverse the tree with iterative pre-order traversal (DFS)
     - `_traverse_post_order_iterative` - traverse the tree with iterative post-order traversal (DFS)
 - Annotate tree traversal methods with complexity analysis of running time and space (memory)
+- Implement `TreeMap` class ([map/dictionary][map] abstract data type implemented with [binary search tree] data structure) with the following properties and instance methods:
+    - `__init__` - initialize a new empty tree map structure
+    - `size` - property that tracks the number of tree map entries in constant time
+    - `keys` - return a list of all keys in the tree map
+    - `values` - return a list of all values in the tree map
+    - `items` - return a list of all entries (key-value pairs) in the tree map
+    - `contains(key)` - return a boolean indicating whether `key` is in the tree map
+    - `get(key)` - return the value associated with `key` in the tree map, or raise `KeyError` if not found
+    - `set(key, value)` - insert `key` (or update, if already present) with associated `value` in the tree map
+    - `delete(key)` - delete `key` and associated value from the tree map, or raise `KeyError` if not found
+- Write unit tests to ensure the `TreeMap` class is robust (*hint: these should be very similar to the hash table unit tests*)
+    - Include test cases for each class instance method
+- Annotate class instance methods with complexity analysis of running time and space (memory)
+- Compare the behaviors of your `TreeMap` class to those of the `HashTable` class and the [Python `dict` type]
 
 
 [tree traversal]: https://en.wikipedia.org/wiki/Tree_traversal
 [depth-first search]: https://en.wikipedia.org/wiki/Depth-first_search
 [breadth-first search]: https://en.wikipedia.org/wiki/Breadth-first_search
+[binary search tree]: https://en.wikipedia.org/wiki/Binary_search_tree
+[map]: https://en.wikipedia.org/wiki/Associative_array
+[Python `dict` type]: https://docs.python.org/3/library/stdtypes.html#dict
 
 [tree traversal slides]: slides/TreeTraversals.pdf
 [tree traversal video lecture]: https://www.youtube.com/watch?v=Qd8dKFaRu9I
