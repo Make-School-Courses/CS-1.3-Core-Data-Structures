@@ -18,7 +18,7 @@
 |   7   |    Monday, November 6  | [Maps & Hash Tables](Class7.md)            |
 |   8   | Wednesday, November 8  | [Sets & Circular Buffers](Class8.md)       |
 |   9   |    Friday, November 10 | [Trees & Binary Search Trees](Class9.md)   |
-|  10   |    Monday, November 13 | Tree Traversals               |
+|  10   |    Monday, November 13 | [Tree Traversals](Class10.md)              |
 |  11   | Wednesday, November 15 | Iterative Sorting Algorithms  |
 |  12   |    Friday, November 17 | Integer Sorting Algorithms    |
 |  13   |    Monday, November 27 | Divide-and-Conquer Recursion  |
