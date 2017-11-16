@@ -19,7 +19,7 @@
 |   8   | Wednesday, November 8  | [Sets & Circular Buffers](Class8.md)       |
 |   9   |    Friday, November 10 | [Trees & Binary Search Trees](Class9.md)   |
 |  10   |    Monday, November 13 | [Tree Traversals](Class10.md)              |
-|  11   | Wednesday, November 15 | Iterative Sorting Algorithms  |
+|  11   | Wednesday, November 15 | [Iterative Sorting Algorithms](Class11.md) |
 |  12   |    Friday, November 17 | Integer Sorting Algorithms    |
 |  13   |    Monday, November 27 | Divide-and-Conquer Recursion  |
 |  14   | Wednesday, November 29 | Recursive Algorithm Analysis  |
