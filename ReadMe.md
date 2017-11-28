@@ -21,9 +21,9 @@
 |  10   |    Monday, November 13 | [Tree Traversals](Class10.md)              |
 |  11   | Wednesday, November 15 | [Iterative Sorting Algorithms](Class11.md) |
 |  12   |    Friday, November 17 | Integer Sorting Algorithms    |
-|  13   |    Monday, November 27 | Divide-and-Conquer Recursion  |
 |  14   | Wednesday, November 29 | Recursive Algorithm Analysis  |
 |  15   |    Friday, December 1  | *TBD*                         |
+|  13   |    Monday, November 27 | [Divide-and-Conquer Recursion](Class13.md) |
 |  16   |    Monday, December 4  | Priority Queue & Heap         |
 |  17   | Wednesday, December 6  | Sorting Algorithms Recap      |
 |  18   |    Friday, December 8  | *TBD*                         |
