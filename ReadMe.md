@@ -20,13 +20,13 @@
 |   9   |    Friday, November 10 | [Trees & Binary Search Trees](Class9.md)   |
 |  10   |    Monday, November 13 | [Tree Traversals](Class10.md)              |
 |  11   | Wednesday, November 15 | [Iterative Sorting Algorithms](Class11.md) |
-|  12   |    Friday, November 17 | Integer Sorting Algorithms    |
+|  12   |    Friday, November 17 | *Code Review*                              |
 |  13   |    Monday, November 27 | [Divide-and-Conquer Recursion](Class13.md) |
 |  14   | Wednesday, November 29 | [Recursive Sorting Algorithms](Class14.md) |
-|  15   |    Friday, December 1  | *TBD*                         |
+|  15   |    Friday, December 1  | [Integer Sorting Algorithms](Class15.md)   |
 |  16   |    Monday, December 4  | Priority Queue & Heap         |
 |  17   | Wednesday, December 6  | Sorting Algorithms Recap      |
-|  18   |    Friday, December 8  | *TBD*                         |
+|  18   |    Friday, December 8  | *Code Review*                              |
 
 
 ## Repository Setup Instructions
