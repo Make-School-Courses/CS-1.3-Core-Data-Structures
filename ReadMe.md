@@ -25,7 +25,7 @@
 |  14   | Wednesday, November 29 | [Recursive Sorting Algorithms](Class14.md) |
 |  15   |    Friday, December 1  | [Integer Sorting Algorithms](Class15.md)   |
 |  16   |    Monday, December 4  | Priority Queue & Heap         |
-|  17   | Wednesday, December 6  | Sorting Algorithms Recap      |
+|  17   | Wednesday, December 6  | [Sorting Algorithms Comparison](Class17.md)|
 |  18   |    Friday, December 8  | *Code Review*                              |
 
 
