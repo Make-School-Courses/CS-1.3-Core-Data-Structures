@@ -7,6 +7,7 @@
 ### Resources
 - Review Make School's [slides on number bases][number bases slides]
 - Read BetterExplained's [article on number systems and bases][number bases article]
+- Read Vaidehi Joshi's [articles on binary][BaseCS binary] and [hexadecimal][BaseCS hexadecimal] with beautiful drawings and excellent examples
 - Play with Dan Wolff's live-updating [base conversion calculator]
 - Review Wikipedia's [comparison table] of signed number representations
 - Print and make a [Flippy Do] binary converter following Code.org's [instructions][Flippy Do instructions]
@@ -42,6 +43,9 @@
 [number bases slides]: slides/NumberBases.pdf
 [number bases worksheet]: slides/NumberBasesWorksheet.pdf
 [number bases article]: https://betterexplained.com/articles/numbers-and-bases/
+[BaseCS binary]: https://medium.com/basecs/bits-bytes-building-with-binary-13cb4289aafa
+[BaseCS hexadecimal]: https://medium.com/basecs/hexs-and-other-magical-numbers-9785bc26b7ee
+
 [base conversion calculator]: https://baseconvert.com/
 [Flippy Do]: https://drive.google.com/file/d/0B6iNirqJ5EuVVTlla0RpR2RIa2s/view
 [Flippy Do instructions]: https://docs.google.com/document/d/1QnD9khmPUz1az3ZLc5L8vavR6lU0uScspotRhORnHxE/edit
