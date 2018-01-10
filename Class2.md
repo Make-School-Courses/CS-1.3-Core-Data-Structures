@@ -6,6 +6,7 @@
 
 ### Resources
 - Review Make School's [algorithm analysis slides]
+- Read Vaidehi Joshi's [article on logarithms, binary search, and big O notation][BaseCS logarithms] with excellent, beautiful drawings
 - Read Interview Cake's [article on logarithms and binary search][logarithms article]
 - Read Interview Cake's [article on the idea behind big O notation][IC big O]
 - Read Stack Overflow's [plain English explanations of big O notation][SO big O]
@@ -44,13 +45,17 @@
 [big O notation video]: https://www.youtube.com/watch?v=v4cd1O4zkGw
 [asymptotic notation video]: https://www.youtube.com/watch?v=iOq5kSKqeR4
 [computational complexity video]: https://www.youtube.com/watch?v=IM9sHGlYV5A
+
 [recursive algorithms video]: https://www.youtube.com/watch?v=KEEKn7Me-ms
 [old recursion video]: https://www.youtube.com/watch?v=t4MSwiqfLaY
 [new recursion video]: https://www.youtube.com/watch?v=VrrnjYgDBEk
 [stack frames video]: https://www.youtube.com/watch?v=beqqGIdabrE
+
 [linear search video]: https://www.youtube.com/watch?v=vZWfKBdSgXI
 [binary search video]: https://www.youtube.com/watch?v=5xlIPT1FRcA
 [binary search algorithm video]: https://www.youtube.com/watch?v=P3YID7liBug
+
+[BaseCS logarithms]: https://medium.com/basecs/looking-for-the-logic-behind-logarithms-9e79d7666dda
 [IC logarithms]: https://www.interviewcake.com/article/python/logarithms
 [IC big O]: https://www.interviewcake.com/article/python/big-o-notation-time-and-space-complexity
 [SO big O]: https://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation
