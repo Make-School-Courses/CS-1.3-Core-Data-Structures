@@ -8,6 +8,7 @@
 ### Resources
 - Review Make School's [array and linked list slides]
 - Watch Make School's [array and linked list video lecture]
+- Read Vaidehi Joshi's [articles on linked lists, part 1: how they work][BaseCS linked list 1] and [part 2: complexity analysis and comparison to arrays][BaseCS linked list 2] with excellent, beautiful drawings
 - Watch HackerRank's [linked list video]
 - Watch Harvard's [array video], [singly linked list video], and [doubly linked list video]
 - Play with VisuAlgo's [interactive linked list visualization][visualgo list]
@@ -42,6 +43,9 @@
 [array video]: https://www.youtube.com/watch?v=7EdaoE46BTI
 [singly linked list video]: https://www.youtube.com/watch?v=ZoG2hOIoTnA
 [doubly linked list video]: https://www.youtube.com/watch?v=HmAEzp1taIE
+
+[BaseCS linked list 1]: https://medium.com/basecs/whats-a-linked-list-anyway-part-1-d8b7e6508b9d
+[BaseCS linked list 2]: https://medium.com/basecs/whats-a-linked-list-anyway-part-2-131d96f71996
 [visualgo list]: https://visualgo.net/list
 
 [linked list starter code]: source/linkedlist.py
