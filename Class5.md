@@ -8,6 +8,7 @@
 ### Resources
 - Review Make School's [stack and queue slides]
 - Watch Make School's [stack and queue video lecture]
+- Read Vaidehi Joshi's [articles on stacks][BaseCS stack] and [queues][BaseCS queue] with beautiful drawings and excellent examples
 - Watch HackerRank's [stack and queue video]
 - Watch Harvard's [stack video] and [queue video]
 - Play with VisuAlgo's [interactive stack and queue visualization][visualgo list]
@@ -60,6 +61,9 @@
 [stack and queue video]: https://www.youtube.com/watch?v=wjI1WNcIntg
 [stack video]: https://www.youtube.com/watch?v=9Tp8wHD66lw
 [queue video]: https://www.youtube.com/watch?v=10jRKWI9s1k
+
+[BaseCS stack]: https://medium.com/basecs/stacks-and-overflows-dbcf7854dc67
+[BaseCS queue]: https://medium.com/basecs/to-queue-or-not-to-queue-2653bcde5b04
 [visualgo list]: https://visualgo.net/list
 
 [stack starter code]: source/stack.py
