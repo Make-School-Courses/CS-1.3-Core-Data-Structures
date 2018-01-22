@@ -8,6 +8,7 @@
 ### Resources
 - Review Make School's [hash table slides]
 - Watch Make School's [hash table video lecture]
+- Read Vaidehi Joshi's [articles on hash tables][BaseCS hash tables] and [hash functions][BaseCS hash functions] with beautiful drawings and excellent examples
 - Watch HackerRank's [hash table video]
 - Watch Harvard's [old hash table video] and [new hash table video]
 - Play with VisuAlgo's [interactive hash table visualization][visualgo hash table]
@@ -42,6 +43,9 @@
 [hash table video]: https://www.youtube.com/watch?v=shs0KM3wKv8
 [old hash table video]: https://www.youtube.com/watch?v=h2d9b_nEzoA
 [new hash table video]: https://www.youtube.com/watch?v=tjtFkT97Xmc
+
+[BaseCS hash tables]: https://medium.com/basecs/taking-hash-tables-off-the-shelf-139cbf4752f0
+[BaseCS hash functions]: https://medium.com/basecs/hashing-out-hash-functions-ea5dd8beb4dd
 [visualgo hash table]: https://visualgo.net/hashtable
 
 [hash table starter code]: source/hashtable.py
