@@ -5,6 +5,9 @@
 - Concrete data structures: [hash table], [circular buffer (circular queue, ring buffer)][circular buffer]
 - [Set operations]
 
+### Resources
+- Read Vaidehi Joshi's [article on sets and their use in databases][BaseCS sets] with beautiful drawings and excellent examples
+
 ### Challenges
 - Implement `Set` class (backed by hash table) with the following [set operations] as instance methods and properties:
     - `__init__(elements=None)` - initialize a new empty set structure, and add each element if a sequence is given
@@ -19,7 +22,7 @@
 - Write unit tests to ensure the `Set` class is robust
     - Include test cases for each class instance method
 - Annotate all instance methods with complexity analysis of running time and space (memory)
-- Compare the behaviors of your `Set` class to those of the [Python `set` type]
+- Compare the behaviors of your `Set` class to those of the [Python `set` type] and [Swift `Set` type]
 
 ### Stretch Challenges
 - Implement `CircularBuffer` class (backed by dynamic array) with the following instance methods and properties:
@@ -41,4 +44,7 @@
 [set operations]: https://en.wikipedia.org/wiki/Set_(abstract_data_type)#Operations
 [hash table]: https://en.wikipedia.org/wiki/Hash_table
 [circular buffer]: https://en.wikipedia.org/wiki/Circular_buffer
+
+[BaseCS sets]: https://medium.com/basecs/set-theory-the-method-to-database-madness-5ec4b4f05d79
 [Python `set` type]: https://docs.python.org/3/library/stdtypes.html#set
+[Swift `Set` type]: https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/CollectionTypes.html#//apple_ref/doc/uid/TP40014097-CH8-ID484
