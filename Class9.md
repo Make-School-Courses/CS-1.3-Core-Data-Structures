@@ -7,7 +7,8 @@
 ### Resources
 - Review Make School's [trees slides]
 - Watch Make School's [trees video lecture]
-- Read Interview Cake's [logarithms and binary search article][IC logarithms] and [binary tree properties article][IC binary tree]
+- Read Interview Cake's articles on [logarithms and binary search][IC logarithms] and [binary tree properties][IC binary tree]
+- Read Vaidehi Joshi's articles on [trees and their properties][BaseCS trees] and [binary search trees][BaseCS binary trees] with beautiful drawings
 - Watch HackerRank's [trees and binary search tree video][HR trees video] (up to 3:00)
 - Watch Harvards's [family trees and binary search tree video][Harvard trees video] and [stack frames video]
 - Play with VisuAlgo's [interactive binary search tree visualization][visualgo bst]
@@ -54,8 +55,12 @@
 [HR bst interview problem]: https://www.youtube.com/watch?v=i_Q0v_Ct5lY
 [Harvard trees video]: https://www.youtube.com/watch?v=mFptHjTT3l8
 [stack frames video]: https://www.youtube.com/watch?v=beqqGIdabrE
+
 [IC logarithms]: https://www.interviewcake.com/article/python/logarithms
 [IC binary tree]: https://www.interviewcake.com/concept/python/binary-tree
+[BaseCS trees]: https://medium.com/basecs/how-to-not-be-stumped-by-trees-5f36208f68a7
+[BaseCS binary trees]: https://medium.com/basecs/leaf-it-up-to-binary-trees-11001aaf746d
+[Leandro TK trees]: https://medium.freecodecamp.org/all-you-need-to-know-about-tree-data-structures-bceacb85490c
 [visualgo bst]: https://visualgo.net/bst
 
 [binary tree starter code]: source/binarytree.py
