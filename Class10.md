@@ -9,6 +9,7 @@
 - Review Make School's [tree traversal slides]
 - Watch Make School's [tree traversal video lecture]
 - Read Interview Cake's articles on [depth-first search][IC DFS], [breadth-first search][IC BFS], and [binary tree properties][IC binary tree]
+- Read Vaidehi Joshi's articles on [depth-first search][BaseCS DFS] and [breadth-first search][BaseCS BFS] with beautiful drawings and excellent analysis
 - Watch HackerRank's [trees and binary search tree video][HR trees video] (traversals start at 3:00)
 - Watch Harvards's [family trees and binary search tree video][Harvard trees video] and [stack frames video]
 - Play with VisuAlgo's [interactive binary search tree visualization][visualgo bst]
@@ -61,9 +62,12 @@
 [HR bst interview problem]: https://www.youtube.com/watch?v=i_Q0v_Ct5lY
 [Harvard trees video]: https://www.youtube.com/watch?v=mFptHjTT3l8
 [stack frames video]: https://www.youtube.com/watch?v=beqqGIdabrE
+
 [IC BFS]: https://www.interviewcake.com/concept/python/bfs
 [IC DFS]: https://www.interviewcake.com/concept/python/dfs
 [IC binary tree]: https://www.interviewcake.com/concept/python/binary-tree
+[BaseCS DFS]: https://medium.com/basecs/demystifying-depth-first-search-a7c14cccf056
+[BaseCS BFS]: https://medium.com/basecs/breaking-down-breadth-first-search-cebe696709d9
 [visualgo bst]: https://visualgo.net/bst
 
 [binary tree starter code]: source/binarytree.py
