@@ -19,12 +19,12 @@
 |   8   |    Friday, January 26  | [Call Routing Project](Class6.md)          |
 |   9   |    Monday, January 29  | [Trees & Binary Search Trees](Class9.md)   |
 |  10   | Wednesday, January 31  | [Tree Traversals](Class10.md)              |
-|  11   |    Friday, February 2  | *Call Routing Project Code Review*         |
-|  12   |    Monday, February 5  | [Iterative Sorting Algorithms](Class11.md) |
-|  13   | Wednesday, February 7  | [Divide-and-Conquer Recursion](Class13.md) |
-|  14   |    Friday, February 9  | [Recursive Sorting Algorithms](Class14.md) |
-|  15   |    Monday, February 12 | [Integer Sorting Algorithms](Class15.md)   |
-|  16   | Wednesday, February 14 | Priority Queue & Heap                      |
+|  11   |    Friday, February 2  | Trees & Traversals Continued               |
+|  12   |    Monday, February 5  | Call Routing Project Code Review           |
+|  13   | Wednesday, February 7  | [Iterative Sorting Algorithms](Class11.md) |
+|  14   |    Friday, February 9  | [Divide-and-Conquer Recursion](Class13.md) |
+|  15   |    Monday, February 12 | [Recursive Sorting Algorithms](Class14.md) |
+|  16   | Wednesday, February 14 | [Integer Sorting Algorithms](Class15.md)   |
 |  17   |    Friday, February 16 | [Sorting Algorithms Comparison](Class17.md)|
 
 
