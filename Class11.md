@@ -8,6 +8,8 @@
 ### Resources
 - Play with VisuAlgo's [interactive sorting visualizations][VisuAlgo sorting] including bubble, selection, and insertion sort
 - Play with USF's [interactive sorting animations][USF sorting] including bubble, selection, insertion, and Shell sort
+- Read Vaidehi Joshi's articles: [an overview of sorting][BaseCS sorting], [bubble sort][BaseCS bubble sort], [selection sort][BaseCS selection sort], and [insertion sort][BaseCS insertion sort] with beautiful drawings and excellent analysis
+- Watch Zutopedia's [insertion sort vs bubble sort robot video]
 - Watch Harvard's [bubble sort video], [selection sort video], and [insertion sort video]
 - Watch HackerRank's [bubble sort tutorial video] (*spoiler alert:* contains solution code)
 - Watch Toptal's [sorting animations] to see how algorithms compare based on input and read the discussion section
@@ -60,10 +62,16 @@
 [USF sorting]: https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html
 [triangular series article]: https://www.interviewcake.com/concept/python/triangular-series
 [sorting animations]: https://www.toptal.com/developers/sorting-algorithms/
+[BaseCS sorting]: https://medium.com/basecs/sorting-out-the-basics-behind-sorting-algorithms-b0a032873add
+[BaseCS bubble sort]: https://medium.com/basecs/bubbling-up-with-bubble-sorts-3df5ac88e592
+[BaseCS selection sort]: https://medium.com/basecs/exponentially-easy-selection-sort-d7a34292b049
+[BaseCS insertion sort]: https://medium.com/basecs/inching-towards-insertion-sort-9799274430da
+
 [bubble sort tutorial video]: https://www.youtube.com/watch?v=6Gv8vg0kcHc
 [bubble sort video]: https://www.youtube.com/watch?v=Ui97-_n5xjo
 [selection sort video]: https://www.youtube.com/watch?v=lx9G71uLXIg
 [insertion sort video]: https://www.youtube.com/watch?v=TwGb6ohsvUU
+[insertion sort vs bubble sort robot video]: https://www.youtube.com/watch?v=TZRWRjq2CAg
 [3 sorting algorithms]: https://www.youtube.com/watch?v=jHPexHsDxwQ
 [9 sorting algorithms]: https://www.youtube.com/watch?v=ZZuD6iUe3Pc
 [15 sorting algorithms]: https://www.youtube.com/watch?v=kPRA0W1kECg
