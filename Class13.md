@@ -6,9 +6,9 @@
 - [Merge sort] and [merge algorithm]
 
 ### Resources
-- Read Brian Hans's [merge sort article] with animations and pseudocode
 - Play with VisuAlgo's [interactive sorting visualizations][VisuAlgo sorting] including merge sort
 - Play with USF's [interactive sorting animations][USF sorting] including merge sort
+- Read Vaidehi Joshi's articles on [merge sort, part 1: how it works][BaseCS merge sort 1] and [part 2: logarithms and complexity analysis][BaseCS merge sort 2] with beautiful drawings and excellent analysis
 - Watch Harvard's [merge sort video] and [sorting algorithms summary video]
 - Watch HackerRank's [merge sort tutorial video] (*spoiler alert:* contains solution code)
 - Watch Mike Bostock's [merge sort visualization] with array values encoded using angle
@@ -55,11 +55,13 @@
 [sample sort]: https://en.wikipedia.org/wiki/Samplesort
 
 [algorithm analysis slides]: slides/AlgorithmAnalysis.pdf
-[merge sort article]: https://medium.com/@brianhans/merge-sort-a1d031eaa40f
 [VisuAlgo sorting]: https://visualgo.net/en/sorting
 [USF sorting]: https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html
-[merge sort visualization]: http://bl.ocks.org/mbostock/1243323
 [sorting animations]: https://www.toptal.com/developers/sorting-algorithms/
+[merge sort visualization]: http://bl.ocks.org/mbostock/1243323
+[BaseCS merge sort 1]: https://medium.com/basecs/making-sense-of-merge-sort-part-1-49649a143478
+[BaseCS merge sort 2]: https://medium.com/basecs/making-sense-of-merge-sort-part-2-be8706453209
+
 [merge sort tutorial video]: https://www.youtube.com/watch?v=KF2j-9iSf4Q
 [merge sort video]: https://www.youtube.com/watch?v=sWtYJv_YXbo
 [sorting algorithms summary video]: https://www.youtube.com/watch?v=B6l7AJYgCOI
