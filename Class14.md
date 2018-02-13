@@ -11,6 +11,7 @@
 ### Resources
 - Play with VisuAlgo's [interactive sorting visualizations][VisuAlgo sorting] including quick sort
 - Play with USF's [interactive sorting animations][USF sorting] including quick sort
+- Read Vaidehi Joshi's articles on [quick sort, part 1: how it works][BaseCS quick sort 1] and [part 2: choosing a pivot and complexity analysis][BaseCS quick sort 2] with beautiful drawings and excellent analysis
 - Read Sebastian's answer to this [quick sort partitioning] question on Computer Science Stack Exchange
 - Review Make School's [recursive algorithm analysis slides]
 - Watch Zutopedia's [quick sort vs bubble sort robot video], [merge sort vs quick sort robot video]
@@ -73,12 +74,14 @@
 [master theorem]: https://en.wikipedia.org/wiki/Master_theorem
 
 [recursive algorithm analysis slides]: slides/AlgorithmAnalysisRecursive.pdf
-[quick sort partitioning]: https://cs.stackexchange.com/questions/11458/quicksort-partitioning-hoare-vs-lomuto
 [VisuAlgo sorting]: https://visualgo.net/en/sorting
 [USF sorting]: https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html
-[quick sort visualization]: https://bl.ocks.org/mbostock/1582075
 [sorting animations]: https://www.toptal.com/developers/sorting-algorithms/
 [sorting visualizations artwork]: http://sorting.at/
+[quick sort visualization]: https://bl.ocks.org/mbostock/1582075
+[quick sort partitioning]: https://cs.stackexchange.com/questions/11458/quicksort-partitioning-hoare-vs-lomuto
+[BaseCS quick sort 1]: https://medium.com/basecs/pivoting-to-understand-quicksort-part-1-75178dfb9313
+[BaseCS quick sort 2]: https://medium.com/basecs/pivoting-to-understand-quicksort-part-2-30161aefe1d3
 
 [quick sort vs bubble sort robot video]: https://www.youtube.com/watch?v=aXXWXz5rF64
 [merge sort vs quick sort robot video]: https://www.youtube.com/watch?v=es2T6KY45cA
