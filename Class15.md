@@ -8,6 +8,7 @@
 - Play with VisuAlgo's [interactive sorting visualizations][VisuAlgo sorting] including [counting sort][VisuAlgo counting sort] and [radix sort][VisuAlgo radix sort]
 - Play with USF's interactive sorting animations including [counting sort][USF counting sort], [bucket sort][USF bucket sort], and [radix sort][USF radix sort]
 - Read Interview Cake's [counting sort article] (*spoiler alert:* contains solution code)
+- Read Vaidehi Joshi's articles on [counting sort][BaseCS counting sort] and [radix sort][BaseCS radix sort] with beautiful drawings and excellent analysis
 - Watch Barack Obama's answer to a [Google interview question][Obama sorting question] on how to sort one million 32-bit integers
 
 ### Challenges
@@ -55,6 +56,8 @@
 [USF counting sort]: https://www.cs.usfca.edu/~galles/visualization/CountingSort.html
 [USF radix sort]: https://www.cs.usfca.edu/~galles/visualization/RadixSort.html
 [counting sort article]: https://www.interviewcake.com/concept/python/counting-sort
+[BaseCS counting sort]: https://medium.com/basecs/counting-linearly-with-counting-sort-cd8516ae09b3
+[BaseCS radix sort]: https://medium.com/basecs/getting-to-the-root-of-sorting-with-radix-sort-f8e9240d4224
 [Obama sorting question]: https://www.youtube.com/watch?v=k4RRi_ntQc8
 
 [sorting starter code]: source/sorting.py
