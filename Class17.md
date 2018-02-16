@@ -41,6 +41,7 @@
 - Watch videos to observe patterns: [9 sorting algorithms], [15 sorting algorithms], [23 sorting algorithms]
 - Watch University of Toronto's "[Sorting Out Sorting]" 30-minute film from 1981
 - Download Timo Bingmann's [The Sound of Sorting] software to hear and visualize sorting algorithms
+- Read Tim Peters's (a Python core language developer) [proposal for a new sorting algorithm][Tim sort proposal] now known as *Tim sort* – he effectively argued its advantages over the existing sorting algorithm and compared performance with benchmarks
 
 ### Project
 - [Sorting algorithms project] with real-world data on Make School's Online Academy
@@ -63,6 +64,7 @@
 [heap sort]: https://en.wikipedia.org/wiki/Heapsort
 [intro sort]: https://en.wikipedia.org/wiki/Introsort
 [Tim sort]: https://en.wikipedia.org/wiki/Timsort
+[Tim sort proposal]: https://mail.python.org/pipermail/python-dev/2002-July/026837.html
 
 [integer sorting]: https://en.wikipedia.org/wiki/Integer_sorting
 [counting sort]: https://en.wikipedia.org/wiki/Counting_sort
