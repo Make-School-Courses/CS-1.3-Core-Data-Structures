@@ -30,11 +30,13 @@
 - Read BetterExplained's [sorting algorithms article] that discusses similarities, differences, and patterns
 - Play with VisuAlgo's [interactive sorting visualizations][VisuAlgo sorting] including bubble, selection, insertion, merge, quick, counting, and radix sort
 - Play with USF's [interactive sorting animations][USF sorting] including bubble, selection, insertion, merge, quick, Shell,  sort
+- Read Vaidehi Joshi's [overview of sorting article][BaseCS sorting] with beautiful drawings and excellent analysis
 - Play with Carlo Zapponi's [sorting visualizations artwork] including three-way quick sort
 - Review Eric Rowell's [Big O cheat sheet] for a comparison of sorting algorithm time and space complexity
 - Watch Toptal's [sorting animations] to compare algorithms based on input conditions (order and distribution)
     - Read the discussion section on properties of an ideal sorting algorithm and the conclusion stated
 - Watch Morolin's [sorting algorithms visualized] and compared with animated rainbow GIF loops
+- Play with Casper Beyer's [Tone of Sorting] sound auralizer and read his [article about how and why he built it][Tone of Sorting article]
 - Watch dancers perform [sorting algorithms with folk dances] including bubble sort, selection sort, insertion sort, Shell sort, merge sort, and quick sort
 - Watch videos to observe patterns: [9 sorting algorithms], [15 sorting algorithms], [23 sorting algorithms]
 - Watch University of Toronto's "[Sorting Out Sorting]" 30-minute film from 1981
@@ -74,7 +76,10 @@
 [sorting animations]: https://www.toptal.com/developers/sorting-algorithms/
 [sorting visualizations artwork]: http://sorting.at/
 [sorting algorithms visualized]: https://imgur.com/gallery/voutF
+[BaseCS sorting]: https://medium.com/basecs/sorting-out-the-basics-behind-sorting-algorithms-b0a032873add
 [The Sound of Sorting]: http://panthema.net/2013/sound-of-sorting/
+[Tone of Sorting]: https://caspervonb.github.io/toneofsorting/
+[Tone of Sorting article]: https://medium.com/@caspervonb/how-i-visualized-the-sorting-algorithms-and-brought-them-to-life-with-sound-ce7c5c6cb6ef
 
 [Sorting Out Sorting]: https://www.youtube.com/watch?v=SJwEwA5gOkM
 [3 sorting algorithms]: https://www.youtube.com/watch?v=jHPexHsDxwQ
