@@ -15,9 +15,6 @@
 - Play with VisuAlgo's [interactive binary search tree visualization][visualgo bst]
 
 ### Challenges
-- Implement recursive tree search methods on the `BinarySearchTree` class using [binary tree starter code]:
-    - `_find_node_recursive(item)` - return the node containing `item` in the tree, or `None` if not found (*hint: implement this first*)
-    - `_find_parent_node_recursive(item)` - return the parent of the node containing `item` (or the parent of where `item` would be if inserted) in the tree, or `None` if the tree is empty or has only a root node
 - Implement tree traversal methods on the `BinarySearchTree` class using [binary tree starter code]:
     - `_traverse_in_order_recursive` - traverse the tree with recursive in-order traversal (DFS)
     - `_traverse_pre_order_recursive` - traverse the tree with recursive pre-order traversal (DFS)

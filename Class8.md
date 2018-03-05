@@ -9,7 +9,7 @@
 - Read Vaidehi Joshi's [article on sets and their use in databases][BaseCS sets] with beautiful drawings and excellent examples
 
 ### Challenges
-- Implement `Set` class (backed by hash table) with the following [set operations] as instance methods and properties:
+- Implement `Set` class (abstract data type backed by data structure of your choice) with the following [set operations] as instance methods and properties:
     - `__init__(elements=None)` - initialize a new empty set structure, and add each element if a sequence is given
     - `size` - property that tracks the number of elements in constant time
     - `contains(element)` - return a boolean indicating whether `element` is in this set
