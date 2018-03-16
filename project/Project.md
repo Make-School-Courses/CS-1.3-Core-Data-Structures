@@ -1,4 +1,4 @@
-## Class 6: Call Routing Project
+## Call Routing Project
 
 ### Project
 [Call Routing Project]:
@@ -38,5 +38,5 @@ These challenges are more difficult and help you push your skills and understand
 Annotate each function with complexity analysis of running time and space (memory)
 
 
-[call routing project]: slides/CallRoutingProject.pdf
+[call routing project]: CallRoutingProject.pdf
 [data files]: http://make.sc/db-phone-call-routing

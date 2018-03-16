@@ -19,7 +19,7 @@
 |   8   |    Friday, March 9     | [Trees & Binary Search Trees](Class9.md)   |
 |   9   |    Monday, March 12    | [Tree Traversals](Class10.md)              |
 |  10   | Wednesday, March 14    | Technical Article Peer Review              |
-|  11   |    Friday, March 16    | [Call Routing Project](Class6.md)          |
+|  11   |    Friday, March 16    | [Call Routing Project](project/Project.md) |
 |  12   |    Monday, March 19    | Call Routing Project Code Review           |
 |  13   | Wednesday, March 21    | [Iterative Sorting Algorithms](Class11.md) |
 |  14   |    Friday, March 23    | [Divide-and-Conquer Recursion](Class13.md) |
