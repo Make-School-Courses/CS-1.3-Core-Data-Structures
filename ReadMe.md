@@ -57,10 +57,14 @@ Students by the end of the course will be able to ...
 |  11   |    Monday, May 6       | [Call Routing Project](project/Project.md)         |
 |  12   |    Wednesday, May 8    | Call Routing Project Code Review                   |
 |  13   |    Monday, May 13      | [Iterative Sorting Algorithms](Lessons/Class11.md) |
-|  14   |    Wednesday, May 15   | [Divide-and-Conquer Recursion](Lessons/Class13.md) |
-|  15   |    Monday, March 26    | [Recursive Sorting Algorithms](Lessons/Class14.md) |
-|  16   | Wednesday, March 28    | [Integer Sorting Algorithms](Lessons/Class15.md)   |
-|  17   |    Friday, March 30    | [Sorting Algorithms Comparison](Lessons/Class17.md)|
+|  14   |    Wednesday, May 15   | Final Exams/Presentations                          |
+
+**NOTE: These Classes need homes:**
+
+- [Divide-and-Conquer Recursion](Lessons/Class13.md)
+- [Recursive Sorting Algorithms](Lessons/Class14.md)
+- [Integer Sorting Algorithms](Lessons/Class15.md)
+- [Sorting Algorithms Comparison](Lessons/Class17.md)
 
 
 ## Repository Setup Instructions
