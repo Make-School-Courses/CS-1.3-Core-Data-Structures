@@ -1,4 +1,4 @@
-# CS 3: Core Data Structures & Algorithms
+# CS 1.3: Core Data Structures & Algorithms
 
 ## Course Description
 
