@@ -17,10 +17,11 @@
 
 **NOTE: Fill in with the appropriate items**
 
-1. Identify and describe
-1. Define
-1. Design
-1. Implement
+By this end of this lesson, students should be able to...
+
+1. Compare and contrast abstract data types and concrete data structures
+1. Practice more advanced techniques with lists and arrays
+1. Implement various list manipulation methods such as insert and replace
 
 ## Topics
 - Compare [abstract data types] and [concrete data structures][data structures]
