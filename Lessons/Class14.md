@@ -1,4 +1,4 @@
-# Class 17: Sorting Algorithms Comparison
+# Class 14: Sorting Algorithms Comparison
 
 ## Minute-by-Minute [OPTIONAL]
 
@@ -17,10 +17,10 @@
 
 **NOTE: Fill in with the appropriate items**
 
-1. Identify and describe
-1. Define
-1. Design
-1. Implement
+By this end of this lesson, students should be able to...
+
+1. Compare and contrast the algorithmic complexity of various sorting algorithms
+1. Analyze hybrid sorting algorithms and know when to use them
 
 ## Topics
 - [Hybrid] sorting algorithms: [intro sort], [Tim sort]
