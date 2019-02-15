@@ -1,11 +1,33 @@
-## Class 4: Arrays & Linked Lists
+# Class 4: Arrays & Linked Lists
 
-### Topics
+## Minute-by-Minute [OPTIONAL]
+
+**NOTE: Fill in with the appropriate items**
+
+| **Elapsed** | **Time**  | **Activity**              |
+| ----------- | --------- | ------------------------- |
+| 0:00        | 0:05      | Objectives                |
+| 0:05        | 0:15      | Overview                  |
+| 0:20        | 0:45      | In Class Activity I       |
+| 1:05        | 0:10      | BREAK                     |
+| 1:15        | 0:45      | In Class Activity II      |
+| TOTAL       | 2:00      |                           |
+
+## Learning Objectives (5 min)
+
+**NOTE: Fill in with the appropriate items**
+
+1. Identify and describe
+1. Define
+1. Design
+1. Implement
+
+## Topics
 - Compare [abstract data types] and [concrete data structures][data structures]
 - Abstract data types: [list]
 - Concrete data structures: [array], [dynamic array (resizable array, vector)][dynamic array], [linked list]
 
-### Resources
+## Resources
 - Review Make School's [array and linked list slides]
 - Watch Make School's [array and linked list video lecture]
 - Read Vaidehi Joshi's [articles on linked lists, part 1: how they work][BaseCS linked list 1] and [part 2: complexity analysis and comparison to arrays][BaseCS linked list 2] with excellent, beautiful drawings
@@ -13,7 +35,7 @@
 - Watch Harvard's [array video], [singly linked list video], and [doubly linked list video]
 - Play with VisuAlgo's [interactive linked list visualization][visualgo list]
 
-### Challenges
+## Challenges
 - Add new features to `LinkedList` class using [linked list starter code]:
     - Add `size` property that tracks list length in constant running time
     - Implement `get_at_index(index)` - returns the item at `index` in the list

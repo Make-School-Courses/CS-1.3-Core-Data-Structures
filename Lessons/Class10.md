@@ -1,71 +1,107 @@
-## Class 10: Tree Traversals
+# Class 10: Iterative Sorting Algorithms
 
-### Topics
-- [Tree traversal]
-    - [Depth-first search]: pre-order, post-order, in-order traversal
-    - [Breadth-first search]: level-order traversal
+## Minute-by-Minute [OPTIONAL]
 
-### Resources
-- Review Make School's [tree traversal slides]
-- Watch Make School's [tree traversal video lecture]
-- Read Interview Cake's articles on [depth-first search][IC DFS], [breadth-first search][IC BFS], and [binary tree properties][IC binary tree]
-- Read Vaidehi Joshi's articles on [depth-first search][BaseCS DFS] and [breadth-first search][BaseCS BFS] with beautiful drawings and excellent analysis
-- Watch HackerRank's [trees and binary search tree video][HR trees video] (traversals start at 3:00)
-- Watch Harvards's [family trees and binary search tree video][Harvard trees video] and [stack frames video]
-- Play with VisuAlgo's [interactive binary search tree visualization][visualgo bst]
+**NOTE: Fill in with the appropriate items**
 
-### Challenges
-- Implement tree traversal methods on the `BinarySearchTree` class using [binary tree starter code]:
-    - `_traverse_in_order_recursive` - traverse the tree with recursive in-order traversal (DFS)
-    - `_traverse_pre_order_recursive` - traverse the tree with recursive pre-order traversal (DFS)
-    - `_traverse_post_order_recursive` - traverse the tree with recursive post-order traversal (DFS)
-    - `_traverse_level_order_iterative` - traverse the tree with iterative level-order traversal (BFS)
-- Annotate tree traversal methods with complexity analysis of running time and space (memory)
-- Run `python binarytree.py` to test `BinarySearchTree` traversal methods on a small example
-- Run `pytest binarytree_test.py` to run the [binary tree unit tests] and fix any failures
+| **Elapsed** | **Time**  | **Activity**              |
+| ----------- | --------- | ------------------------- |
+| 0:00        | 0:05      | Objectives                |
+| 0:05        | 0:15      | Overview                  |
+| 0:20        | 0:45      | In Class Activity I       |
+| 1:05        | 0:10      | BREAK                     |
+| 1:15        | 0:45      | In Class Activity II      |
+| TOTAL       | 2:00      |                           |
 
-### Stretch Challenges
-- Implement iterative tree traversal methods on the `BinarySearchTree` class (*without using recursion*):
-    - `_traverse_in_order_iterative` - traverse the tree with iterative in-order traversal (DFS)
-    - `_traverse_pre_order_iterative` - traverse the tree with iterative pre-order traversal (DFS)
-    - `_traverse_post_order_iterative` - traverse the tree with iterative post-order traversal (DFS)
-- Annotate tree traversal methods with complexity analysis of running time and space (memory)
-- Implement `TreeMap` class ([map/dictionary][map] abstract data type implemented with [binary search tree] data structure) with the following properties and instance methods:
-    - `__init__` - initialize a new empty tree map structure
-    - `size` - property that tracks the number of tree map entries in constant time
-    - `keys` - return a list of all keys in the tree map
-    - `values` - return a list of all values in the tree map
-    - `items` - return a list of all entries (key-value pairs) in the tree map
-    - `contains(key)` - return a boolean indicating whether `key` is in the tree map
-    - `get(key)` - return the value associated with `key` in the tree map, or raise `KeyError` if not found
-    - `set(key, value)` - insert `key` (or update, if already present) with associated `value` in the tree map
-    - `delete(key)` - delete `key` and associated value from the tree map, or raise `KeyError` if not found
-- Write unit tests to ensure the `TreeMap` class is robust (*hint: these should be very similar to the hash table unit tests*)
-    - Include test cases for each class instance method
-- Annotate class instance methods with complexity analysis of running time and space (memory)
-- Compare the behaviors of your `TreeMap` class to those of the `HashTable` class and the [Python `dict` type]
+## Learning Objectives (5 min)
+
+**NOTE: Fill in with the appropriate items**
+
+1. Identify and describe
+1. Define
+1. Design
+1. Implement
+
+## Topics
+- Algorithm to check if items in a list are in sorted order
+- Counting how many [inversions] there are in a list
+- Classic iterative [sorting algorithms]: [bubble sort], [selection sort], [insertion sort]
+
+## Resources
+- Play with VisuAlgo's [interactive sorting visualizations][VisuAlgo sorting] including bubble, selection, and insertion sort
+- Play with USF's [interactive sorting animations][USF sorting] including bubble, selection, insertion, and Shell sort
+- Read Vaidehi Joshi's articles: [an overview of sorting][BaseCS sorting], [bubble sort][BaseCS bubble sort], [selection sort][BaseCS selection sort], and [insertion sort][BaseCS insertion sort] with beautiful drawings and excellent analysis
+- Watch Zutopedia's [insertion sort vs bubble sort robot video]
+- Watch Harvard's [bubble sort video], [selection sort video], and [insertion sort video]
+- Watch HackerRank's [bubble sort tutorial video] (*spoiler alert:* contains solution code)
+- Watch Toptal's [sorting animations] to see how algorithms compare based on input and read the discussion section
+- Watch dancers perform [bubble sort with Hungarian folk dance], [selection sort with Gypsy folk dance], and [insertion sort with Romanian folk dance]
+- Watch videos to observe patterns: [9 sorting algorithms], [15 sorting algorithms], [23 sorting algorithms]
+- Read Interview Cake's [triangular series article] for more background on counting inversions and pairs
+
+## Challenges
+- Implement these classic iterative sorting functions using [sorting starter code]:
+    - `is_sorted(items)` - return a boolean indicating whether all `items` are in ascending order
+    - `bubble_sort(items)` - swap adjacent items that are out of order, repeat until all `items` are sorted
+    - `selection_sort(items)` - find minimum item in unsorted `items`, swap it with first unsorted item, repeat until all `items` are sorted
+    - `insertion_sort(items)` - take first unsorted item, insert it in sorted order in front of `items`, repeat until all `items` are sorted
+- Run `python sorting.py` to test sorting algorithms on a small random sample:
+    ```
+    $ python sorting.py bubble_sort 10 20
+    Initial items: [3, 15, 4, 7, 20, 6, 18, 11, 9, 7]
+    Sorting items with bubble_sort(items)
+    Sorted items:  [3, 4, 6, 7, 7, 9, 11, 15, 18, 20]
+    ```
+- Annotate functions with complexity analysis of running time (operations) and space (memory usage)
+- Write a thorough suite of [sorting unit tests] to ensure your sorting algorithms are robust
+    - Write tests in a way that lets you add new sorting functions without needing to write more tests
+    - Include a variety of test cases that cover many different input types, orderings, distributions, and edge cases
+- Run `pytest sorting_test.py` to run the [sorting unit tests] and fix any failures
+
+## Stretch Challenges
+- Extend sorting algorithms with an `order` parameter to specify ascending or descending order
+- Extend sorting algorithms with a `key` parameter to specify a function to call on each item when making comparisons (read about Python's [`sorted` function] and how to use [`key` functions] for more information)
+- Implement an [insertion sort] variation using [binary search] to find the position to insert each item
+- Implement improved iterative sorting algorithms: [cocktail shaker sort], [library sort], or [Shell sort]
+- Annotate functions with complexity analysis of running time (operations) and space (memory usage)
 
 
-[tree traversal]: https://en.wikipedia.org/wiki/Tree_traversal
-[depth-first search]: https://en.wikipedia.org/wiki/Depth-first_search
-[breadth-first search]: https://en.wikipedia.org/wiki/Breadth-first_search
-[binary search tree]: https://en.wikipedia.org/wiki/Binary_search_tree
-[map]: https://en.wikipedia.org/wiki/Associative_array
-[Python `dict` type]: https://docs.python.org/3/library/stdtypes.html#dict
+[inversions]: https://en.wikipedia.org/wiki/Inversion_(discrete_mathematics)
+[sorting algorithms]: https://en.wikipedia.org/wiki/Sorting_algorithm
+[comparison sorting]: https://en.wikipedia.org/wiki/Comparison_sort
+[bubble sort]: https://en.wikipedia.org/wiki/Bubble_sort
+[selection sort]: https://en.wikipedia.org/wiki/Selection_sort
+[insertion sort]: https://en.wikipedia.org/wiki/Insertion_sort
 
-[tree traversal slides]: slides/TreeTraversals.pdf
-[tree traversal video lecture]: https://www.youtube.com/watch?v=Qd8dKFaRu9I
-[HR trees video]: https://www.youtube.com/watch?v=oSWTXtMglKE
-[HR bst interview problem]: https://www.youtube.com/watch?v=i_Q0v_Ct5lY
-[Harvard trees video]: https://www.youtube.com/watch?v=mFptHjTT3l8
-[stack frames video]: https://www.youtube.com/watch?v=beqqGIdabrE
+[cocktail shaker sort]: https://en.wikipedia.org/wiki/Cocktail_shaker_sort
+[library sort]: https://en.wikipedia.org/wiki/Library_sort
+[Shell sort]: https://en.wikipedia.org/wiki/Shellsort
+[binary search]: https://en.wikipedia.org/wiki/Binary_search_algorithm
+[`sorted` function]: https://docs.python.org/3/library/functions.html#sorted
+[`key` functions]: https://docs.python.org/3/howto/sorting.html#key-functions
 
-[IC BFS]: https://www.interviewcake.com/concept/python/bfs
-[IC DFS]: https://www.interviewcake.com/concept/python/dfs
-[IC binary tree]: https://www.interviewcake.com/concept/python/binary-tree
-[BaseCS DFS]: https://medium.com/basecs/demystifying-depth-first-search-a7c14cccf056
-[BaseCS BFS]: https://medium.com/basecs/breaking-down-breadth-first-search-cebe696709d9
-[visualgo bst]: https://visualgo.net/bst
+[VisuAlgo sorting]: https://visualgo.net/en/sorting
+[USF sorting]: https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html
+[triangular series article]: https://www.interviewcake.com/concept/python/triangular-series
+[sorting animations]: https://www.toptal.com/developers/sorting-algorithms/
+[BaseCS sorting]: https://medium.com/basecs/sorting-out-the-basics-behind-sorting-algorithms-b0a032873add
+[BaseCS bubble sort]: https://medium.com/basecs/bubbling-up-with-bubble-sorts-3df5ac88e592
+[BaseCS selection sort]: https://medium.com/basecs/exponentially-easy-selection-sort-d7a34292b049
+[BaseCS insertion sort]: https://medium.com/basecs/inching-towards-insertion-sort-9799274430da
 
-[binary tree starter code]: source/binarytree.py
-[binary tree unit tests]: source/binarytree_test.py
+[bubble sort tutorial video]: https://www.youtube.com/watch?v=6Gv8vg0kcHc
+[bubble sort video]: https://www.youtube.com/watch?v=Ui97-_n5xjo
+[selection sort video]: https://www.youtube.com/watch?v=lx9G71uLXIg
+[insertion sort video]: https://www.youtube.com/watch?v=TwGb6ohsvUU
+[insertion sort vs bubble sort robot video]: https://www.youtube.com/watch?v=TZRWRjq2CAg
+[3 sorting algorithms]: https://www.youtube.com/watch?v=jHPexHsDxwQ
+[9 sorting algorithms]: https://www.youtube.com/watch?v=ZZuD6iUe3Pc
+[15 sorting algorithms]: https://www.youtube.com/watch?v=kPRA0W1kECg
+[23 sorting algorithms]: https://www.youtube.com/watch?v=rqI6KT6cOas
+[sorting algorithms with folk dances]: https://www.youtube.com/playlist?list=PLOmdoKois7_FK-ySGwHBkltzB11snW7KQ
+[bubble sort with Hungarian folk dance]: https://www.youtube.com/watch?v=semGJAJ7i74
+[selection sort with Gypsy folk dance]: https://www.youtube.com/watch?v=0-W8OEwLebQ
+[insertion sort with Romanian folk dance]: https://www.youtube.com/watch?v=EdIKIf9mHk0
+
+[sorting starter code]: source/sorting.py
+[sorting unit tests]: source/sorting_test.py

@@ -1,10 +1,32 @@
-## Class 2: Recursion & Search Algorithms
+# Class 2: Recursion & Search Algorithms
 
-### Topics
+## Minute-by-Minute [OPTIONAL]
+
+**NOTE: Fill in with the appropriate items**
+
+| **Elapsed** | **Time**  | **Activity**              |
+| ----------- | --------- | ------------------------- |
+| 0:00        | 0:05      | Objectives                |
+| 0:05        | 0:15      | Overview                  |
+| 0:20        | 0:45      | In Class Activity I       |
+| 1:05        | 0:10      | BREAK                     |
+| 1:15        | 0:45      | In Class Activity II      |
+| TOTAL       | 2:00      |                           |
+
+## Learning Objectives (5 min)
+
+**NOTE: Fill in with the appropriate items**
+
+1. Identify and describe
+1. Define
+1. Design
+1. Implement
+
+## Topics
 - Compare [iteration] and [recursion] with [factorial] function
 - Search algorithms: [linear search] and [binary search]
 
-### Resources
+## Resources
 - Review Make School's [algorithm analysis slides]
 - Read Vaidehi Joshi's [article on logarithms, binary search, and big O notation][BaseCS logarithms] with excellent, beautiful drawings
 - Read Interview Cake's [article on logarithms and binary search][logarithms article]
@@ -26,7 +48,7 @@
     - Run `pytest search_test.py` to run the [search unit tests] and fix any failures
 - Annotate functions with complexity analysis of running time and space (memory)
 
-### Stretch Challenges
+## Stretch Challenges
 - Implement recursive [permutation] and [combination] functions
 - Make these functions efficient by avoiding repeated subproblems
 - Write your own unit tests to ensure your algorithms are robust

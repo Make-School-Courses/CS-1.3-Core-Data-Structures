@@ -1,11 +1,33 @@
-## Class 5: Lists, Stacks & Queues
+# Class 5: Lists, Stacks & Queues
 
-### Topics
+## Minute-by-Minute [OPTIONAL]
+
+**NOTE: Fill in with the appropriate items**
+
+| **Elapsed** | **Time**  | **Activity**              |
+| ----------- | --------- | ------------------------- |
+| 0:00        | 0:05      | Objectives                |
+| 0:05        | 0:15      | Overview                  |
+| 0:20        | 0:45      | In Class Activity I       |
+| 1:05        | 0:10      | BREAK                     |
+| 1:15        | 0:45      | In Class Activity II      |
+| TOTAL       | 2:00      |                           |
+
+## Learning Objectives (5 min)
+
+**NOTE: Fill in with the appropriate items**
+
+1. Identify and describe
+1. Define
+1. Design
+1. Implement
+
+## Topics
 - Compare [abstract data types] and [concrete data structures][data structures]
 - Abstract data types: [list], [stack], [queue], [deque (double-ended queue)][deque]
 - Concrete data structures: [array], [dynamic array (resizable array, vector)][dynamic array], [linked list]
 
-### Resources
+## Resources
 - Review Make School's [stack and queue slides]
 - Watch Make School's [stack and queue video lecture]
 - Read Vaidehi Joshi's [articles on stacks][BaseCS stack] and [queues][BaseCS queue] with beautiful drawings and excellent examples
@@ -13,7 +35,7 @@
 - Watch Harvard's [stack video] and [queue video]
 - Play with VisuAlgo's [interactive stack and queue visualization][visualgo list]
 
-### Challenges
+## Challenges
 - Implement `LinkedStack` class (stack with linked list) and `ArrayStack` class (stack with dynamic array) using [stack starter code]:
     - Implement `is_empty` - check if the stack is empty
     - Implement `length` - return the number of items in the stack
@@ -31,7 +53,7 @@
     - Run `pytest queue_test.py` to run the [queue unit tests] and fix any failures
 - Annotate `enqueue` and `dequeue` methods with running time complexity analysis
 
-### Stretch Challenges
+## Stretch Challenges
 - Implement `Deque` class (double-ended queue) with doubly linked list or dynamic array (your choice):
     - Implement `is_empty` - check if the deque is empty
     - Implement `length` - return the number of items in the deque

@@ -1,52 +1,72 @@
-## Class 7: Maps & Hash Tables
+# Class 7: Sets & Circular Buffers
 
-### Topics
-- Abstract data types: [map (dictionary, associative array)][map]
-- Concrete data structures: [hash table]
-- [Hash functions], [collision resolution], [load factor], [dynamic resizing]
+## Minute-by-Minute [OPTIONAL]
 
-### Resources
-- Review Make School's [hash table slides]
-- Watch Make School's [hash table video lecture]
-- Read Vaidehi Joshi's [articles on hash tables][BaseCS hash tables] and [hash functions][BaseCS hash functions] with beautiful drawings and excellent examples
-- Watch HackerRank's [hash table video]
-- Watch Harvard's [old hash table video] and [new hash table video]
-- Play with VisuAlgo's [interactive hash table visualization][visualgo hash table]
+**NOTE: Fill in with the appropriate items**
 
-### Challenges
-- Add new features to improve `HashTable` class using [hash table starter code]:
-    - Add `size` property that tracks the number of hash table entries in constant time
-    - Implement `load_factor` - return the [load factor], the ratio of number of entries to buckets
-    - Implement `_resize` - perform [dynamic resizing] when `load_factor` exceeds `0.75` after an insertion (`set` is called with a new `key`) and rehash all key-value entries
-    - Run `python hashtable.py` to test `HashTable` class instance methods on a small example
-    - Run `pytest hashtable_test.py` to run the [hash table unit tests] and fix any failures
-- Annotate methods with complexity analysis of running time and space (memory)
+| **Elapsed** | **Time**  | **Activity**              |
+| ----------- | --------- | ------------------------- |
+| 0:00        | 0:05      | Objectives                |
+| 0:05        | 0:15      | Overview                  |
+| 0:20        | 0:45      | In Class Activity I       |
+| 1:05        | 0:10      | BREAK                     |
+| 1:15        | 0:45      | In Class Activity II      |
+| TOTAL       | 2:00      |                           |
 
-### Stretch Challenges
-- Implement an alternative hash table [collision resolution] strategy instead of [separate chaining] (popular variants include [linear probing], [quadratic probing], and [double hashing])
-- Write additional test cases to expand the [hash table unit tests] to ensure your collision resolution strategy is robust
+## Learning Objectives (5 min)
+
+**NOTE: Fill in with the appropriate items**
+
+1. Identify and describe
+1. Define
+1. Design
+1. Implement
+
+## Topics
+- Abstract data types: [set], [multiset (bag)][multiset]
+- Concrete data structures: [hash table], [circular buffer (circular queue, ring buffer)][circular buffer]
+- [Set operations]
+
+## Resources
+- Read Vaidehi Joshi's [article on sets and their use in databases][BaseCS sets] with beautiful drawings and excellent examples
+
+## Challenges
+- Implement `Set` class (abstract data type backed by data structure of your choice) with the following [set operations] as instance methods and properties:
+    - `__init__(elements=None)` - initialize a new empty set structure, and add each element if a sequence is given
+    - `size` - property that tracks the number of elements in constant time
+    - `contains(element)` - return a boolean indicating whether `element` is in this set
+    - `add(element)` - add `element` to this set, if not present already
+    - `remove(element)` - remove `element` from this set, if present, or else raise `KeyError`
+    - `union(other_set)` - return a new set that is the union of this set and `other_set`
+    - `intersection(other_set)` - return a new set that is the intersection of this set and `other_set`
+    - `difference(other_set)` - return a new set that is the difference of this set and `other_set`
+    - `is_subset(other_set)` - return a boolean indicating whether `other_set` is a subset of this set
+- Write unit tests to ensure the `Set` class is robust
+    - Include test cases for each class instance method
+- Annotate all instance methods with complexity analysis of running time and space (memory)
+- Compare the behaviors of your `Set` class to those of the [Python `set` type] and [Swift `Set` type]
+
+## Stretch Challenges
+- Implement `CircularBuffer` class (backed by dynamic array) with the following instance methods and properties:
+    - `__init__(max_size)` - initialize a new circular buffer that can store at most `max_size` items
+    - `size` - property that tracks the number of items in the buffer
+    - `is_empty` - check if the buffer is empty
+    - `is_full` - check if the buffer is full
+    - `enqueue(item)` - insert `item` at the back of the buffer
+    - `front` - return the item at the front of the buffer
+    - `dequeue` - remove and return the item at the front of the buffer
+- Annotate `enqueue` and `dequeue` methods with running time complexity analysis
+- Write unit tests to ensure the `CircularBuffer` class is robust
+    - Include test cases for each class instance method and property
+- Annotate `enqueue` and `dequeue` methods with running time complexity analysis
 
 
-[map]: https://en.wikipedia.org/wiki/Associative_array
+[set]: https://en.wikipedia.org/wiki/Set_(abstract_data_type)
+[multiset]: https://en.wikipedia.org/wiki/Set_(abstract_data_type)#Multiset
+[set operations]: https://en.wikipedia.org/wiki/Set_(abstract_data_type)#Operations
 [hash table]: https://en.wikipedia.org/wiki/Hash_table
-[hash functions]: https://en.wikipedia.org/wiki/Hash_function
-[load factor]: https://en.wikipedia.org/wiki/Hash_table#Key_statistics
-[dynamic resizing]: https://en.wikipedia.org/wiki/Hash_table#Dynamic_resizing
-[collision resolution]: https://en.wikipedia.org/wiki/Hash_table#Collision_resolution
-[separate chaining]: https://en.wikipedia.org/wiki/Hash_table#Separate_chaining
-[linear probing]: https://en.wikipedia.org/wiki/Linear_probing
-[quadratic probing]: https://en.wikipedia.org/wiki/Quadratic_probing
-[double hashing]: https://en.wikipedia.org/wiki/Double_hashing
+[circular buffer]: https://en.wikipedia.org/wiki/Circular_buffer
 
-[hash table slides]: slides/HashTables.pdf
-[hash table video lecture]: https://www.youtube.com/watch?v=nLWXJ6IDKmQ
-[hash table video]: https://www.youtube.com/watch?v=shs0KM3wKv8
-[old hash table video]: https://www.youtube.com/watch?v=h2d9b_nEzoA
-[new hash table video]: https://www.youtube.com/watch?v=tjtFkT97Xmc
-
-[BaseCS hash tables]: https://medium.com/basecs/taking-hash-tables-off-the-shelf-139cbf4752f0
-[BaseCS hash functions]: https://medium.com/basecs/hashing-out-hash-functions-ea5dd8beb4dd
-[visualgo hash table]: https://visualgo.net/hashtable
-
-[hash table starter code]: source/hashtable.py
-[hash table unit tests]: source/hashtable_test.py
+[BaseCS sets]: https://medium.com/basecs/set-theory-the-method-to-database-madness-5ec4b4f05d79
+[Python `set` type]: https://docs.python.org/3/library/stdtypes.html#set
+[Swift `Set` type]: https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/CollectionTypes.html#//apple_ref/doc/uid/TP40014097-CH8-ID484

@@ -1,75 +1,86 @@
-## Class 13: Divide-and-Conquer Recursion
+# Class 13: Integer Sorting Algorithms
 
-### Topics
-- [Divide-and-conquer]&nbsp;[recursion]: divide, conquer, combine
-- Revisit [binary search] to see how it divides and conquers
-- [Merge sort] and [merge algorithm]
+## Minute-by-Minute [OPTIONAL]
 
-### Resources
-- Play with VisuAlgo's [interactive sorting visualizations][VisuAlgo sorting] including merge sort
-- Play with USF's [interactive sorting animations][USF sorting] including merge sort
-- Read Vaidehi Joshi's articles on [merge sort, part 1: how it works][BaseCS merge sort 1] and [part 2: logarithms and complexity analysis][BaseCS merge sort 2] with beautiful drawings and excellent analysis
-- Watch Harvard's [merge sort video] and [sorting algorithms summary video]
-- Watch HackerRank's [merge sort tutorial video] (*spoiler alert:* contains solution code)
-- Watch Mike Bostock's [merge sort visualization] with array values encoded using angle
-- Watch Toptal's [sorting animations] to see how algorithms compare based on input and read the discussion section
-- Watch dancers perform [merge sort with German folk dance]
-- Watch videos to observe patterns: [9 sorting algorithms], [15 sorting algorithms], [23 sorting algorithms]
-- Review Make School's [algorithm analysis slides] for a running time comparison of merge sort and bubble sort
+**NOTE: Fill in with the appropriate items**
 
-### Challenges
-- Implement merge sort algorithm and merge helper function using [sorting starter code]:
-    - Implement `merge(items1, items2)` that merges lists `items1` and `items2`, each assumed to already be in sorted order, and return a new list containing all items in sorted order
-    - Implement `split_sort_merge(items)` that uses any *other* sorting algorithm to sort sublists (*non-recursively*)
-        - Use the [divide-and-conquer] problem-solving strategy:
-            1. Divide: split problem (input list) into subproblems (two sublists each of half size)
-            2. Conquer: solve subproblems independently (sort sublists with any sorting algorithm)
-            3. Combine: combine subproblem solutions together (merge sorted sublists into one list)
-    - Implement `merge_sort(items)` that *recursively calls itself* to sort sublists during the conquer step
-        - Remember to add a base case to avoid infinite recursion loops (*hint:* very small lists are always sorted)
-- Run `python sorting.py` to test sorting algorithms on random samples of integers, for example:
-    ```
-    $ python sorting.py merge_sort 10 20
-    Initial items: [3, 15, 4, 7, 20, 6, 18, 11, 9, 7]
-    Sorting items with merge_sort(items)
-    Sorted items:  [3, 4, 6, 7, 7, 9, 11, 15, 18, 20]
-    ```
-    - Experiment with different *list sizes* to find when iterative sorting algorithms are slow and merge sort is fast
+| **Elapsed** | **Time**  | **Activity**              |
+| ----------- | --------- | ------------------------- |
+| 0:00        | 0:05      | Objectives                |
+| 0:05        | 0:15      | Overview                  |
+| 0:20        | 0:45      | In Class Activity I       |
+| 1:05        | 0:10      | BREAK                     |
+| 1:15        | 0:45      | In Class Activity II      |
+| TOTAL       | 2:00      |                           |
+
+## Learning Objectives (5 min)
+
+**NOTE: Fill in with the appropriate items**
+
+1. Identify and describe
+1. Define
+1. Design
+1. Implement
+
+## Topics
+- Contrast [comparison sorting] with [integer sorting]
+- Integer sorting algorithms: [pigeonhole sort], [counting sort], [bucket sort], [radix sort]
+
+## Resources
+- Play with VisuAlgo's [interactive sorting visualizations][VisuAlgo sorting] including [counting sort][VisuAlgo counting sort] and [radix sort][VisuAlgo radix sort]
+- Play with USF's interactive sorting animations including [counting sort][USF counting sort], [bucket sort][USF bucket sort], and [radix sort][USF radix sort]
+- Read Interview Cake's [counting sort article] (*spoiler alert:* contains solution code)
+- Read Vaidehi Joshi's articles on [counting sort][BaseCS counting sort] and [radix sort][BaseCS radix sort] with beautiful drawings and excellent analysis
+- Watch Barack Obama's answer to a [Google interview question][Obama sorting question] on how to sort one million 32-bit integers
+
+## Challenges
+- Implement integer sorting algorithms using [sorting starter code]:
+    - `counting_sort(numbers)` - sort `numbers` (integers) by counting occurrences of each number, then looping over counts and copying that many numbers into output list.
+    - `bucket_sort(numbers, num_buckets)` - sort `numbers` by distributing into buckets representing subranges, sorting each bucket, and combining contents of all buckets in sorted order
 - Annotate functions with complexity analysis of running time (operations) and space (memory usage)
+- Run `python sorting.py` to test sorting algorithms on a small random sample:
+    ```
+    $ python sorting.py counting_sort 15 5
+    Initial items: [2, 3, 1, 5, 5, 2, 5, 5, 1, 4, 1, 5, 2, 3, 1]
+    Sorting items with counting_sort(items)
+    Sorted items:  [1, 1, 1, 1, 2, 2, 2, 3, 3, 4, 5, 5, 5, 5, 5]
+
+    $ python sorting.py counting_sort 20 10
+    Initial items: [1, 6, 2, 2, 5, 8, 9, 7, 8, 9, 10, 10, 8, 10, 3, 3, 8, 2, 5, 7]
+    Sorting items with counting_sort(items)
+    Sorted items:  [1, 2, 2, 2, 3, 3, 5, 5, 6, 7, 7, 8, 8, 8, 8, 9, 9, 10, 10, 10]
+    ```
+    - Experiment with different list sizes, orderings, integer ranges, and distributions to find when integer sorting algorithms are faster than other sorting algorithms
 - Expand the [sorting unit tests] to ensure your integer sorting algorithms are robust
     - Write tests in a way that lets you add new sorting functions without needing to write more tests
     - Include a variety of test cases that cover several integer distributions, orderings, and edge cases
-- Run `pytest sorting_test.py` to run the [sorting unit tests] and fix any failures
+- Run `pytest sorting_test.py::IntegerSortTest` to run *only* the integer [sorting unit tests] and fix any failures
 
-### Stretch Challenges
-- Reduce the space complexity (memory usage) of merge sort by avoiding some list copying
-- Implement [bucket sort] or [sample sort] for integers using divide-and-conquer recursion
+## Stretch Challenges
+- Extend [counting sort] algorithm to handle sorting floating-point numbers, characters, or strings
+- Implement [radix sort] for 32-bit integers (most or least significant digit or bit)
+- Extend [bucket sort] or [radix sort] algorithm to handle sorting strings in [lexicographical order]
+- Annotate functions with complexity analysis of running time (operations) and space (memory usage)
 
 
-[divide-and-conquer]: https://en.wikipedia.org/wiki/Divide_and_conquer_algorithm
-[recursion]: https://en.wikipedia.org/wiki/Recursion_(computer_science)
-[binary search]: https://en.wikipedia.org/wiki/Binary_search_algorithm
-[merge algorithm]: https://en.wikipedia.org/wiki/Merge_algorithm
-[merge sort]: https://en.wikipedia.org/wiki/Merge_sort
+[comparison sorting]: https://en.wikipedia.org/wiki/Comparison_sort
+[integer sorting]: https://en.wikipedia.org/wiki/Integer_sorting
+[pigeonhole sort]: https://en.wikipedia.org/wiki/Pigeonhole_sort
+[counting sort]: https://en.wikipedia.org/wiki/Counting_sort
 [bucket sort]: https://en.wikipedia.org/wiki/Bucket_sort
-[sample sort]: https://en.wikipedia.org/wiki/Samplesort
+[radix sort]: https://en.wikipedia.org/wiki/Radix_sort
+[lexicographical order]: https://en.wikipedia.org/wiki/Lexicographical_order
 
-[algorithm analysis slides]: slides/AlgorithmAnalysis.pdf
 [VisuAlgo sorting]: https://visualgo.net/en/sorting
-[USF sorting]: https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html
-[sorting animations]: https://www.toptal.com/developers/sorting-algorithms/
-[merge sort visualization]: http://bl.ocks.org/mbostock/1243323
-[BaseCS merge sort 1]: https://medium.com/basecs/making-sense-of-merge-sort-part-1-49649a143478
-[BaseCS merge sort 2]: https://medium.com/basecs/making-sense-of-merge-sort-part-2-be8706453209
-
-[merge sort tutorial video]: https://www.youtube.com/watch?v=KF2j-9iSf4Q
-[merge sort video]: https://www.youtube.com/watch?v=sWtYJv_YXbo
-[sorting algorithms summary video]: https://www.youtube.com/watch?v=B6l7AJYgCOI
-[3 sorting algorithms]: https://www.youtube.com/watch?v=jHPexHsDxwQ
-[9 sorting algorithms]: https://www.youtube.com/watch?v=ZZuD6iUe3Pc
-[15 sorting algorithms]: https://www.youtube.com/watch?v=kPRA0W1kECg
-[23 sorting algorithms]: https://www.youtube.com/watch?v=rqI6KT6cOas
-[merge sort with German folk dance]: https://www.youtube.com/watch?v=dENca26N6V4
+[VisuAlgo counting sort]: https://visualgo.net/en/sorting?slide=14
+[VisuAlgo radix sort]: https://visualgo.net/en/sorting?slide=15
+[USF bucket sort]: https://www.cs.usfca.edu/~galles/visualization/BucketSort.html
+[USF counting sort]: https://www.cs.usfca.edu/~galles/visualization/CountingSort.html
+[USF radix sort]: https://www.cs.usfca.edu/~galles/visualization/RadixSort.html
+[counting sort article]: https://www.interviewcake.com/concept/python/counting-sort
+[BaseCS counting sort]: https://medium.com/basecs/counting-linearly-with-counting-sort-cd8516ae09b3
+[BaseCS radix sort]: https://medium.com/basecs/getting-to-the-root-of-sorting-with-radix-sort-f8e9240d4224
+[Obama sorting question]: https://www.youtube.com/watch?v=k4RRi_ntQc8
 
 [sorting starter code]: source/sorting.py
 [sorting unit tests]: source/sorting_test.py

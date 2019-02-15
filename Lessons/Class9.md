@@ -1,71 +1,92 @@
-## Class 9: Trees & Binary Search Trees
+# Class 9: Tree Traversals
 
-### Topics
-- [Tree] data structure, [terminology]
-- [Binary search tree], [operations]
+## Minute-by-Minute [OPTIONAL]
 
-### Resources
-- Review Make School's [trees slides]
-- Watch Make School's [trees video lecture]
-- Read Interview Cake's articles on [logarithms and binary search][IC logarithms] and [binary tree properties][IC binary tree]
-- Read Vaidehi Joshi's articles on [trees and their properties][BaseCS trees] and [binary search trees][BaseCS binary trees] with beautiful drawings
-- Watch HackerRank's [trees and binary search tree video][HR trees video] (up to 3:00)
+**NOTE: Fill in with the appropriate items**
+
+| **Elapsed** | **Time**  | **Activity**              |
+| ----------- | --------- | ------------------------- |
+| 0:00        | 0:05      | Objectives                |
+| 0:05        | 0:15      | Overview                  |
+| 0:20        | 0:45      | In Class Activity I       |
+| 1:05        | 0:10      | BREAK                     |
+| 1:15        | 0:45      | In Class Activity II      |
+| TOTAL       | 2:00      |                           |
+
+## Learning Objectives (5 min)
+
+**NOTE: Fill in with the appropriate items**
+
+1. Identify and describe
+1. Define
+1. Design
+1. Implement
+
+## Topics
+- [Tree traversal]
+    - [Depth-first search]: pre-order, post-order, in-order traversal
+    - [Breadth-first search]: level-order traversal
+
+## Resources
+- Review Make School's [tree traversal slides]
+- Watch Make School's [tree traversal video lecture]
+- Read Interview Cake's articles on [depth-first search][IC DFS], [breadth-first search][IC BFS], and [binary tree properties][IC binary tree]
+- Read Vaidehi Joshi's articles on [depth-first search][BaseCS DFS] and [breadth-first search][BaseCS BFS] with beautiful drawings and excellent analysis
+- Watch HackerRank's [trees and binary search tree video][HR trees video] (traversals start at 3:00)
 - Watch Harvards's [family trees and binary search tree video][Harvard trees video] and [stack frames video]
 - Play with VisuAlgo's [interactive binary search tree visualization][visualgo bst]
 
-### Challenges
-- Implement `BinaryTreeNode` class with the following properties and instance methods using [binary tree starter code]:
-    - `data` - the node's data element
-    - `left` - the node's left child, or `None` (if it does not exist)
-    - `right` - the node's right child, or `None` (if it does not exist)
-    - `is_leaf` - check if the node is a leaf (an external node that has no children)
-    - `is_branch` - check if the node is a branch (an internal node that has at least one child)
-    - `height` - return the node's height (the number of edges on the longest downward path from the node to a descendant leaf node)
-- Implement `BinarySearchTree` class (using `BinaryTreeNode` objects) with the following properties and instance methods using [binary tree starter code]:
-    - `root` - the tree's root node, or `None` (if the tree is empty)
-    - `size` - property that tracks the number of nodes in constant time
-    - `is_empty` - check if the tree is empty (has no nodes)
-    - `height` - return the tree's height (the number of edges on the longest downward path from the tree's root node to a descendant leaf node)
-    - `contains(item)` - return a boolean indicating whether `item` is present in the tree
-    - `search(item)` - return an item in the tree matching the given `item`, or `None` if not found
-    - `insert(item)` - insert the given `item` in order into the tree
-- To simplify the `contains`, `search`, and `insert` methods with code reuse, implement iterative and recursive tree search helper methods:
-    - `_find_node_iterative(item)` - return the node containing `item` in the tree, or `None` if not found
-    - `_find_node_recursive(item)` - return the node containing `item` in the tree, or `None` if not found
-    - `_find_parent_node_iterative(item)` - return the parent of the node containing `item` (or the parent of where `item` would be if inserted) in the tree, or `None` if the tree is empty or has only a root node
-    - `_find_parent_node_recursive(item)` - return the parent of the node containing `item` (or the parent of where `item` would be if inserted) in the tree, or `None` if the tree is empty or has only a root node
-- Run `python binarytree.py` to test `BinarySearchTree` class instance methods on a small example
+## Challenges
+- Implement tree traversal methods on the `BinarySearchTree` class using [binary tree starter code]:
+    - `_traverse_in_order_recursive` - traverse the tree with recursive in-order traversal (DFS)
+    - `_traverse_pre_order_recursive` - traverse the tree with recursive pre-order traversal (DFS)
+    - `_traverse_post_order_recursive` - traverse the tree with recursive post-order traversal (DFS)
+    - `_traverse_level_order_iterative` - traverse the tree with iterative level-order traversal (BFS)
+- Annotate tree traversal methods with complexity analysis of running time and space (memory)
+- Run `python binarytree.py` to test `BinarySearchTree` traversal methods on a small example
 - Run `pytest binarytree_test.py` to run the [binary tree unit tests] and fix any failures
-- Write additional unit tests for the `BinaryTreeNode` and `BinarySearchTree` classes
-    - Add to existing test cases to ensure the `size` property is correct
-    - Include test cases for the `height` instance method on both classes
-- Annotate class instance methods with complexity analysis of running time
 
-### Stretch Challenges
-- Implement this additional `BinarySearchTree` class instance method:
-    - `delete(item)` - remove `item` from the tree, if present, or else raise `ValueError` (*hint: break this down into cases based on how many children the node containing `item` has and implement helper methods for subtasks of the more complex cases*)
-- Write additional unit tests for the `BinarySearchTree` class
-    - Include several test cases for the `delete` instance method covering each case handled by the algorithm
-- Implement binary search tree with singly linked list nodes (having only one link to another node) instead of binary tree nodes (having two links to other nodes)
+## Stretch Challenges
+- Implement iterative tree traversal methods on the `BinarySearchTree` class (*without using recursion*):
+    - `_traverse_in_order_iterative` - traverse the tree with iterative in-order traversal (DFS)
+    - `_traverse_pre_order_iterative` - traverse the tree with iterative pre-order traversal (DFS)
+    - `_traverse_post_order_iterative` - traverse the tree with iterative post-order traversal (DFS)
+- Annotate tree traversal methods with complexity analysis of running time and space (memory)
+- Implement `TreeMap` class ([map/dictionary][map] abstract data type implemented with [binary search tree] data structure) with the following properties and instance methods:
+    - `__init__` - initialize a new empty tree map structure
+    - `size` - property that tracks the number of tree map entries in constant time
+    - `keys` - return a list of all keys in the tree map
+    - `values` - return a list of all values in the tree map
+    - `items` - return a list of all entries (key-value pairs) in the tree map
+    - `contains(key)` - return a boolean indicating whether `key` is in the tree map
+    - `get(key)` - return the value associated with `key` in the tree map, or raise `KeyError` if not found
+    - `set(key, value)` - insert `key` (or update, if already present) with associated `value` in the tree map
+    - `delete(key)` - delete `key` and associated value from the tree map, or raise `KeyError` if not found
+- Write unit tests to ensure the `TreeMap` class is robust (*hint: these should be very similar to the hash table unit tests*)
+    - Include test cases for each class instance method
+- Annotate class instance methods with complexity analysis of running time and space (memory)
+- Compare the behaviors of your `TreeMap` class to those of the `HashTable` class and the [Python `dict` type]
 
 
-[tree]: https://en.wikipedia.org/wiki/Tree_(data_structure)
-[terminology]: https://en.wikipedia.org/wiki/Tree_(data_structure)#Terminology_used_in_trees
+[tree traversal]: https://en.wikipedia.org/wiki/Tree_traversal
+[depth-first search]: https://en.wikipedia.org/wiki/Depth-first_search
+[breadth-first search]: https://en.wikipedia.org/wiki/Breadth-first_search
 [binary search tree]: https://en.wikipedia.org/wiki/Binary_search_tree
-[operations]: https://en.wikipedia.org/wiki/Binary_search_tree#Operations
+[map]: https://en.wikipedia.org/wiki/Associative_array
+[Python `dict` type]: https://docs.python.org/3/library/stdtypes.html#dict
 
-[trees slides]: slides/Trees.pdf
-[trees video lecture]: https://www.youtube.com/watch?v=Yr3y78d2KYI
+[tree traversal slides]: slides/TreeTraversals.pdf
+[tree traversal video lecture]: https://www.youtube.com/watch?v=Qd8dKFaRu9I
 [HR trees video]: https://www.youtube.com/watch?v=oSWTXtMglKE
 [HR bst interview problem]: https://www.youtube.com/watch?v=i_Q0v_Ct5lY
 [Harvard trees video]: https://www.youtube.com/watch?v=mFptHjTT3l8
 [stack frames video]: https://www.youtube.com/watch?v=beqqGIdabrE
 
-[IC logarithms]: https://www.interviewcake.com/article/python/logarithms
+[IC BFS]: https://www.interviewcake.com/concept/python/bfs
+[IC DFS]: https://www.interviewcake.com/concept/python/dfs
 [IC binary tree]: https://www.interviewcake.com/concept/python/binary-tree
-[BaseCS trees]: https://medium.com/basecs/how-to-not-be-stumped-by-trees-5f36208f68a7
-[BaseCS binary trees]: https://medium.com/basecs/leaf-it-up-to-binary-trees-11001aaf746d
-[Leandro TK trees]: https://medium.freecodecamp.org/all-you-need-to-know-about-tree-data-structures-bceacb85490c
+[BaseCS DFS]: https://medium.com/basecs/demystifying-depth-first-search-a7c14cccf056
+[BaseCS BFS]: https://medium.com/basecs/breaking-down-breadth-first-search-cebe696709d9
 [visualgo bst]: https://visualgo.net/bst
 
 [binary tree starter code]: source/binarytree.py

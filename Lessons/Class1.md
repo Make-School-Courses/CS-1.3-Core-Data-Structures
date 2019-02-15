@@ -1,10 +1,32 @@
-## Class 1: Number Bases
+# Class 1: Number Bases
 
-### Topics
+## Minute-by-Minute [OPTIONAL]
+
+**NOTE: Fill in with the appropriate items**
+
+| **Elapsed** | **Time**  | **Activity**              |
+| ----------- | --------- | ------------------------- |
+| 0:00        | 0:05      | Objectives                |
+| 0:05        | 0:15      | Overview                  |
+| 0:20        | 0:45      | In Class Activity I       |
+| 1:05        | 0:10      | BREAK                     |
+| 1:15        | 0:45      | In Class Activity II      |
+| TOTAL       | 2:00      |                           |
+
+## Learning Objectives (5 min)
+
+**NOTE: Fill in with the appropriate items**
+
+1. Identify and describe
+1. Define
+1. Design
+1. Implement
+
+## Topics
 - Number bases: [decimal], [binary], [hexadecimal]
 - [Signed number representations]: signed magnitude, [ones' complement], [two's complement]
 
-### Resources
+## Resources
 - Review Make School's [slides on number bases][number bases slides]
 - Read BetterExplained's [article on number systems and bases][number bases article]
 - Read Vaidehi Joshi's [articles on binary][BaseCS binary] and [hexadecimal][BaseCS hexadecimal] with beautiful drawings and excellent examples
@@ -15,7 +37,7 @@
 - Watch Corey Schafer's [understanding bases video]
 - Watch Tech Quickie's [numbers and base systems video]
 
-### Challenges
+## Challenges
 - Practice binary and hexadecimal conversions on [number bases worksheet]
 - Implement base conversion functions for unsigned numbers using [starter code]:
     - Implement `decode` - decode digits in any base to a number
@@ -26,7 +48,7 @@
     - Run `pytest bases_test.py` to run the [unit tests] and fix any failures
 - Write additional unit tests to ensure your conversion algorithms are robust
 
-### Stretch Challenges
+## Stretch Challenges
 - Implement base conversion for fractional numbers using a [radix point] (try playing with the [base conversion calculator] to see how this works)
 - Implement base conversion for negative binary numbers (using [two's complement])
 

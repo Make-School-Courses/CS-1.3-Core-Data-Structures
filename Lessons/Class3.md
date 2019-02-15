@@ -1,20 +1,42 @@
-## Class 3: String Algorithms
+# Class 3: String Algorithms
 
-### Topics
+## Minute-by-Minute [OPTIONAL]
+
+**NOTE: Fill in with the appropriate items**
+
+| **Elapsed** | **Time**  | **Activity**              |
+| ----------- | --------- | ------------------------- |
+| 0:00        | 0:05      | Objectives                |
+| 0:05        | 0:15      | Overview                  |
+| 0:20        | 0:45      | In Class Activity I       |
+| 1:05        | 0:10      | BREAK                     |
+| 1:15        | 0:45      | In Class Activity II      |
+| TOTAL       | 2:00      |                           |
+
+## Learning Objectives (5 min)
+
+**NOTE: Fill in with the appropriate items**
+
+1. Identify and describe
+1. Define
+1. Design
+1. Implement
+
+## Topics
 - [Palindromes]: strings that read the same forwards and backwards, ignoring punctuation, whitespace, and letter casing
 - [String searching]: find occurrences of a pattern in a longer string of text
 - [Permutation]: arrangement of all items in a set into a sequence or order
 - [Anagrams]: permutations of words or phrases that produce another word
 - [Unit testing]: testing code in isolation using repeatable test cases with known results
 
-### Resources
+## Resources
 - Read Stack Overflow's answers to the question "[What is unit testing?]"
 - Read The Hitchhiker's Guide to Python's tutorial on [testing your code]
 - Consult documentation for Python's [`unittest` module] and [`pytest` tool]
 - Play around with Wordsmith's [Internet Anagram Server]
 - Watch HackerRank's [anagram problem solution video]
 
-### Challenges
+## Challenges
 - Implement palindrome checking functions using [palindromes starter code]:
     - Implement `is_palindrome_iterative` - iterative version of `is_palindrome`
     - Implement `is_palindrome_recursive` - recursive version of `is_palindrome`
@@ -44,7 +66,7 @@
 - Refactor functions to increase code reuse and avoid duplication ([DRY principle])
 - Annotate functions with complexity analysis of running time and space (memory)
 
-### Stretch Challenges
+## Stretch Challenges
 - Implement permutation generating functions (try both iterative and recursive versions)
 - Implement anagram generating functions (try both iterative and recursive versions)
     - *Hint:* Use the Unix dictionary words list located at: `/usr/share/dict/words`

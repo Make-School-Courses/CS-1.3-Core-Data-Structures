@@ -1,85 +1,97 @@
-## Class 11: Iterative Sorting Algorithms
+# Class 11: Divide-and-Conquer Recursion
 
-### Topics
-- Algorithm to check if items in a list are in sorted order
-- Counting how many [inversions] there are in a list
-- Classic iterative [sorting algorithms]: [bubble sort], [selection sort], [insertion sort]
+## Minute-by-Minute [OPTIONAL]
 
-### Resources
-- Play with VisuAlgo's [interactive sorting visualizations][VisuAlgo sorting] including bubble, selection, and insertion sort
-- Play with USF's [interactive sorting animations][USF sorting] including bubble, selection, insertion, and Shell sort
-- Read Vaidehi Joshi's articles: [an overview of sorting][BaseCS sorting], [bubble sort][BaseCS bubble sort], [selection sort][BaseCS selection sort], and [insertion sort][BaseCS insertion sort] with beautiful drawings and excellent analysis
-- Watch Zutopedia's [insertion sort vs bubble sort robot video]
-- Watch Harvard's [bubble sort video], [selection sort video], and [insertion sort video]
-- Watch HackerRank's [bubble sort tutorial video] (*spoiler alert:* contains solution code)
+**NOTE: Fill in with the appropriate items**
+
+| **Elapsed** | **Time**  | **Activity**              |
+| ----------- | --------- | ------------------------- |
+| 0:00        | 0:05      | Objectives                |
+| 0:05        | 0:15      | Overview                  |
+| 0:20        | 0:45      | In Class Activity I       |
+| 1:05        | 0:10      | BREAK                     |
+| 1:15        | 0:45      | In Class Activity II      |
+| TOTAL       | 2:00      |                           |
+
+## Learning Objectives (5 min)
+
+**NOTE: Fill in with the appropriate items**
+
+1. Identify and describe
+1. Define
+1. Design
+1. Implement
+
+## Topics
+- [Divide-and-conquer]&nbsp;[recursion]: divide, conquer, combine
+- Revisit [binary search] to see how it divides and conquers
+- [Merge sort] and [merge algorithm]
+
+## Resources
+- Play with VisuAlgo's [interactive sorting visualizations][VisuAlgo sorting] including merge sort
+- Play with USF's [interactive sorting animations][USF sorting] including merge sort
+- Read Vaidehi Joshi's articles on [merge sort, part 1: how it works][BaseCS merge sort 1] and [part 2: logarithms and complexity analysis][BaseCS merge sort 2] with beautiful drawings and excellent analysis
+- Watch Harvard's [merge sort video] and [sorting algorithms summary video]
+- Watch HackerRank's [merge sort tutorial video] (*spoiler alert:* contains solution code)
+- Watch Mike Bostock's [merge sort visualization] with array values encoded using angle
 - Watch Toptal's [sorting animations] to see how algorithms compare based on input and read the discussion section
-- Watch dancers perform [bubble sort with Hungarian folk dance], [selection sort with Gypsy folk dance], and [insertion sort with Romanian folk dance]
+- Watch dancers perform [merge sort with German folk dance]
 - Watch videos to observe patterns: [9 sorting algorithms], [15 sorting algorithms], [23 sorting algorithms]
-- Read Interview Cake's [triangular series article] for more background on counting inversions and pairs
+- Review Make School's [algorithm analysis slides] for a running time comparison of merge sort and bubble sort
 
-### Challenges
-- Implement these classic iterative sorting functions using [sorting starter code]:
-    - `is_sorted(items)` - return a boolean indicating whether all `items` are in ascending order
-    - `bubble_sort(items)` - swap adjacent items that are out of order, repeat until all `items` are sorted
-    - `selection_sort(items)` - find minimum item in unsorted `items`, swap it with first unsorted item, repeat until all `items` are sorted
-    - `insertion_sort(items)` - take first unsorted item, insert it in sorted order in front of `items`, repeat until all `items` are sorted
-- Run `python sorting.py` to test sorting algorithms on a small random sample:
+## Challenges
+- Implement merge sort algorithm and merge helper function using [sorting starter code]:
+    - Implement `merge(items1, items2)` that merges lists `items1` and `items2`, each assumed to already be in sorted order, and return a new list containing all items in sorted order
+    - Implement `split_sort_merge(items)` that uses any *other* sorting algorithm to sort sublists (*non-recursively*)
+        - Use the [divide-and-conquer] problem-solving strategy:
+            1. Divide: split problem (input list) into subproblems (two sublists each of half size)
+            2. Conquer: solve subproblems independently (sort sublists with any sorting algorithm)
+            3. Combine: combine subproblem solutions together (merge sorted sublists into one list)
+    - Implement `merge_sort(items)` that *recursively calls itself* to sort sublists during the conquer step
+        - Remember to add a base case to avoid infinite recursion loops (*hint:* very small lists are always sorted)
+- Run `python sorting.py` to test sorting algorithms on random samples of integers, for example:
     ```
-    $ python sorting.py bubble_sort 10 20
+    $ python sorting.py merge_sort 10 20
     Initial items: [3, 15, 4, 7, 20, 6, 18, 11, 9, 7]
-    Sorting items with bubble_sort(items)
+    Sorting items with merge_sort(items)
     Sorted items:  [3, 4, 6, 7, 7, 9, 11, 15, 18, 20]
     ```
+    - Experiment with different *list sizes* to find when iterative sorting algorithms are slow and merge sort is fast
 - Annotate functions with complexity analysis of running time (operations) and space (memory usage)
-- Write a thorough suite of [sorting unit tests] to ensure your sorting algorithms are robust
+- Expand the [sorting unit tests] to ensure your integer sorting algorithms are robust
     - Write tests in a way that lets you add new sorting functions without needing to write more tests
-    - Include a variety of test cases that cover many different input types, orderings, distributions, and edge cases
+    - Include a variety of test cases that cover several integer distributions, orderings, and edge cases
 - Run `pytest sorting_test.py` to run the [sorting unit tests] and fix any failures
 
-### Stretch Challenges
-- Extend sorting algorithms with an `order` parameter to specify ascending or descending order
-- Extend sorting algorithms with a `key` parameter to specify a function to call on each item when making comparisons (read about Python's [`sorted` function] and how to use [`key` functions] for more information)
-- Implement an [insertion sort] variation using [binary search] to find the position to insert each item
-- Implement improved iterative sorting algorithms: [cocktail shaker sort], [library sort], or [Shell sort]
-- Annotate functions with complexity analysis of running time (operations) and space (memory usage)
+## Stretch Challenges
+- Reduce the space complexity (memory usage) of merge sort by avoiding some list copying
+- Implement [bucket sort] or [sample sort] for integers using divide-and-conquer recursion
 
 
-[inversions]: https://en.wikipedia.org/wiki/Inversion_(discrete_mathematics)
-[sorting algorithms]: https://en.wikipedia.org/wiki/Sorting_algorithm
-[comparison sorting]: https://en.wikipedia.org/wiki/Comparison_sort
-[bubble sort]: https://en.wikipedia.org/wiki/Bubble_sort
-[selection sort]: https://en.wikipedia.org/wiki/Selection_sort
-[insertion sort]: https://en.wikipedia.org/wiki/Insertion_sort
-
-[cocktail shaker sort]: https://en.wikipedia.org/wiki/Cocktail_shaker_sort
-[library sort]: https://en.wikipedia.org/wiki/Library_sort
-[Shell sort]: https://en.wikipedia.org/wiki/Shellsort
+[divide-and-conquer]: https://en.wikipedia.org/wiki/Divide_and_conquer_algorithm
+[recursion]: https://en.wikipedia.org/wiki/Recursion_(computer_science)
 [binary search]: https://en.wikipedia.org/wiki/Binary_search_algorithm
-[`sorted` function]: https://docs.python.org/3/library/functions.html#sorted
-[`key` functions]: https://docs.python.org/3/howto/sorting.html#key-functions
+[merge algorithm]: https://en.wikipedia.org/wiki/Merge_algorithm
+[merge sort]: https://en.wikipedia.org/wiki/Merge_sort
+[bucket sort]: https://en.wikipedia.org/wiki/Bucket_sort
+[sample sort]: https://en.wikipedia.org/wiki/Samplesort
 
+[algorithm analysis slides]: slides/AlgorithmAnalysis.pdf
 [VisuAlgo sorting]: https://visualgo.net/en/sorting
 [USF sorting]: https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html
-[triangular series article]: https://www.interviewcake.com/concept/python/triangular-series
 [sorting animations]: https://www.toptal.com/developers/sorting-algorithms/
-[BaseCS sorting]: https://medium.com/basecs/sorting-out-the-basics-behind-sorting-algorithms-b0a032873add
-[BaseCS bubble sort]: https://medium.com/basecs/bubbling-up-with-bubble-sorts-3df5ac88e592
-[BaseCS selection sort]: https://medium.com/basecs/exponentially-easy-selection-sort-d7a34292b049
-[BaseCS insertion sort]: https://medium.com/basecs/inching-towards-insertion-sort-9799274430da
+[merge sort visualization]: http://bl.ocks.org/mbostock/1243323
+[BaseCS merge sort 1]: https://medium.com/basecs/making-sense-of-merge-sort-part-1-49649a143478
+[BaseCS merge sort 2]: https://medium.com/basecs/making-sense-of-merge-sort-part-2-be8706453209
 
-[bubble sort tutorial video]: https://www.youtube.com/watch?v=6Gv8vg0kcHc
-[bubble sort video]: https://www.youtube.com/watch?v=Ui97-_n5xjo
-[selection sort video]: https://www.youtube.com/watch?v=lx9G71uLXIg
-[insertion sort video]: https://www.youtube.com/watch?v=TwGb6ohsvUU
-[insertion sort vs bubble sort robot video]: https://www.youtube.com/watch?v=TZRWRjq2CAg
+[merge sort tutorial video]: https://www.youtube.com/watch?v=KF2j-9iSf4Q
+[merge sort video]: https://www.youtube.com/watch?v=sWtYJv_YXbo
+[sorting algorithms summary video]: https://www.youtube.com/watch?v=B6l7AJYgCOI
 [3 sorting algorithms]: https://www.youtube.com/watch?v=jHPexHsDxwQ
 [9 sorting algorithms]: https://www.youtube.com/watch?v=ZZuD6iUe3Pc
 [15 sorting algorithms]: https://www.youtube.com/watch?v=kPRA0W1kECg
 [23 sorting algorithms]: https://www.youtube.com/watch?v=rqI6KT6cOas
-[sorting algorithms with folk dances]: https://www.youtube.com/playlist?list=PLOmdoKois7_FK-ySGwHBkltzB11snW7KQ
-[bubble sort with Hungarian folk dance]: https://www.youtube.com/watch?v=semGJAJ7i74
-[selection sort with Gypsy folk dance]: https://www.youtube.com/watch?v=0-W8OEwLebQ
-[insertion sort with Romanian folk dance]: https://www.youtube.com/watch?v=EdIKIf9mHk0
+[merge sort with German folk dance]: https://www.youtube.com/watch?v=dENca26N6V4
 
 [sorting starter code]: source/sorting.py
 [sorting unit tests]: source/sorting_test.py

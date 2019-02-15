@@ -1,99 +1,116 @@
-## Class 14: Recursive Sorting Algorithms
+# Class 17: Sorting Algorithms Comparison
 
-### Topics
-- [Tree sort] using [search tree] data structure
-- [Quick sort] and partition algorithm
-    - How to [choose a pivot]: first, last, middle, median-of-three, and random
-    - Partitioning schemes: [Lomuto], [Hoare], and [three-way]
-- [In-place] algorithms
-- [Recursive] algorithm analysis with tree diagrams, [recurrence relations], and [master theorem]
+## Minute-by-Minute [OPTIONAL]
 
-### Resources
-- Play with VisuAlgo's [interactive sorting visualizations][VisuAlgo sorting] including quick sort
-- Play with USF's [interactive sorting animations][USF sorting] including quick sort
-- Read Vaidehi Joshi's articles on [quick sort, part 1: how it works][BaseCS quick sort 1] and [part 2: choosing a pivot and complexity analysis][BaseCS quick sort 2] with beautiful drawings and excellent analysis
-- Read Sebastian's answer to this [quick sort partitioning] question on Computer Science Stack Exchange
-- Review Make School's [recursive algorithm analysis slides]
-- Watch Zutopedia's [quick sort vs bubble sort robot video], [merge sort vs quick sort robot video]
-- Watch Harvard's [quick sort video] or Computerphile's [quick sort cards video]
-- Watch HackerRank's [quick sort tutorial video] (*spoiler alert:* contains solution code)
-- Watch Mike Bostock's [quick sort visualization] with array values encoded using angle
+**NOTE: Fill in with the appropriate items**
+
+| **Elapsed** | **Time**  | **Activity**              |
+| ----------- | --------- | ------------------------- |
+| 0:00        | 0:05      | Objectives                |
+| 0:05        | 0:15      | Overview                  |
+| 0:20        | 0:45      | In Class Activity I       |
+| 1:05        | 0:10      | BREAK                     |
+| 1:15        | 0:45      | In Class Activity II      |
+| TOTAL       | 2:00      |                           |
+
+## Learning Objectives (5 min)
+
+**NOTE: Fill in with the appropriate items**
+
+1. Identify and describe
+1. Define
+1. Design
+1. Implement
+
+## Topics
+- [Hybrid] sorting algorithms: [intro sort], [Tim sort]
+- Ideal sorting algorithm features: [stable], [in-place], [adaptive]
+
+### [Comparison Sorting] Algorithm Complexity
+
+| Algorithm        | Best Time        | Average Time     | Worst Time       | Space    | Features                   |
+| ---------------- | ---------------- | ---------------- | ---------------- | -------- | -------------------------- |
+| [Bubble sort]    | Ω(n)             | Θ(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1)     | stable, in-place, adaptive |
+| [Selection sort] | Ω(n<sup>2</sup>) | Θ(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1)     | stable, in-place           |
+| [Insertion sort] | Ω(n)             | Θ(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1)     | stable, in-place, adaptive |
+| [Tree sort]      | Ω(n⋅log n)       | Θ(n⋅log n)       | O(n<sup>2</sup>) | O(n)     |                            |
+| [Quick sort]     | Ω(n⋅log n)       | Θ(n⋅log n)       | O(n<sup>2</sup>) | O(log n) | in-place                   |
+| [Merge sort]     | Ω(n⋅log n)       | Θ(n⋅log n)       | O(n⋅log n)       | O(n)     | stable                     |
+| [Heap sort]      | Ω(n⋅log n)       | Θ(n⋅log n)       | O(n⋅log n)       | O(1)     | in-place                   |
+| [Intro sort]     | Ω(n⋅log n)       | Θ(n⋅log n)       | O(n⋅log n)       | O(log n) | in-place, hybrid           |
+| [Tim sort]       | Ω(n)             | Θ(n⋅log n)       | O(n⋅log n)       | O(n)     | stable, adaptive, hybrid   |
+
+### [Integer Sorting] Algorithm Complexity
+
+| Algorithm       | Best Time | Average Time | Worst Time       | Space  |
+| --------------- | --------- | ------------ | ---------------- | ------ |
+| [Counting sort] | Ω(n+k)    | Θ(n+k)       | O(n+k)           | O(k)   |
+| [Bucket sort]   | Ω(n+k)    | Θ(n+k)       | O(n<sup>2</sup>) | O(n)   |
+| [Radix sort]    | Ω(n⋅k)    | Θ(n⋅k)       | O(n⋅k)           | O(n+k) |
+
+## Resources
+- Read BetterExplained's [sorting algorithms article] that discusses similarities, differences, and patterns
+- Play with VisuAlgo's [interactive sorting visualizations][VisuAlgo sorting] including bubble, selection, insertion, merge, quick, counting, and radix sort
+- Play with USF's [interactive sorting animations][USF sorting] including bubble, selection, insertion, merge, quick, Shell,  sort
+- Read Vaidehi Joshi's [overview of sorting article][BaseCS sorting] with beautiful drawings and excellent analysis
 - Play with Carlo Zapponi's [sorting visualizations artwork] including three-way quick sort
-- Watch Toptal's [sorting animations] to see how algorithms compare based on input and read the discussion section
-- Watch dancers perform [quick sort with Hungarian folk dance]
+- Review Eric Rowell's [Big O cheat sheet] for a comparison of sorting algorithm time and space complexity
+- Watch Toptal's [sorting animations] to compare algorithms based on input conditions (order and distribution)
+    - Read the discussion section on properties of an ideal sorting algorithm and the conclusion stated
+- Watch Morolin's [sorting algorithms visualized] and compared with animated rainbow GIF loops
+- Play with Casper Beyer's [Tone of Sorting] sound auralizer and read his [article about how and why he built it][Tone of Sorting article]
+- Watch dancers perform [sorting algorithms with folk dances] including bubble sort, selection sort, insertion sort, Shell sort, merge sort, and quick sort
 - Watch videos to observe patterns: [9 sorting algorithms], [15 sorting algorithms], [23 sorting algorithms]
-- Read XKCD's [ineffective sorts] comic and see where the attempt to implement quick sort went wrong
+- Watch University of Toronto's "[Sorting Out Sorting]" 30-minute film from 1981
+- Download Timo Bingmann's [The Sound of Sorting] software to hear and visualize sorting algorithms
+- Read Tim Peters's (a Python core language developer) [proposal for a new sorting algorithm][Tim sort proposal] now known as *Tim sort* – he effectively argued its advantages over the existing sorting algorithm and compared performance with benchmarks
 
-### Challenges
-- Implement quick sort algorithm and partition helper function using [sorting starter code]:
-    - Implement `partition(items, low, high)` that chooses a pivot and returns index `p` after [in-place] partitioning `items` in range `[low...high]` by moving items less than pivot into range `[low...p-1]`, items greater than pivot into range `[p+1...high]`, and pivot into index `p`
-        - [Choose a pivot] in any way: first, last, middle, median-of-three, or random
-        - Use any partitioning scheme: [Lomuto], [Hoare], or [three-way]
-    - Implement `quick_sort(items, low, high)` that sorts `items` [in-place] by using `partition` algorithm on `items` in range `[low...high]` and *recursively calls itself* on sublist ranges
-        - Use the [divide-and-conquer] problem-solving strategy:
-            1. Divide: split problem into subproblems (partition input list into sublist ranges)
-            2. Conquer: solve subproblems independently (sort sublist ranges recursively with quick sort)
-            3. Combine: combine subproblem solutions together (if partition is [in-place], list is already sorted, but if not then concatenate sorted sublists)
-        - Remember to add a base case to avoid infinite recursion loops (*hint:* very small list ranges are always sorted)
-- Annotate functions with complexity analysis of running time (operations) and space (memory usage)
-- Run `python sorting.py` to test quick sort algorithm on random samples of integers, for example:
-    ```
-    $ python sorting.py quick_sort 10 20
-    Initial items: [3, 15, 4, 7, 20, 6, 18, 11, 9, 7]
-    Sorting items with quick_sort(items)
-    Sorted items:  [3, 4, 6, 7, 7, 9, 11, 15, 18, 20]
-    ```
-    - Experiment with different list sizes to find when iterative sorting algorithms are slow and quick sort is fast
-    - Compare the runtime of quick sort to merge sort on large list sizes with a variety of integer distributions
-- Run `pytest sorting_test.py` to run the [sorting unit tests] and fix any failures
+## Project
+**NOTE: Need to add project**
+- [Sorting algorithms project] with real-world data on Make School's Online Academy
 
-### Stretch Challenges
-- Try other techniques to [choose a pivot] and other partitioning schemes
-- Implement [sample sort] using a multi-way partition algorithm and compare it to quick sort
-- Implement [stable][stability] quick sort with a separate *stable* partition algorithm, then compare its time and space complexity (with algorithm analysis or performance benchmarking) to unstable quick sort
-- Implement [slow sort] (just for fun)
 
+[sorting algorithm]: https://en.wikipedia.org/wiki/Sorting_algorithm
+[stable]: https://en.wikipedia.org/wiki/Sorting_algorithm#Stability
+[in-place]: https://en.wikipedia.org/wiki/In-place_algorithm
+[adaptive]: https://en.wikipedia.org/wiki/Adaptive_sort
+[hybrid]: https://en.wikipedia.org/wiki/Hybrid_algorithm
+
+[comparison sorting]: https://en.wikipedia.org/wiki/Comparison_sort
+[bubble sort]: https://en.wikipedia.org/wiki/Bubble_sort
+[selection sort]: https://en.wikipedia.org/wiki/Selection_sort
+[insertion sort]: https://en.wikipedia.org/wiki/Insertion_sort
 
 [tree sort]: https://en.wikipedia.org/wiki/Tree_sort
-[search tree]: https://en.wikipedia.org/wiki/Search_tree
-
 [quick sort]: https://en.wikipedia.org/wiki/Quicksort
-[choose a pivot]: https://en.wikipedia.org/wiki/Quicksort#Choice_of_pivot
-[Lomuto]: https://en.wikipedia.org/wiki/Quicksort#Lomuto_partition_scheme
-[Hoare]: https://en.wikipedia.org/wiki/Quicksort#Hoare_partition_scheme
-[three-way]: https://en.wikipedia.org/wiki/Dutch_national_flag_problem
+[merge sort]: https://en.wikipedia.org/wiki/Merge_sort
+[heap sort]: https://en.wikipedia.org/wiki/Heapsort
+[intro sort]: https://en.wikipedia.org/wiki/Introsort
+[Tim sort]: https://en.wikipedia.org/wiki/Timsort
+[Tim sort proposal]: https://mail.python.org/pipermail/python-dev/2002-July/026837.html
 
-[in-place]: https://en.wikipedia.org/wiki/In-place_algorithm
-[stability]: https://en.wikipedia.org/wiki/Sorting_algorithm#Stability
-[sample sort]: https://en.wikipedia.org/wiki/Samplesort
-[slow sort]: https://en.wikipedia.org/wiki/Slowsort
+[integer sorting]: https://en.wikipedia.org/wiki/Integer_sorting
+[counting sort]: https://en.wikipedia.org/wiki/Counting_sort
+[bucket sort]: https://en.wikipedia.org/wiki/Bucket_sort
+[radix sort]: https://en.wikipedia.org/wiki/Radix_sort
 
-[divide-and-conquer]: https://en.wikipedia.org/wiki/Divide_and_conquer_algorithm
-[recursive]: https://en.wikipedia.org/wiki/Recursion_(computer_science)
-[recurrence relations]: https://en.wikipedia.org/wiki/Recurrence_relation
-[master theorem]: https://en.wikipedia.org/wiki/Master_theorem
-
-[recursive algorithm analysis slides]: slides/AlgorithmAnalysisRecursive.pdf
+[sorting algorithms article]: https://betterexplained.com/articles/sorting-algorithms/
 [VisuAlgo sorting]: https://visualgo.net/en/sorting
 [USF sorting]: https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html
+[Big O cheat sheet]: http://bigocheatsheet.com/
 [sorting animations]: https://www.toptal.com/developers/sorting-algorithms/
 [sorting visualizations artwork]: http://sorting.at/
-[quick sort visualization]: https://bl.ocks.org/mbostock/1582075
-[quick sort partitioning]: https://cs.stackexchange.com/questions/11458/quicksort-partitioning-hoare-vs-lomuto
-[BaseCS quick sort 1]: https://medium.com/basecs/pivoting-to-understand-quicksort-part-1-75178dfb9313
-[BaseCS quick sort 2]: https://medium.com/basecs/pivoting-to-understand-quicksort-part-2-30161aefe1d3
+[sorting algorithms visualized]: https://imgur.com/gallery/voutF
+[BaseCS sorting]: https://medium.com/basecs/sorting-out-the-basics-behind-sorting-algorithms-b0a032873add
+[The Sound of Sorting]: http://panthema.net/2013/sound-of-sorting/
+[Tone of Sorting]: https://caspervonb.github.io/toneofsorting/
+[Tone of Sorting article]: https://medium.com/@caspervonb/how-i-visualized-the-sorting-algorithms-and-brought-them-to-life-with-sound-ce7c5c6cb6ef
 
-[quick sort vs bubble sort robot video]: https://www.youtube.com/watch?v=aXXWXz5rF64
-[merge sort vs quick sort robot video]: https://www.youtube.com/watch?v=es2T6KY45cA
-[quick sort tutorial video]: https://www.youtube.com/watch?v=SLauY6PpjW4
-[quick sort video]: https://www.youtube.com/watch?v=aQiWF4E8flQ
-[quick sort cards video]: https://www.youtube.com/watch?v=XE4VP_8Y0BU
+[Sorting Out Sorting]: https://www.youtube.com/watch?v=SJwEwA5gOkM
 [3 sorting algorithms]: https://www.youtube.com/watch?v=jHPexHsDxwQ
 [9 sorting algorithms]: https://www.youtube.com/watch?v=ZZuD6iUe3Pc
 [15 sorting algorithms]: https://www.youtube.com/watch?v=kPRA0W1kECg
 [23 sorting algorithms]: https://www.youtube.com/watch?v=rqI6KT6cOas
-[quick sort with Hungarian folk dance]: https://www.youtube.com/watch?v=3San3uKKHgg
-[ineffective sorts]: https://xkcd.com/1185/
+[sorting algorithms with folk dances]: https://www.youtube.com/playlist?list=PLOmdoKois7_FK-ySGwHBkltzB11snW7KQ
 
-[sorting starter code]: source/sorting.py
-[sorting unit tests]: source/sorting_test.py
+[sorting algorithms project]: http://make.sc/oa-sorting-algorithms
