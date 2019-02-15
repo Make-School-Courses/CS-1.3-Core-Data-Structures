@@ -17,10 +17,11 @@
 
 **NOTE: Fill in with the appropriate items**
 
-1. Identify and describe
-1. Define
-1. Design
-1. Implement
+By this end of this lesson, students should be able to...
+
+1. Analyze recursive algorithms as they relate to trees and tree sorting
+1. Practice implementing in-place algorithms
+1. Implement Quick Sort with a partition algorithm
 
 ## Topics
 - [Tree sort] using [search tree] data structure

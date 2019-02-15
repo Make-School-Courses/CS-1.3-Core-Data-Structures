@@ -17,10 +17,10 @@
 
 **NOTE: Fill in with the appropriate items**
 
-1. Identify and describe
-1. Define
-1. Design
-1. Implement
+By this end of this lesson, students should be able to...
+
+1. Explain in general how divide-and-conquer algorithms are structured
+1. Implement a popular divide-and-conquer algorithm such as merge sort
 
 ## Topics
 - [Divide-and-conquer]&nbsp;[recursion]: divide, conquer, combine
