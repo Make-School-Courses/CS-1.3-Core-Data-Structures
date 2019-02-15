@@ -17,10 +17,10 @@
 
 **NOTE: Fill in with the appropriate items**
 
-1. Identify and describe
-1. Define
-1. Design
-1. Implement
+By this end of this lesson, students should be able to...
+
+1. Explain the use cases for stacks and queues, and why they may use them over a list
+1. Differentiate between arrays and dynamic arrays, and when to use each.
 
 ## Topics
 - Compare [abstract data types] and [concrete data structures][data structures]

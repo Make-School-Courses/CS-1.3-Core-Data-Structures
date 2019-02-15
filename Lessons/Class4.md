@@ -19,7 +19,6 @@
 
 By this end of this lesson, students should be able to...
 
-1. Compare and contrast abstract data types and concrete data structures
 1. Practice more advanced techniques with lists and arrays
 1. Implement various list manipulation methods such as insert and replace
 
