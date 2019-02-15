@@ -17,10 +17,11 @@
 
 **NOTE: Fill in with the appropriate items**
 
-1. Identify and describe
-1. Define
-1. Design
-1. Implement
+By the end of this lesson, students should be able to...
+
+1. Compare and contrast iterative and recursive implementations of a function
+1. Compre and contrast linear and binary search
+1. Practice algorithm analysis to find the running time of the algorithm
 
 ## Topics
 - Compare [iteration] and [recursion] with [factorial] function
