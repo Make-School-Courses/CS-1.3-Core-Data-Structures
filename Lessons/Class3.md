@@ -17,10 +17,10 @@
 
 **NOTE: Fill in with the appropriate items**
 
-1. Identify and describe
-1. Define
-1. Design
-1. Implement
+By this end of this lesson, students should be able to...
+
+1. Explain various string algorithms such as searching and permutation
+1. Practice writing unit tests for their code
 
 ## Topics
 - [Palindromes]: strings that read the same forwards and backwards, ignoring punctuation, whitespace, and letter casing
