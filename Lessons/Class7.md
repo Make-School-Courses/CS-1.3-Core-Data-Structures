@@ -17,10 +17,11 @@
 
 **NOTE: Fill in with the appropriate items**
 
-1. Identify and describe
-1. Define
-1. Design
-1. Implement
+By this end of this lesson, students should be able to...
+
+1. Explain what a set is and what some varitions of a set are, such as a multiset
+1. Explain other types of queues such as a circuluar buffer
+1. Practice implementing more abstract data types backed by a data structure of their choice
 
 ## Topics
 - Abstract data types: [set], [multiset (bag)][multiset]
