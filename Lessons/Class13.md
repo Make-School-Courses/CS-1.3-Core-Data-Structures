@@ -17,10 +17,10 @@
 
 **NOTE: Fill in with the appropriate items**
 
-1. Identify and describe
-1. Define
-1. Design
-1. Implement
+By this end of this lesson, students should be able to...
+
+1. Contrast comparison sorting with integer sorting
+1. Implement integer sorting algorithms
 
 ## Topics
 - Contrast [comparison sorting] with [integer sorting]
