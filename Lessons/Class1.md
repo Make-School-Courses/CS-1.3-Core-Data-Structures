@@ -17,10 +17,11 @@
 
 **NOTE: Fill in with the appropriate items**
 
-1. Identify and describe
-1. Define
-1. Design
-1. Implement
+By the end of this lesson, students should be able to...
+
+1. Explain the difference between decimal, binary, and hexadecimal based numbers
+1. Practice converting between decimal, binary, and hexadecimal
+1. Differentiate between signed and unsigned numbers in binary
 
 ## Topics
 - Number bases: [decimal], [binary], [hexadecimal]
