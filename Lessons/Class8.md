@@ -17,10 +17,10 @@
 
 **NOTE: Fill in with the appropriate items**
 
-1. Identify and describe
-1. Define
-1. Design
-1. Implement
+By this end of this lesson, students should be able to...
+
+1. Explain a basic tree data structure and what the use cases for one are
+1. Implement a binary search tree
 
 ## Topics
 - [Tree] data structure, [terminology]
