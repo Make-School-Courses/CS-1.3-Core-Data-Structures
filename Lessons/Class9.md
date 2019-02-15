@@ -17,10 +17,11 @@
 
 **NOTE: Fill in with the appropriate items**
 
-1. Identify and describe
-1. Define
-1. Design
-1. Implement
+By this end of this lesson, students should be able to...
+
+1. Differentiate between depth-first search (DFS) and breadth-first search (BFS)
+1. Explain the various types of traversals for DFS and BFS
+1. Implement traversal methods on a binary search tree
 
 ## Topics
 - [Tree traversal]
