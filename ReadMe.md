@@ -2,7 +2,7 @@
 
 ## Course Description
 
-This course explores the foundations of computer science including discrete mathematics, abstract data types, data structures, and algorithm analysis and design. Students will compare and contrast iterative and recursive algorithms to analyze design and performance tradeoffs. Students will apply and test data structures like lists, stacks, queues, sets, maps, and trees in real-world problems including maze solving and phone call routing. Students will also write technical blog articles about these topics deepen understanding and gain valuable online presence as knowledgeable and proficient software engineers.
+This course explores the foundations of computer science including discrete mathematics, abstract data types, data structures, and algorithm analysis and design. Students will compare and contrast iterative and recursive algorithms to analyze design and performance tradeoffs. Students will apply and test data structures like lists, stacks, queues, sets, maps, and trees in real-world problems such as phone call routing. Students will also write technical blog articles about these topics in order to deepen their understanding and gain valuable online presence as knowledgeable and proficient software engineers.
 
 ### Why you should know this
 **FILL IN HERE**
@@ -27,11 +27,12 @@ Class Sessions:  14 classes, 7 labs
 
 Students by the end of the course will be able to ...
 
-1. Identify & Describe
-1. Explain
-1. Compare & Contrast
-1. Design & Implement
-1. Practice
+1. Compare and contrast iterative and recursive algorithms
+1. Analyze the complexity of an algorithm to determine its runtime
+1. Implement various data structures such as stacks, queues, sets, maps, and trees
+1. Implement iterative and recursive sorting algorithms
+1. Build out different types of tree traversals
+1. Practice writing technical articles
 
 ## Schedule
 
