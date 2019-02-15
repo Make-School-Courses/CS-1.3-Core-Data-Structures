@@ -17,10 +17,11 @@
 
 **NOTE: Fill in with the appropriate items**
 
-1. Identify and describe
-1. Define
-1. Design
-1. Implement
+By this end of this lesson, students should be able to...
+
+1. Explain the use cases for maps and hash tables and how they're related
+1. Practice implementing various hash tables features
+1. Describe various components of a hash table such as the hash function, collision resolution, load factor, and dynamize resizing
 
 ## Topics
 - Abstract data types: [map (dictionary, associative array)][map]
