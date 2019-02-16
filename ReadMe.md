@@ -5,7 +5,9 @@
 This course explores the foundations of computer science including discrete mathematics, abstract data types, data structures, and algorithm analysis and design. Students will compare and contrast iterative and recursive algorithms to analyze design and performance tradeoffs. Students will apply and test data structures like lists, stacks, queues, sets, maps, and trees in real-world problems such as phone call routing. Students will also write technical blog articles about these topics in order to deepen their understanding and gain valuable online presence as knowledgeable and proficient software engineers.
 
 ### Why you should know this
-**FILL IN HERE**
+Data structures are the building blocks of computer science. It's the foundation that allows engineers to store and manipulate data. Once you have a place to store the data, if you need to find data or sort it in a specific way, you'll need search algorithms in order to do that.
+
+Implementations of these concepts are how some of the largest tech companies in the world were built. Displaying relevant search results and finding friends and peers on social networks would be impossible without these core concepts. They're also **the most common topics for software engineering interviews**, and leveling up your knowledge on these topics is required to nail that technical interview! 
 
 ## Course Specifics
 
