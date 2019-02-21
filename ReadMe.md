@@ -25,8 +25,6 @@ Class Sessions:  14 classes, 7 labs
 
 ## Learning Outcomes
 
-**[INSTRUCTOR NOTE: PLEASE LIST (5-8) LEARNING OUTCOMES]**
-
 Students by the end of the course will be able to ...
 
 1. Compare and contrast iterative and recursive algorithms
