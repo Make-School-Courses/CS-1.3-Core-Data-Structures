@@ -58,7 +58,7 @@ Students by the end of the course will be able to ...
 |  11   |    Monday, May 6       | [Call Routing Project](project/Project.md)         |
 |  12   |    Wednesday, May 8    | Call Routing Project Code Review                   |
 |  13   |    Monday, May 13      | Call Routing Project Presentations                 |
-|  14   |    Wednesday, May 15   | Final Exams/Presentations                          |
+|  14   |    Wednesday, May 15   | Final Exam                                         |
 
 
 ## Repository Setup Instructions
@@ -66,11 +66,7 @@ Students by the end of the course will be able to ...
 Please follow [these instructions](Setup.md) exactly to set up your fork of this repository.
 
 
-## Class Assignments [REMOVE HEADER IF YOU LIKE]
-
-### Tutorials
-**[ADD TUTORIAL LINKS]**
-
+## Class Assignments
 
 ### Projects
 
