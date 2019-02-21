@@ -52,20 +52,13 @@ Students by the end of the course will be able to ...
 |   5   |    Monday, April 15    | [Lists, Stacks & Queues](Lessons/Class5.md)        |
 |   6   |    Wednesday, April 17 | [Maps & Hash Tables](Lessons/Class6.md)            |
 |   7   |    Monday, April 22    | [Sets & Circular Buffers](Lessons/Class7.md)       |
-|   8   |    Wednesday, April 24 | [Trees & Binary Search Trees](Lessons/Class8.md)   |
-|   9   |    Monday, April 29    | [Tree Traversals](Lessons/Class9.md)               |
-|  10   |    Wednesday, May 1    | Technical Article Peer Review                      |
+|   8   |    Wednesday, April 24 | Sets Continued + Technical Article Peer Review     |
+|   9   |    Monday, April 29    | [Trees & Binary Search Trees](Lessons/Class8.md)   |
+|  10   |    Wednesday, May 1    | [Tree Traversals](Lessons/Class9.md)               |
 |  11   |    Monday, May 6       | [Call Routing Project](project/Project.md)         |
 |  12   |    Wednesday, May 8    | Call Routing Project Code Review                   |
-|  13   |    Monday, May 13      | [Iterative Sorting Algorithms](Lessons/Class10.md) |
+|  13   |    Monday, May 13      | Call Routing Project Presentations                 |
 |  14   |    Wednesday, May 15   | Final Exams/Presentations                          |
-
-**NOTE: These Classes need homes:**
-
-- [Divide-and-Conquer Recursion](Lessons/Class11.md)
-- [Recursive Sorting Algorithms](Lessons/Class12.md)
-- [Integer Sorting Algorithms](Lessons/Class13.md)
-- [Sorting Algorithms Comparison](Lessons/Class14.md)
 
 
 ## Repository Setup Instructions
