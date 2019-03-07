@@ -38,3 +38,8 @@ Here is an example `travis.yml` file:
 ## Phase 3: ~~Profit~~ Commit and Push!
 
 Now commit and push to your repo. Log in to your Travis CI account to see your build status, as well as what tests pass/fail!
+
+## Resources
+
+- [Travis CI Documentation](https://docs.travis-ci.com/)
+- [Language specific Travis CI docs](https://docs.travis-ci.com/user/languages/)
