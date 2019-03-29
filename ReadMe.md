@@ -40,7 +40,7 @@ Students by the end of the course will be able to ...
 
 **Course Dates:** Monday, April 1 – Wednesday, May 15, 2019 (7 weeks)
 
-**Class Times:** Monday and Wednesday at 3:30–5:20pm (14 class sessions)
+**Class Times:** Monday and Wednesday at 1:30-3:20pm **and** 3:30–5:20pm (14 class sessions)
 
 
 | Class |          Date          |                  Topics                    |
