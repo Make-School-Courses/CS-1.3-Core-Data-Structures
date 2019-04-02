@@ -10,8 +10,6 @@ import string
 # string.printable is digits + ascii_letters + punctuation + whitespace
 
 
-
-
 def encode(number, base):
     """Encode given number in base 10 to digits in given base.
     number: int -- integer representation of number (in base 10)
