@@ -16,7 +16,7 @@
 | 1:10        | 0:25      | TT: Base 16                      |
 | 1:35        | 0:15      | Integers and Bases Worksheet Pt 2      |
 | 1:50        | 0:05      | Negative Numbers      |
-| 1:55        | 0:05      | Wrapup      |
+| 1:55        | 0:05      | Wrap up      |
 | TOTAL       | 2:00      |                           |
 
 ## Factoid of the day (5 min)
