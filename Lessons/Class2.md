@@ -4,7 +4,7 @@
 - Compare [iteration] and [recursion] with [factorial] function
 - Search algorithms: [linear search] and [binary search]
 
-## Learning Objectives
+## Learning Outcomes
 
 By the end of this lesson, students should be able to...
 
