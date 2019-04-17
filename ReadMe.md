@@ -36,6 +36,7 @@ Students by the end of the course will be able to ...
 
 ## Schedule
 
+
 **Course Dates:** Monday, April 1 – Wednesday, May 15, 2019 (7 weeks)
 
 **Class Times:** Monday and Wednesday at 1:30-3:20pm **and** 3:30–5:20pm (14 class sessions)
@@ -45,12 +46,12 @@ Students by the end of the course will be able to ...
 |:-----:|:----------------------:|:------------------------------------------:|
 |   1   |    Monday, April 1     | [Number Bases](Lessons/Class1.md)                  |
 |   2   |    Wednesday, April 3  | [Recursion & Search Algorithms](Lessons/Class2.md) |
-|   3   |    Monday, April 8     | [Recursion and Search Part 2](Lessons/Class2a.md)             |
-|   4   |    Wednesday, April 10 | [Strings and Sorting Algorithms](Lessons/Class3.md)         |
-|   5   |    Monday, April 15    | [Arrays & Linked Lists](Lessons/Class4.md)        |
-|   6   |    Wednesday, April 17 | [Lists, Stacks & Queues](Lessons/Class5.md)            |
-|   7   |    Monday, April 22    | [Maps & Hash Tables](Lessons/Class7.md)       |
-|   8   |    Wednesday, April 24 | Sets & Circular Buffers + Technical Article Peer Review     |
+|   3   |    Monday, April 8     | [String Algorithms](Lessons/Class3.md)             |
+|   4   |    Wednesday, April 10 | [Arrays & Linked Lists](Lessons/Class4.md)         |
+|   5   |    Monday, April 15    | [Lists, Stacks & Queues](Lessons/Class5.md)        |
+|   6   |    Wednesday, April 17 | [Maps & Hash Tables](Lessons/Class6.md)            |
+|   7   |    Monday, April 22    | [Sets & Circular Buffers](Lessons/Class7.md)       |
+|   8   |    Wednesday, April 24 | Sets Continued + Technical Article Peer Review     |
 |   9   |    Monday, April 29    | [Trees & Binary Search Trees](Lessons/Class8.md)   |
 |  10   |    Wednesday, May 1    | [Tree Traversals](Lessons/Class9.md)               |
 |  11   |    Monday, May 6       | [Call Routing Project](project/Project.md)         |
