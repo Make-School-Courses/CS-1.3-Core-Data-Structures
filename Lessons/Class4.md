@@ -71,7 +71,7 @@ EX: Check if "nas" is in "bananas"
 - loop through letters in bananas to check if "nas" is in "bananas"
 - if so will have one check per row under corresponding col of "bananas"
 
-
+```
     INITIAL MATRIX
     [| |b|a|n|a|n|a|s|]
     [|n| | | | | | | |]
@@ -83,7 +83,7 @@ EX: Check if "nas" is in "bananas"
     [|n|X|X|O|X|O| | |]
     [|a| | | |O| |O| |]
     [|s| | | | |X| |O|]
-
+```
 
 #### Complexity
 
