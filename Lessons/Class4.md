@@ -12,7 +12,6 @@ By this end of this lesson, students should be able to...
 1. Practice more advanced techniques with lists and arrays
 1. Implement list manipulation methods such as insert and replace
 
-
 ## Minute-by-Minute
 
 | **Elapsed** | **Time**  | **Activity**              |
@@ -23,53 +22,114 @@ By this end of this lesson, students should be able to...
 | 1:45        | 0:05      | Wrap up      |
 | TOTAL       | 1:50      |                           |
 
-## Progress Tracker (10 min)
+## Progress Tracker (3 min)
 
 - Fill out attendance, challenges completed, etc.
-- Tracker leaderboard - students who have completed most challenges
-- Technical Articles : write a draft by next Wed 4/24.
-    - Requirements:
-        - 5 min read on medium.
-        - Topic - anything we've covered in this class - or you can go into something deeper.
-        - draft - topic and outine
-        - needs diagrams (can be borrowed) - *no tolerance of plagiarism*
-- Added code review tracking to progress tracker - everyone should do at least one live code review before end of course.
+
+## Palindromes (15 min)
+- Discuss Palindrome Notes with a partner.  Compare iterative and recursive solutions.
 
 ## Code Review + Presentations (80 min)
-### Student Code Review Presentation (Linked List - Insert) (20 min)
-Linked List Insertion Highlights:
-- Draw a diagram Linked List containing: "I", "Love", "Cats" (in that order).  Walk through the diagram as the student presents their code
+### Student Code Review Presentation (Palindrome) (20 min)
+Iterative Solution Highlights:
+- Find left and right bound then compare left to right
+    - if not same done
+    - if all same - return true
+- Run through a small example on the board of a translator method to translate string to comparable string.
+`"Taco? Cat!" ->"Taco Cat" -> "TacoCat" -> "tacocat"`
+-  Example of loop: draw an arrow pointing to comparisons t to t, a to a, c to c, o (middle)
+- look at < vs <= to show both work in this case
+- unit tests of even and odd length words test boundary cases.
 
-- What does the method 'insert_at_index(index, value) - value goes at index, items shift down
-- Explore the range function by running code `range(1) = [0]`, `range(3)=[0,1,2]`
-- Write a test case to find bugs. Don't rewrite code without showing the bug.
-- Review: when to use a for loop or while loop: while has condition, for loop uses an index (counter controlled)  
+#### Complexity (5 min)
+- What is the complexity of the iterative solution?
+    - Only have to look at 1/2 the string, not every character. n/2 iterations `O(n^2)`
+- Separate preamble (translator creation) from input (string) dependent code.  Thus not calling a method every time when not needed.
+- Optimize by `.lower` on letter inside the conditional.
+    - does this work with order of operations? (yes values are computed before compared)
 
-**Whiteboard Tips**
-- Switch colors of markers between setup and implementation.
+### Student Code Review Presentation (Palindrome - Recursive) (15 min)
+Recursive Solution Highlights:
+- set left and right values
+- translate to a comparable string by recursively moving if it is not in LETTERS (set of ascii values)
 
-### Student Code Review Presentation (Linked List - Insert) (20 min)
-Linked List Replace Highlights:
-- Run your personal code on your whiteboard diagram as student explains
-- discussion : difference between break and return.
-    - using return means the ValueError doesn't run if found.
-- What part of this code 'node=node.next' what is evaluated first?  
-    - need to evaluate the right hand side first before assignment.
-- Code doesn't use 'return self' because replace doesn't expect a return value.
+**Tips:**
+- Build example on the whiteboard showing how right and left move until they get to a letter and then do a compare.
+- Show the recursive stack unwinding on the whiteboard
 
-## Break (10 min)
+### Break (10 min)
+
+### Pair Code Review  (30 min)
+- Review your findIndex method with a partner.
+
+### Student Code Review Presentation (findIndex) (20 min)
+- Create a diagram of how it works in code comments for future reference and on the whiteboard
+
+EX: Check if "nas" is in "bananas"
+- letters of "bananas" for the labels of the columns
+- letters of "nas" labels of rows
+- loop through letters in bananas to check if "nas" is in "bananas"
+- if so will have one check per row under corresponding col of "bananas"
+
+
+    INITIAL MATRIX
+    [| |b|a|n|a|n|a|s|]
+    [|n| | | | | | | |]
+    [|a| | | | | | | |]
+    [|s| | | | | | | |]
+
+    MATRIX AFTER ALGORITHM
+    [| |b|a|n|a|n|a|s|]
+    [|n|X|X|O|X|O| | |]
+    [|a| | | |O| |O| |]
+    [|s| | | | |X| |O|]
+
+
+#### Complexity
+
+- Algorithm analysis - area of the rectangle (length of text * length of pattern) : O(nm)
+
+## Wrap Up (5 min)
+
+Go over the challenges for next class, and allow for clarifying questions.
+
+**Next topic: Arrays and Linked Lists**
+- Differences between Linked List and Array
+    - can access arbitrary address of array in constant time - so can find middle element with binary search.  
+    - In Linked List, you can't access the middle directly (have to traverse from beginning) so binary search would not work.
+- Similarity between Array and Linked List?
+    - they both are ordered
+    - both implements methods: insert, append, prepend, read
+- List Abstract Data Type - ADT
+    - Arrays and Linked List are concrete Data Structures that can implement the ADT / Interface / Protocol
 
 #### Preview of Challenges for next class (20 min):
-See slides and notes on next lesson (Stacks and Queues).
+Implement methods on linked list class so interface is the same as an array. [On repo - includes example, unit tests, starter code]
 
-Concrete Data Structures
-- in CS 1 you learned about Arrays - what are the two types? List is an ordered sequence of items you can store items in, add, remove, replace,
-- Abstract Data Structures: List (both arrays and LinkedLists are Concrete examples of the List ADT)
-(Whiteboard (Left is ADT | Concrete Data Type))
-ADT is like the API | Concrete is like backend - implementation details hidden from ADT (frontend)
-- An ADT is like an interface in Java, a protocol in Swift.
-- Types of arrays : dynamic, static
-- Types of linked lists: doubly linked, single linked
+##TT (from previous session)
+Stacks and Queues are abstract data types.  They can be implemented with an array or a linked list.  They share common methods like
+- isEmpty
+- isFull
+- size
+
+### Queue
+- A queue is a like a line
+    -enqueue : add to front of the List
+    -dequeue: remove from end of the list
+    -front: view the object at the front
+    -FIFO : first in first out
+- Real life examples:
+    - Priority Queue: covered in CS 2.1
+
+### Stack
+- A stack is like a set of plates you add and remove from the top.
+    - Push: add an object to the top
+    - Pop: remove top items
+    - Peek: view object on the top
+    - LIFO:
+- Real life examples:
+    - Function Stack: Function calls go on the stack, popped when the function returns.
+    - Stack trace: The call stack being displayed to your terminal.
 
 ## Resources
 - Review Make School's [array and linked list slides]
