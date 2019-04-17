@@ -9,7 +9,7 @@
 By the end of this lesson, students should be able to...
 
 1. Compare and contrast iterative and recursive implementations of a function
-1. Compre and contrast linear and binary search
+1. Compare and contrast linear and binary search
 1. Practice algorithm analysis to find the running time of the algorithm
 
 ## Minute-by-Minute
@@ -53,7 +53,7 @@ Tips
 
 ## Code Review Presentation (30 min)
 
-- Chosen students present their solutions for Decode and Encode 
+- Chosen students present their solutions for Decode and Encode
 - After presenting, the instructor goes over the solution in detail on a white board
 
 **Tip:** Make a table to help walk through iterations of a for loop. This can help with mapping out predictions of what you expect the code to output.

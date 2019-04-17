@@ -1,0 +1,67 @@
+## Start of class
+- Find a partner - discuss palindrome notes
+- [1:33] spend 15 minutes working with someone on palindrome - did they do it differently than you (iterative vs recursive)
+- [1:50] One student selected (review palindrome checker ) - code on screen (really hard to read)
+    - on line 31 : remove ... replace space with "", lower case.  Find left and right bound then compare left to right - if not same done - if all same - return true
+- Alan - run through a small example -
+    - "What does translator method do"  .  Alan put example on board
+        - "Taco? Cat!" ->"Taco Cat" -> "TacoCat" -> "tacocat"
+    -  Example of loop arrow pointing to comparisons t to t, a to a, c to c, o (middle)
+    - look at < vs <= to show both work in this case - discussed how provided unit tests of even and odd length words to test boundary case.
+(meta) - by writing on the whiteboard Alan demonstrates best practices of whiteboard diagramming and pseudocode - good for tech interview.
+- Medi - why organized in this way? - only have to look at 1/2 the string, not every character. n/2 iterations (big O)
+- Asked class for feedback on Medi's code:
+    - Like: well commented, chunked,
+    - Improved: complexity - maketrans makes a dictionary - not optimal
+
+- [2:09] Complexity -
+    - can we separate preamble (translator creation) from input (string) dependent code? (yes).  Thus not calling a method every time when not needed.
+    - can you optimize by .lower on letter inside the conditional - does this work with order of operations? (yes values are computed before compared)
+[2:13] Another student (Stephen) - show the recursive solution
+    - set left and right values
+    - clean by recursively moving if it is not in LETTERS (set of ascii values)
+-Alan - walked through example on the whiteboard showing how right and left move until they get to a letter and then do a compare.
+[SUGGESTION] - show the recursive stack unwinding on the whiteboard - ended up pointing to a lot of code to discuss - this is better to show with a diagram.
+- feedback from students
+    - Like: is check before lower more efficient? (Alan: can make a worst case example - pathological input - where it is less efficient)
+    - Like - use of LETTERS set and ignoring instead of translating (Alan: lack of . (ie method call) improves speed - calling built in functions increases time and space complexity)
+
+-[2:30] Break
+-[2:35] 30 min - work in pairs to code review their implementation of findIndex function- [meta : lively conversation. ]
+- [2:50] Student (Nolan) demo their code
+
+    - here's a diagram of how this works (in code comments)
+    - didn't comment a loop so had to re-remember what it did while explaining (Alan: always comment your code)
+    - Alan on whiteboard at same time drew two 2 grid to check if "nas" is in "bananas" - letters of "bananas" for the labels of the columns "nas" labels of rows - as we loop through letters in bananas we check if "nas" is in there - if so will have one check per row under corresponding col of "bananas"
+    INITIAL MATRIX
+    [| |b|a|n|a|n|a|s|]
+    [|n| | | | | | | |]
+    [|a| | | | | | | |]
+    [|s| | | | | | | |]
+
+    MATRIX AFTER ALGORITHM
+    [| |b|a|n|a|n|a|s|]
+    [|n|X|X|O|X|O| | |]
+    [|a| | | |O| |O| |]
+    [|s| | | | |X| |O|]
+
+- [SUGGESTION] Student and Alan speaking during the code review is still very passive.  Have them do the diagram Alan presented on the board in a worksheet - walk around and support.
+- [3:08] Feedback on Nolan's code (from students)
+    - Like: very clean, picture in code is useful,
+    - Improve: variable names, add comments
+
+- [NOTE] General: In code reviews - suggests other students use what is being presented to improve their own code - (good but is this code being graded? would expect the entire class to have similar code at the end)
+
+- [3:12] Are there functions we can't use? (standard one liners)
+- Algorithm analysis - area of the rectangle (length of text * length of pattern) : O(nm)
+
+- Next topic: Remember a difference between Linked List and Array
+    - can access arbitrary address of array in constant time - so can find middle element with binary search.  In Linked List, you can't access the middle directly (have to traverse from beginning) so binary search would not work.
+    - (called on Erika) What's similarity between array and Linked List?
+        - they both are ordered
+    - Alan : here are other ways they are similarity
+        - insert, append, prepend, read
+    - List Abstract Data Type - ADT
+        - arrays, LinkedList are concrete Data Structors that can implement the ADT / Interface / Protocol
+    - Challenges: Implement methods on linked list class so interface is the same as an array. [On repo - includes example, unit tests, starter code]
+- hand back homework

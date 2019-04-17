@@ -15,7 +15,7 @@
 
 ## Learning Objectives (5 min)
 
-**NOTE: Fill in with the appropriate items**
+
 
 By this end of this lesson, students should be able to...
 
@@ -26,6 +26,34 @@ By this end of this lesson, students should be able to...
 - Compare [abstract data types] and [concrete data structures][data structures]
 - Abstract data types: [list], [stack], [queue], [deque (double-ended queue)][deque]
 - Concrete data structures: [array], [dynamic array (resizable array, vector)][dynamic array], [linked list]
+
+##TT (from previous session)
+Stacks and Queues are abstract data types.  They can be implemented with an array or a linked list.  They share common methods like
+- isEmpty
+- isFull
+- size
+
+### Queue
+- A queue is a like a line
+    -enqueue : add to front of the List
+    -dequeue: remove from end of the list
+    -front: view the object at the front
+    -FIFO : first in first out
+- Real life examples:
+    - Priority Queue: covered in CS 2.1
+
+### Stack
+- A stack is like a set of plates you add and remove from the top.
+    - Push: add an object to the top
+    - Pop: remove top items
+    - Peek: view object on the top
+    - LIFO:
+- Real life examples:
+    - Function Stack: Function calls go on the stack, popped when the function returns.
+    - Stack trace: The call stack being displayed to your terminal.
+
+
+
 
 ## Resources
 - Review Make School's [stack and queue slides]
