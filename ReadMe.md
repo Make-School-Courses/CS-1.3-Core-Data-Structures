@@ -42,11 +42,11 @@ Students by the end of the course will be able to ...
 **Class Times:** Monday and Wednesday at 1:30-3:20pm **and** 3:30–5:20pm (14 class sessions)
 
 
-| Class |          Date          |                  Topics                    |
-|:-----:|:----------------------:|:------------------------------------------:|
-|   1   |    Monday, April 1     | [Number Bases](Lessons/Class1.md)                  |
-|   2   |    Wednesday, April 3  | [Recursion & Search Algorithms](Lessons/Class2.md) |
-|   3   |    Monday, April 8     | [String Algorithms](Lessons/Class3.md)             |
+| Class |          Date          |  Review of Prior Topic | New Topic / Challenges       |
+|:-----:|:----------------------:|:------------------------------------------:| :------- |
+|   1   |    Monday, April 1     |      -            | [Number Bases](Lessons/Class1.md) |
+|   2   |    Wednesday, April 3  | [Number Bases Review](Lessons/Class1.md#code-review-in-pairs-25-min) | [Recursion & Search Algorithms](Lessons/Class2.md) |
+|   3   |    Monday, April 8     | [Recursion & Search Algorithms Review](Lessons/Class2.md#code-review-in-pairs-80-min) |[String Algorithms](Lessons/Class3.md)             |
 |   4   |    Wednesday, April 10 | [Arrays & Linked Lists](Lessons/Class4.md)         |
 |   5   |    Monday, April 15    | [Lists, Stacks & Queues](Lessons/Class5.md)        |
 |   6   |    Wednesday, April 17 | [Maps & Hash Tables](Lessons/Class6.md)            |

@@ -12,7 +12,7 @@ By this end of this lesson, students should be able to...
 1. Practice more advanced techniques with lists and arrays
 1. Implement list manipulation methods such as insert and replace
 
-## Minute-by-Minute
+<!--## Minute-by-Minute
 
 | **Elapsed** | **Time**  | **Activity**              |
 | ----------- | --------- | ------------------------- |
@@ -21,115 +21,7 @@ By this end of this lesson, students should be able to...
 | 1:35        | 0:10      | Break      |
 | 1:45        | 0:05      | Wrap up      |
 | TOTAL       | 1:50      |                           |
-
-## Progress Tracker (3 min)
-
-- Fill out attendance, challenges completed, etc.
-
-## Palindromes (15 min)
-- Discuss Palindrome Notes with a partner.  Compare iterative and recursive solutions.
-
-## Code Review + Presentations (80 min)
-### Student Code Review Presentation (Palindrome) (20 min)
-Iterative Solution Highlights:
-- Find left and right bound then compare left to right
-    - if not same done
-    - if all same - return true
-- Run through a small example on the board of a translator method to translate string to comparable string.
-`"Taco? Cat!" ->"Taco Cat" -> "TacoCat" -> "tacocat"`
--  Example of loop: draw an arrow pointing to comparisons t to t, a to a, c to c, o (middle)
-- look at < vs <= to show both work in this case
-- unit tests of even and odd length words test boundary cases.
-
-#### Complexity (5 min)
-- What is the complexity of the iterative solution?
-    - Only have to look at 1/2 the string, not every character. n/2 iterations `O(n^2)`
-- Separate preamble (translator creation) from input (string) dependent code.  Thus not calling a method every time when not needed.
-- Optimize by `.lower` on letter inside the conditional.
-    - does this work with order of operations? (yes values are computed before compared)
-
-### Student Code Review Presentation (Palindrome - Recursive) (15 min)
-Recursive Solution Highlights:
-- set left and right values
-- translate to a comparable string by recursively moving if it is not in LETTERS (set of ascii values)
-
-**Tips:**
-- Build example on the whiteboard showing how right and left move until they get to a letter and then do a compare.
-- Show the recursive stack unwinding on the whiteboard
-
-### Break (10 min)
-
-### Pair Code Review  (30 min)
-- Review your findIndex method with a partner.
-
-### Student Code Review Presentation (findIndex) (20 min)
-- Create a diagram of how it works in code comments for future reference and on the whiteboard
-
-EX: Check if "nas" is in "bananas"
-- letters of "bananas" for the labels of the columns
-- letters of "nas" labels of rows
-- loop through letters in bananas to check if "nas" is in "bananas"
-- if so will have one check per row under corresponding col of "bananas"
-
-```
-    INITIAL MATRIX
-    [| |b|a|n|a|n|a|s|]
-    [|n| | | | | | | |]
-    [|a| | | | | | | |]
-    [|s| | | | | | | |]
-
-    MATRIX AFTER ALGORITHM
-    [| |b|a|n|a|n|a|s|]
-    [|n|X|X|O|X|O| | |]
-    [|a| | | |O| |O| |]
-    [|s| | | | |X| |O|]
-```
-
-#### Complexity
-
-- Algorithm analysis - area of the rectangle (length of text * length of pattern) : O(nm)
-
-## Wrap Up (5 min)
-
-Go over the challenges for next class, and allow for clarifying questions.
-
-**Next topic: Arrays and Linked Lists**
-- Differences between Linked List and Array
-    - can access arbitrary address of array in constant time - so can find middle element with binary search.  
-    - In Linked List, you can't access the middle directly (have to traverse from beginning) so binary search would not work.
-- Similarity between Array and Linked List?
-    - they both are ordered
-    - both implements methods: insert, append, prepend, read
-- List Abstract Data Type - ADT
-    - Arrays and Linked List are concrete Data Structures that can implement the ADT / Interface / Protocol
-
-#### Preview of Challenges for next class (20 min):
-Implement methods on linked list class so interface is the same as an array. [On repo - includes example, unit tests, starter code]
-
-##TT (from previous session)
-Stacks and Queues are abstract data types.  They can be implemented with an array or a linked list.  They share common methods like
-- isEmpty
-- isFull
-- size
-
-### Queue
-- A queue is a like a line
-    -enqueue : add to front of the List
-    -dequeue: remove from end of the list
-    -front: view the object at the front
-    -FIFO : first in first out
-- Real life examples:
-    - Priority Queue: covered in CS 2.1
-
-### Stack
-- A stack is like a set of plates you add and remove from the top.
-    - Push: add an object to the top
-    - Pop: remove top items
-    - Peek: view object on the top
-    - LIFO:
-- Real life examples:
-    - Function Stack: Function calls go on the stack, popped when the function returns.
-    - Stack trace: The call stack being displayed to your terminal.
+-->
 
 ## Resources
 - Review Make School's [array and linked list slides]
@@ -149,11 +41,29 @@ Stacks and Queues are abstract data types.  They can be implemented with an arra
     - Run `pytest linkedlist_test.py` to run the [linked list unit tests] and fix any failures
 - Annotate methods with complexity analysis of running time and space (memory)
 
-### Stretch Challenges
+## Stretch Challenges
 - Implement `DoublyLinkedList` class with `BinaryNode` objects, which have both `next` and `previous` properties
 - Write unit tests for to ensure the `DoublyLinkedList` class is robust
     - Include test cases for each class instance method and property
 - Annotate methods with complexity analysis of running time and space (memory)
+
+## Progress Tracker (3 min)
+
+- Fill out attendance, challenges completed, etc.
+
+## Arrays and Linked Lists (5 min)
+
+- Differences between Linked List and Array
+    - can access arbitrary address of array in constant time - so can find middle element with binary search.  
+    - In Linked List, you can't access the middle directly (have to traverse from beginning) so binary search would not work.
+- Similarity between Array and Linked List?
+    - they both are ordered
+    - both implements methods: insert, append, prepend, read
+- List Abstract Data Type - ADT
+    - Arrays and Linked List are concrete Data Structures that can implement the ADT / Interface / Protocol
+
+#### Preview of Challenges for next class (20 min):
+Implement methods on linked list class so interface is the same as an array. [On repo - includes example, unit tests, starter code]
 
 
 [abstract data types]: https://en.wikipedia.org/wiki/Abstract_data_type

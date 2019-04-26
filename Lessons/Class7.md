@@ -13,7 +13,41 @@ By this end of this lesson, students should be able to...
 - Concrete data structures: [hash table], [circular buffer (circular queue, ring buffer)][circular buffer]
 - [Set operations]
 
-## Minute-by-Minute
+## Resources
+- Read Vaidehi Joshi's [article on sets and their use in databases][BaseCS sets] with beautiful drawings and excellent examples
+
+## Challenges
+- Implement `Set` class (abstract data type backed by data structure of your choice) with the following [set operations] as instance methods and properties:
+    - `__init__(elements=None)` - initialize a new empty set structure, and add each element if a sequence is given
+    - `size` - property that tracks the number of elements in constant time
+    - `contains(element)` - return a boolean indicating whether `element` is in this set
+    - `add(element)` - add `element` to this set, if not present already
+    - `remove(element)` - remove `element` from this set, if present, or else raise `KeyError`
+    - `union(other_set)` - return a new set that is the union of this set and `other_set`
+    - `intersection(other_set)` - return a new set that is the intersection of this set and `other_set`
+    - `difference(other_set)` - return a new set that is the difference of this set and `other_set`
+    - `is_subset(other_set)` - return a boolean indicating whether `other_set` is a subset of this set
+- Write unit tests to ensure the `Set` class is robust
+    - Include test cases for each class instance method
+- Annotate all instance methods with complexity analysis of running time and space (memory)
+- Compare the behaviors of your `Set` class to those of the [Python `set` type] and [Swift `Set` type]
+
+## Stretch Challenges
+- Implement `CircularBuffer` class (backed by dynamic array) with the following instance methods and properties:
+    - `__init__(max_size)` - initialize a new circular buffer that can store at most `max_size` items
+    - `size` - property that tracks the number of items in the buffer
+    - `is_empty` - check if the buffer is empty
+    - `is_full` - check if the buffer is full
+    - `enqueue(item)` - insert `item` at the back of the buffer
+    - `front` - return the item at the front of the buffer
+    - `dequeue` - remove and return the item at the front of the buffer
+- Annotate `enqueue` and `dequeue` methods with running time complexity analysis
+- Write unit tests to ensure the `CircularBuffer` class is robust
+    - Include test cases for each class instance method and property
+- Annotate `enqueue` and `dequeue` methods with running time complexity analysis
+
+
+<!--## Minute-by-Minute
 
 | **Elapsed** | **Time**  | **Activity**              |
 | ----------- | --------- | ------------------------- |
@@ -21,72 +55,7 @@ By this end of this lesson, students should be able to...
 | 0:35        | 0:45      | Code Review                  |
 | 1:20        | 0:10      | Break       |
 | 1:30        | 0:20      | TT - Sets                     |
-| TOTAL       | 1:50      |                           |
-
-
-## Activity - Drawing a Hashtable  (35 min)
-
-### Part 1 (20 minutes)
-Grab individual whiteboards and markers
-
-Draw a hash table with the entries below, showing how it's organized in memory.
-
-- There must be `b=5` buckets and each bucket is a linked list
-- Use slides/diagrams from the previous class to help you
-
-| **Key** | **Hash**  | **Value**   |
-| ----------- | --------- | ------- |
-| red         | 760       | 1       |
-| green       | 394       | 4       |
-| orange      | 893       | 2       |
-| violet      | 491       | 7       |
-| yellow      | 622       | 3       |
-| blue        | 468       | 5       |
-| indigo      | 186       | 6       |
-
-Finish on your own, then share and discuss with your neighbors. Talk to as many people as you can!
-
-**TIP:** The reason there are 5 buckets is that it allows you to take a shortcut when you try to calculate the index of where that key/value pair should land: you only need to look at the last digit, as that's the only one that matters when you `mod` by 5
-
-- example: `8 mod 5 = 3`
-- Remember that `mod` means you divide and keep the remainder (i.e. `8/5` has a remainder of 3)
-
-### Part 2 (15 min)
-
-Now calculcate the **load factor** of this hash table.
-
-- Is it beyond the threshold (`0.75`) that triggers a resize?
-- If so, perform a resize by doubling the number of buckets and reshashing all key-value entries
-- Draw a new diagram showing how the key-value entries are now organized in buckets
-
-Once you're finished, discuss with your neighbors. Make sure to discuss if the load factor is bigger, how will it affect performance?
-
-## Code Review (45 min)
-
-### Review with Peers (15 min)
-
-1. Go to the Hashtable class and review the `load factor` method 
-1. Review the `resize` method, then see where it's called
-    - **Note:** We use `_` to denote private methods in Python
-
-### Student Presentation (30 min)
-
-Student presents their answer to the challenges
-
-**Tips/Highlights from the presentation**
-
-- Look at other areas of the starter code to give you hints (i.e. how something may be called or initialized)
-- `init` is called when you create a new object, but isn't _only_ called then. Be sure to comment though, since you're using `init` in a non-traditional way
-- Look for opprotunities to reuse code you've already written
-- Runtime analysis
-    - the `.items` method of the hashtable class takes `b` time, since it iterates over all buckets
-        - `.extend` method is to arrays like `+` is to strings. This takes `l2` time since we're appending each item in the second list to the first list
-            - note that if you extend an array with an empty array, it's the same as doing nothing
-        - `.append` happens in constant time
-        - therefore takes `O(n)` time, where `n` is the number of items in the hashtable
-    - `init` depends on `new_size`, which takes `2b` --> `O(b)` time and space
-    - Final step is a `for` loop that runs the length of `current_entries` --> `n` --> `O(n)`, and we know `.set` is constant time
-    - **`O(b) + O(n) + O(n)` --> `O(2n + b)` --> `O(n + b)` --> `O(b)` (with assumption of resize)**
+| TOTAL       | 1:50      |                           |-->
 
 ## Break (10 min)
 
@@ -137,40 +106,6 @@ Therefore, we could use a **hashtable** to implement a set. However, we could al
 - Do the `Set` challenges (should have at least `contains`, `add`, `remove`, and one of the methods that use a `set` as an input by next class)
 - Write unit tests for your challenges (write the first few before you begin the challenges)
     - Review past unit tests for previous challenges to see how to write them
-
-## Resources
-- Read Vaidehi Joshi's [article on sets and their use in databases][BaseCS sets] with beautiful drawings and excellent examples
-
-## Challenges
-- Implement `Set` class (abstract data type backed by data structure of your choice) with the following [set operations] as instance methods and properties:
-    - `__init__(elements=None)` - initialize a new empty set structure, and add each element if a sequence is given
-    - `size` - property that tracks the number of elements in constant time
-    - `contains(element)` - return a boolean indicating whether `element` is in this set
-    - `add(element)` - add `element` to this set, if not present already
-    - `remove(element)` - remove `element` from this set, if present, or else raise `KeyError`
-    - `union(other_set)` - return a new set that is the union of this set and `other_set`
-    - `intersection(other_set)` - return a new set that is the intersection of this set and `other_set`
-    - `difference(other_set)` - return a new set that is the difference of this set and `other_set`
-    - `is_subset(other_set)` - return a boolean indicating whether `other_set` is a subset of this set
-- Write unit tests to ensure the `Set` class is robust
-    - Include test cases for each class instance method
-- Annotate all instance methods with complexity analysis of running time and space (memory)
-- Compare the behaviors of your `Set` class to those of the [Python `set` type] and [Swift `Set` type]
-
-## Stretch Challenges
-- Implement `CircularBuffer` class (backed by dynamic array) with the following instance methods and properties:
-    - `__init__(max_size)` - initialize a new circular buffer that can store at most `max_size` items
-    - `size` - property that tracks the number of items in the buffer
-    - `is_empty` - check if the buffer is empty
-    - `is_full` - check if the buffer is full
-    - `enqueue(item)` - insert `item` at the back of the buffer
-    - `front` - return the item at the front of the buffer
-    - `dequeue` - remove and return the item at the front of the buffer
-- Annotate `enqueue` and `dequeue` methods with running time complexity analysis
-- Write unit tests to ensure the `CircularBuffer` class is robust
-    - Include test cases for each class instance method and property
-- Annotate `enqueue` and `dequeue` methods with running time complexity analysis
-
 
 [set]: https://en.wikipedia.org/wiki/Set_(abstract_data_type)
 [multiset]: https://en.wikipedia.org/wiki/Set_(abstract_data_type)#Multiset

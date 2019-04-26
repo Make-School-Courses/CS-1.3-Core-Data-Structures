@@ -4,7 +4,34 @@
 - Number bases: [decimal], [binary], [hexadecimal]
 - [Signed number representations]: signed magnitude, [ones' complement], [two's complement]
 
-## Minute-by-Minute
+## Resources
+- Review Make School's [slides on number bases][number bases slides]
+- Read BetterExplained's [article on number systems and bases][number bases article]
+- Read Vaidehi Joshi's [articles on binary][BaseCS binary] and [hexadecimal][BaseCS hexadecimal] with beautiful drawings and excellent examples
+- Play with Dan Wolff's live-updating [base conversion calculator]
+- Review Wikipedia's [comparison table] of signed number representations
+- Print and make a [Flippy Do] binary converter following Code.org's [instructions][Flippy Do instructions]
+- Watch Harvard's [hexadecimal video]
+- Watch Corey Schafer's [understanding bases video]
+- Watch Tech Quickie's [numbers and base systems video]
+- For a non-computer activity to help with binary conversion, do this [CS Unplugged Binary Card Activity](https://classic.csunplugged.org/wp-content/uploads/2014/12/unplugged-01-binary_numbers.pdf) at home!
+
+## Challenges
+- Practice binary and hexadecimal conversions on [number bases worksheet]
+- Implement base conversion functions for unsigned numbers using [starter code]:
+    - Implement `decode` - decode digits in any base to a number
+    - Implement `encode` - encode a number to digits in any base
+    - Implement `convert` - convert digits in any base to digits in any base
+    - Run `python bases.py number base1 base2` to test `convert` on `number`
+        - Example: `python bases.py 42 10 2` should give the result `101010`
+    - Run `pytest bases_test.py` to run the [unit tests] and fix any failures
+- Write additional unit tests to ensure your conversion algorithms are robust
+
+## Stretch Challenges
+- Implement base conversion for fractional numbers using a [radix point] (try playing with the [base conversion calculator] to see how this works)
+- Implement base conversion for negative binary numbers (using [two's complement])
+
+<!--## Minute-by-Minute
 
 | **Elapsed** | **Time**  | **Activity**              |
 | ----------- | --------- | ------------------------- |
@@ -17,7 +44,7 @@
 | 1:35        | 0:15      | Integers and Bases Worksheet Pt 2      |
 | 1:50        | 0:05      | Negative Numbers      |
 | 1:55        | 0:05      | Wrap up      |
-| TOTAL       | 2:00      |                           |
+| TOTAL       | 2:00      |                           |-->
 
 ## Factoid of the day (5 min)
 
@@ -176,32 +203,17 @@ There are a few different ways to represent negative numbers:
 1. Go over resources
 1. Present overview of the coding challenges due next class.
 
-## Resources
-- Review Make School's [slides on number bases][number bases slides]
-- Read BetterExplained's [article on number systems and bases][number bases article]
-- Read Vaidehi Joshi's [articles on binary][BaseCS binary] and [hexadecimal][BaseCS hexadecimal] with beautiful drawings and excellent examples
-- Play with Dan Wolff's live-updating [base conversion calculator]
-- Review Wikipedia's [comparison table] of signed number representations
-- Print and make a [Flippy Do] binary converter following Code.org's [instructions][Flippy Do instructions]
-- Watch Harvard's [hexadecimal video]
-- Watch Corey Schafer's [understanding bases video]
-- Watch Tech Quickie's [numbers and base systems video]
-- For a non-computer activity to help with binary conversion, do this [CS Unplugged Binary Card Activity](https://classic.csunplugged.org/wp-content/uploads/2014/12/unplugged-01-binary_numbers.pdf) at home!
+## Code Review in Pairs (25 min)
 
-## Challenges
-- Practice binary and hexadecimal conversions on [number bases worksheet]
-- Implement base conversion functions for unsigned numbers using [starter code]:
-    - Implement `decode` - decode digits in any base to a number
-    - Implement `encode` - encode a number to digits in any base
-    - Implement `convert` - convert digits in any base to digits in any base
-    - Run `python bases.py number base1 base2` to test `convert` on `number`
-        - Example: `python bases.py 42 10 2` should give the result `101010`
-    - Run `pytest bases_test.py` to run the [unit tests] and fix any failures
-- Write additional unit tests to ensure your conversion algorithms are robust
+- In groups of 2-3, go over solutions for the Decode and Encode coding challenges from last class
+- A few students will be chosen after to go up and present their solutions
 
-## Stretch Challenges
-- Implement base conversion for fractional numbers using a [radix point] (try playing with the [base conversion calculator] to see how this works)
-- Implement base conversion for negative binary numbers (using [two's complement])
+## Code Review Presentation (30 min)
+
+- Chosen students present their solutions for Decode and Encode
+- After presenting, the instructor goes over the solution in detail on a white board
+
+**Tip:** Make a table to help walk through iterations of a for loop. This can help with mapping out predictions of what you expect the code to output.
 
 
 [decimal]: https://en.wikipedia.org/wiki/Decimal

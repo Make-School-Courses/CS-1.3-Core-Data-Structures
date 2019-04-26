@@ -12,7 +12,34 @@ By the end of this lesson, students should be able to...
 1. Compare and contrast linear and binary search
 1. Practice algorithm analysis to find the running time of the algorithm
 
-## Minute-by-Minute
+## Resources
+- Review Make School's [algorithm analysis slides]
+- Read Vaidehi Joshi's [article on logarithms, binary search, and big O notation][BaseCS logarithms] with excellent, beautiful drawings
+- Read Interview Cake's [article on logarithms and binary search][logarithms article]
+- Read Interview Cake's [article on the idea behind big O notation][IC big O]
+- Read Stack Overflow's [plain English explanations of big O notation][SO big O]
+- Read Justin Abrams's [article on big O notation explained by a self-taught programmer][JA big O]
+- Watch HackerRank's [recursive algorithms video], [binary search algorithm video], and [big O notation video]
+- Watch Harvard's [old recursion video], [new recursion video], [stack frames video], [linear search video], [binary search video], [asymptotic notation video], and [computational complexity video]
+
+## Challenges
+- Implement iterative [factorial] function using [recursion starter code]:
+    - Implement `factorial(n)` - the product of all integers 1 through `n`
+    - Run `python recursion.py number` to test `factorial` on a number
+        - Example: `python recursion.py 8` gives the result `factorial(8) => 40320`
+    - Run `pytest recursion_test.py` to run the [recursion unit tests] and fix any failures
+- Implement recursive linear and binary search algorithms using [search starter code]:
+    - Implement `linear_search(array, item)` - the first index of `item` in `array`
+    - Implement `binary_search(array, item)` - the index of `item` in sorted `array`
+    - Run `pytest search_test.py` to run the [search unit tests] and fix any failures
+- Annotate functions with complexity analysis of running time and space (memory)
+
+## Stretch Challenges
+- Implement recursive [permutation] and [combination] functions
+- Make these functions efficient by avoiding repeated subproblems
+- Write your own unit tests to ensure your algorithms are robust
+
+<!--## Minute-by-Minute
 
 | **Elapsed** | **Time**  | **Activity**              |
 | ----------- | --------- | ------------------------- |
@@ -25,7 +52,7 @@ By the end of this lesson, students should be able to...
 | 1:45        | 0:10      | TT - Recursion       |
 | 1:55        | 0:04      | Recursive Binary Search Card Activity       |
 | 1:59        | 0:01      | Wrap up       |
-| TOTAL       | 2:00      |                           |
+| TOTAL       | 2:00      |                           |-->
 
 ## Progress Tracker (5 min)
 
@@ -45,20 +72,6 @@ Tips
     - Demonstrate on the whiteboard that for every bar (x) that you add, you get 2^x possible combinations
     - Binary and the Ching code can be seen as the same representation!
     - This means with 6 bars, we can represent 64 numbers!
-
-## Code Review in Pairs (25 min)
-
-- In groups of 2-3, go over solutions for the Decode and Encode coding challenges from last class
-- A few students will be chosen after to go up and present their solutions
-
-## Code Review Presentation (30 min)
-
-- Chosen students present their solutions for Decode and Encode
-- After presenting, the instructor goes over the solution in detail on a white board
-
-**Tip:** Make a table to help walk through iterations of a for loop. This can help with mapping out predictions of what you expect the code to output.
-
-## Break (5 min)
 
 ## Card Sorting Activity (25 min)
 
@@ -151,32 +164,119 @@ def factorial(n):
 
 Overview of challenges to work on for next class session
 
-## Resources
-- Review Make School's [algorithm analysis slides]
-- Read Vaidehi Joshi's [article on logarithms, binary search, and big O notation][BaseCS logarithms] with excellent, beautiful drawings
-- Read Interview Cake's [article on logarithms and binary search][logarithms article]
-- Read Interview Cake's [article on the idea behind big O notation][IC big O]
-- Read Stack Overflow's [plain English explanations of big O notation][SO big O]
-- Read Justin Abrams's [article on big O notation explained by a self-taught programmer][JA big O]
-- Watch HackerRank's [recursive algorithms video], [binary search algorithm video], and [big O notation video]
-- Watch Harvard's [old recursion video], [new recursion video], [stack frames video], [linear search video], [binary search video], [asymptotic notation video], and [computational complexity video]
+## Code Review + Presentations (80 min)
 
-### Challenges
-- Implement iterative [factorial] function using [recursion starter code]:
-    - Implement `factorial(n)` - the product of all integers 1 through `n`
-    - Run `python recursion.py number` to test `factorial` on a number
-        - Example: `python recursion.py 8` gives the result `factorial(8) => 40320`
-    - Run `pytest recursion_test.py` to run the [recursion unit tests] and fix any failures
-- Implement recursive linear and binary search algorithms using [search starter code]:
-    - Implement `linear_search(array, item)` - the first index of `item` in `array`
-    - Implement `binary_search(array, item)` - the index of `item` in sorted `array`
-    - Run `pytest search_test.py` to run the [search unit tests] and fix any failures
-- Annotate functions with complexity analysis of running time and space (memory)
+### Code Review in Pairs - Iterative Factorial (10 min)
 
-## Stretch Challenges
-- Implement recursive [permutation] and [combination] functions
-- Make these functions efficient by avoiding repeated subproblems
-- Write your own unit tests to ensure your algorithms are robust
+- In partners, go over solutions for the Iterative Factorial coding challenge from last class
+- Once each of you have discussed the problem, find a new partner, and trade approaches again to see more ways on how people went about the problem
+- A few students will be chosen after to go up and present their solutions
+
+### Code Review Presentation (15 min)
+
+Chosen students present their solutions for Iterative Factorial
+
+**Tips:**
+
+- Use two variables: One to track which number in the factorial you're looking at, and one to track the factorial (product) so far
+- It's important to start with 1 here, starting with 0 would screw it all up. Remember `0! = 1`
+- It's important to have a starting value, whether it's multiplication (starting at 1) or addtion (starting at 0)
+- Given `n` is the input number to the factorial function, you can start at `n` and move down to 1, or start from 1 and go up to `n`. Each approach is the same
+
+### Code Review in Pairs - Recursive Linear Search (5 min)
+
+- In partners, go over solutions for the Recursive Linear Search coding challenge from last class
+- Specifically, **look at what operators you're using** - are you doing things that could potentially slow your code down? Or speed it up?
+- Once each of you have discussed the problem, find a new partner, and trade approaches again to see more ways on how people went about the problem
+- A few students will be chosen after to go up and present their solutions
+
+### Code Review Presentation (15 min)
+
+Chosen students present their solutions for Recursive Linear Search
+
+**Tips:**
+
+- Notice the similar structures between the recursive and iterative solutions
+- Make sure you're checking for an invalid index for your array (remember this could happen both through the recursive call or through user input). Remember you need to check for _all valid array lengths_
+- Remember to comment your code to make it clear!
+- Can we do this without an index?
+    - Yes! through array slicing: `array[1:]`
+    - _But_ this is slow. Given `n` is the length of the array, it takes `n-1` steps to copy the array. Since this operation takes linear time, and we would have to call this operation a linear number of times, the algorithm would have a runtime of **n<sup>2</sup>**. Yikes!
+    - **Avoid slice operators for recursive code**. You run the risk of becoming [accidently quadratic](https://accidentallyquadratic.tumblr.com/)
+
+
+### Code Review in Pairs - Recursive/Iterative Binary Search (15 min)
+
+- In _new_ partners from the previous two code reviews, go over solutions for the Recursive/Iterative Binary Search coding challenge from last class
+- Once each of you have discussed the problem, find a new partner, and trade approaches again to see more ways on how people went about the problem
+- A few students will be chosen after to go up and present their solutions
+
+### Code Review Presentation - Iterative Binary Search (10 min)
+
+Chosen students present their solutions for Iterative Binary Search
+
+**Tips:**
+
+- Using multiple indexes (i.e. `left` starting at the beginning of the array, `right` starting at the end) is fine, but once they _meet or cross over_, some action should take place
+- Once an item in the array has been checked to see if it matches, you shouldn't search over that item again
+- What do you return if you _can't_ find the item?
+- Make sure you are guaranteed an _integer_ value when finding the median in the array
+
+
+### Code Review Presentation - Recursive Binary Search (10 min)
+
+Chosen students present their solutions for Iterative Binary Search
+
+**Tips:**
+
+- If you can't calculate the value of a parameter in the function definition, set it to `none`, and then calculate it in the function when you have access to what you need
+- The iterative solution's looping conditional _should be the same_ as the base case of recursive solution
+- Compare your iterative/recursive solutions and see where they're the same or differ
+    - Almost every line of code can be matched between the two algorithms
+    - The loop in the iterative solution iterative will be called the same number of times as the number of recursive calls in the recursives solution
+    - **Runtime should not differ here for this function**
+
+## TT - Algorithm Analysis (10 min)
+
+![linear vs binary search](assets/binary-and-linear-search-animations.gif)
+
+Credit to [Mathwarehouse](https://www.mathwarehouse.com/programming/gifs/binary-vs-linear-search.php) for the animation!
+
+### Linear Search
+
+- **Best case:** The item we're looking for is the first one in the list: `O(1)`
+    - Contant time since we only have to do 1 operation regardless of the length of the list
+- **Worst case:** The item we're looking for is at the end of the list: `O(n)`
+    - Where `n` is the number of items in the array
+    - Linear time since we may have to search the length of the list to find the item.
+- This is why it is called _linear_ search. It takes _linear_ time!
+- You don't need to make any assumptions about the input: sorted and unsorted both have the same runtime
+- This is slower though than other algorithms
+
+### Binary Search
+
+- **Best case:** The item we're looking for is exactly in the middle: `O(1)`
+    - Never examine data, just checked the middle and found it
+    -  `O(1)` space too, since it's just local variables
+- **Worst case:** The item we're looking for is first, last, or one off from the median in the array: Given `n` is the length of the input array, `O(log(n))`
+    - We're _splitting the array in half_ each time until we have 1 item.
+    - **If you double the length of the array, in the worst case, you only increase the number of steps it takes to find the item by one**
+        - i.e. a 7 item array takes at most 3 steps to find the item. A 14 item array would take at most 4 steps (try it out yourself!)
+- This algorithm runs _really_ fast, but only works if the array is _sorted_
+
+### Graph It
+
+- Binary search has _constant run-time operations_ for checking for the target item and changing pointers
+- Given `n` is the length of the array, our range of items that we're searching through goes from `n` --> `n/2` --> `n/4` --> ... 1
+    - i.e. for a 7 item list, our number of items that we need to look through goes from 7 --> 3 --> 1
+- This follows the **log function**
+    - This is a slow growing function because we are _dividing by two_ as we grow
+- Exponent and log are **inverses** of each other - exponent is fast growing (doubles), log is slow growing (halves)
+
+See the graph below to compare exponent, linear, and log:
+
+![graph](assets/algorithm_graphs.jpg)
+
 
 
 [iteration]: https://en.wikipedia.org/wiki/Iteration
