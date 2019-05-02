@@ -1,21 +1,6 @@
 # Class 9: Tree Traversals
 
-## Minute-by-Minute [OPTIONAL]
-
-**NOTE: Fill in with the appropriate items**
-
-| **Elapsed** | **Time**  | **Activity**              |
-| ----------- | --------- | ------------------------- |
-| 0:00        | 0:05      | Objectives                |
-| 0:05        | 0:15      | Overview                  |
-| 0:20        | 0:45      | In Class Activity I       |
-| 1:05        | 0:10      | BREAK                     |
-| 1:15        | 0:45      | In Class Activity II      |
-| TOTAL       | 2:00      |                           |
-
-## Learning Objectives (5 min)
-
-**NOTE: Fill in with the appropriate items**
+## Learning Objectives
 
 By this end of this lesson, students should be able to...
 
@@ -67,6 +52,60 @@ By this end of this lesson, students should be able to...
     - Include test cases for each class instance method
 - Annotate class instance methods with complexity analysis of running time and space (memory)
 - Compare the behaviors of your `TreeMap` class to those of the `HashTable` class and the [Python `dict` type]
+
+## TT - Tree Traversals (20 min)
+
+![tree-traversals](./assets/tree-traversals.png)
+
+See [slides](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/blob/master/Lessons/slides/TreeTraversals.pdf)
+
+- What if you wanted to have a tree give all of its elements, instead of just one in particular?
+- The goal of a traversal is to **visit** each node once and only once. Whatever action you do on a visit is arbitrary.
+- You can **traverese either left or right** down sub-trees of a tree
+- For convention, we always traverse from left to right
+- There are two main ways to traverse: **Depth-first search (DFS) or Breadth-first search (BFS)**
+    - DFS visits a child and then descendents - you drill down one side of the tree, gradually making your way from left to right
+    - BFS vists across levels - vist all siblings before going deeper into the tree
+
+### DFS
+
+Within DFS we can visit nodes in three different ways: 
+
+1. **In-order**
+1. **Pre-order**
+1. **Post-order**
+
+#### In-order
+
+Make sure everything in the left sub-tree is visited first before the parent, then visit the parent, then visit everything in the right sub-tree. Walk through the traversal on the slides for details
+
+#### Worksheet Part 2
+
+Do the first row of the worksheet for DFS in-order
+
+#### Pre-Order
+Same as in-order, but visit first before exploring the left sub-tree. Visit node, explore the left-sub tree as far as you can, visiting each node you get to, and then do the same for the right sub-tree. Walk through the traversal on the slides for details
+
+#### Worksheet Part 2
+
+Fill in second row of the worksheet
+
+#### Post-order
+
+Traverse left sub-tree as far as you can, then the right-subtree as far as you can, and then finally visit the node when you can't traverse further. Walk through the traversal on the slides for details
+
+#### Worksheet Part 2
+
+Fill in third row of the worksheet
+
+### BFS
+
+- Vist from the root down to the leaves, left to right, one horizontal layer/level at a time
+- Use a queue that we `enqueue` and `dequeue` to explore nodes
+
+### Worksheet Part 2
+
+Fill in fourth row of the worksheet
 
 
 [tree traversal]: https://en.wikipedia.org/wiki/Tree_traversal

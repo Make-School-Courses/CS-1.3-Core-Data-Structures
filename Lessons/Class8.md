@@ -1,21 +1,6 @@
 # Class 8: Trees & Binary Search Trees
 
-## Minute-by-Minute [OPTIONAL]
-
-**NOTE: Fill in with the appropriate items**
-
-| **Elapsed** | **Time**  | **Activity**              |
-| ----------- | --------- | ------------------------- |
-| 0:00        | 0:05      | Objectives                |
-| 0:05        | 0:15      | Overview                  |
-| 0:20        | 0:45      | In Class Activity I       |
-| 1:05        | 0:10      | BREAK                     |
-| 1:15        | 0:45      | In Class Activity II      |
-| TOTAL       | 2:00      |                           |
-
 ## Learning Objectives (5 min)
-
-**NOTE: Fill in with the appropriate items**
 
 By this end of this lesson, students should be able to...
 
@@ -69,6 +54,69 @@ By this end of this lesson, students should be able to...
 - Write additional unit tests for the `BinarySearchTree` class
     - Include several test cases for the `delete` instance method covering each case handled by the algorithm
 - Implement binary search tree with singly linked list nodes (having only one link to another node) instead of binary tree nodes (having two links to other nodes)
+
+## TODO: Intro for New Topic / Challenges from previous class
+
+## Update Tracker (5 min)
+
+Attendance, challenges, etc.
+
+## Code Review (45 min)
+
+- Those who have completed challenges, review
+- Those who haven't work in pairs on the challenges
+- After you review the `BinaryTreeNode` challenges, make sure to review the `contains` and `search` challenges for `BinarySearchTree`
+
+**SUGGESTION** - this was really long, and had no come together moment, what was the point of this? what did they learn from this? Maybe have someone whiteboard their solution to one of the challenges?
+
+## Break (5 min)
+
+## Tree and Tree Traversals Worksheet - Part 1 (20 min)
+
+**Goal:** how does this search work in english/pseudocode and not just in the constructs of code. 
+
+Close computers and fill out the [Tree and Tree Traversals](https://docs.google.com/document/d/1umPyF-peixfVt0Wk6l4wg3l9NTfCI5Zr_6h937ejJsk/edit?usp=sharing) worksheet
+
+**TIPS**
+
+- Read the instructions carefully: if it's underlined, that means it's _really important_
+- Part 2 will be covered later, don't work on that right now
+- Should not need helper functions, `search` requires only one pseudocode function
+- `Search` should return the value found or `none` if it can't find the value
+
+Once you've finished Part 1 of the worksheet, work in groups of 2-3 and discuss your work. Swap pseudocode with each other and see if it works.
+
+After the discussion, talk with your partner/group about what changes would you need to make to your `search` pseudocode in order to _insert_ a new element into your tree?
+
+## TT - Search/Insertion/Deletion for Trees/Binary Search Trees (20 min)
+
+See [slides](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/blob/master/Lessons/slides/Trees.pdf) from `SEARCH` through `TWO CHILDREN`
+
+**Note:** It is possible to have duplicates in a tree, but make sure to have conventions for it (i.e. equal values always go to the left side)
+
+Deletion has 3 distinct cases on how to approach it once you find the value you're searching for:
+
+1. No children
+1. One child
+1. Two children
+
+**No children:** cut it off from it's parent, and you're done 
+
+**One child:** You'll need to rearrange some pointers. For the node `n` that you're deleting, have its parent point to `n`'s child, which will cut out `n` from the tree
+
+- similar to deleting in a linked list: we need to know the previous value, and then rewrite the links to avoid the value we're deleting
+
+**Two children:** moving values to maintain balance/sorted order within the tree. This may even mean pulling up a new root from one of the child nodes in order to maintain balance and sorting 
+    
+- Remember binary trees are always sorted: smaller on the left, larger on the right
+
+Insertion and deletion both require first searching through the tree to find where to insert or delete the item. Discuss what the runtime is for search/insertion/deletion with a partner. Remember that all discussion and notes below are under the assumption that the tree is **balanced**
+    
+- Searching for an item: **`O(log n)`, where `n` is the number of nodes in the tree.** We're only looking through half the tree since we can always ignore the right or left sub-tree
+- Height of tree is also `log n`. We can call height `h`
+- `n = 2^(h+1) - 1 = 2^(h)`. At each level, you add twice as many nodes each time
+- Insertion and deletion are also `O(log n)` if balanced. But what if it's not balanced?
+- In a poorly balanced tree, runtime will trend towards `O(n)`
 
 
 [tree]: https://en.wikipedia.org/wiki/Tree_(data_structure)

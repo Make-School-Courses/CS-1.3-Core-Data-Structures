@@ -52,9 +52,9 @@ Students by the end of the course will be able to ...
 |   6   |    Wednesday, April 17 | [Lists, Stacks & Queues Review](Lessons/Class5.md#activity---stacks-and-queues-worksheet---overview--15-min)        |[Maps & Hash Tables](Lessons/Class6.md)            |
 |   7   |    Monday, April 22    | [Maps & Hash Tables Review](Lessons/Class6.md#activity---drawing-a-hashtable--35-min)            |[Sets & Circular Buffers](Lessons/Class7.md)       |
 |   8   |    Wednesday, April 24 | [Sets & Circular Buffers Review](Lessons/Class7.md)       | Sets Continued + Technical Article Peer Review     |
-|   9   |    Monday, April 29    | [Trees & Binary Search Trees](Lessons/Class8.md)   |
-|  10   |    Wednesday, May 1    | [Tree Traversals](Lessons/Class9.md)               |
-|  11   |    Monday, May 6       | [Call Routing Project](project/Project.md)         |
+|   9   |    Monday, April 29    | Sets Continued Review   | [Trees & Binary Search Trees](Lessons/Class8.md)
+|  10   |    Wednesday, May 1    | [Trees & Binary Search Trees Review](Lessons/Class8.md)               | [Tree Traversals](Lessons/Class9.md)
+|  11   |    Monday, May 6       | [Tree Traversals](Lessons/Class9.md)         | [Call Routing Project](project/Project.md)
 |  12   |    Wednesday, May 8    |       N/A            |Call Routing Project Code Review                   |
 |  13   |    Monday, May 13      |       N/A            |Call Routing Project Presentations                 |
 |  14   |    Wednesday, May 15   |       N/A            |Final Exam                                         |
