@@ -104,15 +104,15 @@ By this end of this lesson, students should be able to...
     - only allocates memory as it's needed.  Doesn't have to reallocate memory
 
 - Note: When discussing time and space complexity of algorithms, `log n` usually means `log base 2 n` ( but the 2 is sometimes left off).
-    - Recall the binary logarithm formula is the power by which 2 must be raised by to obtain n. [INSERT SLIDE]
+    - Recall the binary logarithm formula is the power by which 2 must be raised by to obtain n. [See Slides](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/blob/dual-format/Lessons/slides/Trees.pdf)
 
 
 - Why is `log n` really fast?
     - Imagine a BST with `2^32` nodes = (4.29 billion). This is a REALLY big number but can be represented by a tree that is only 32 levels deep.  So a search will only visit a maximum of 32 nodes to find the node containing the data we're looking for (assuming perfectly balanced).
 
-- Insertion (see slides)
+- Insertion [See Slides](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/blob/dual-format/Lessons/slides/Trees.pdf)
 
-- Deletion (see slides)
+- Deletion [See Slides](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/blob/dual-format/Lessons/slides/Trees.pdf)
 
 
 ## Update Tracker (5 min)
