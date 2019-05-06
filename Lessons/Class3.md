@@ -14,19 +14,69 @@ By this end of this lesson, students should be able to...
 1. Explain various string algorithms such as searching and permutation
 1. Practice writing unit tests for their code
 
-## Minute-by-Minute
+## Resources
+- Read Stack Overflow's answers to the question "[What is unit testing?]"
+- Read The Hitchhiker's Guide to Python's tutorial on [testing your code]
+- Consult documentation for Python's [`unittest` module] and [`pytest` tool]
+- Play around with Wordsmith's [Internet Anagram Server]
+- Watch HackerRank's [anagram problem solution video]
+
+## Challenges
+- Implement palindrome checking functions using [palindromes starter code]:
+    - Implement `is_palindrome_iterative` - iterative version of `is_palindrome`
+    - Implement `is_palindrome_recursive` - recursive version of `is_palindrome`
+    - Run `python palindromes.py string1 string2 ... stringN` to test `is_palindrome`, for example:
+        ```
+        $ python palindromes.py ABC noon RaceCar 'Taco, Cat'
+        FAIL: 'ABC' is not a palindrome
+        PASS: 'noon' is a palindrome
+        PASS: 'RaceCar' is a palindrome
+        PASS: 'Taco, Cat' is a palindrome
+        ```
+    - Run `pytest palindromes_test.py` to run the [palindromes unit tests] and fix any failures
+- Implement string searching functions (try both iterative and recursive versions) using [strings starter code]:
+    - Implement `contains(text, pattern)` - a boolean indicating whether `pattern` occurs in `text`
+    - Implement `find_index(text, pattern)` - the starting index of the first occurrence of `pattern` in `text`
+    - Implement `find_all_indexes(text, pattern)` - a list of starting indexes of all occurrences of `pattern` in `text`
+    - Run `python strings.py text pattern` to test string searching algorithms, for example:
+        ```
+        $ python strings.py 'abra cadabra' 'abra'
+        contains('abra cadabra', 'abra') => True
+        find_index('abra cadabra', 'abra') => 0
+        find_all_indexes('abra cadabra', 'abra') => [0, 8]
+        ```
+    - Run `pytest strings_test.py` to run the [strings unit tests] and fix any failures
+- Write additional test cases to expand the [strings unit tests] to ensure your string searching algorithms are robust
+    - Include several test cases that are both positive (examples) and negative (counterexamples)
+- Refactor functions to increase code reuse and avoid duplication ([DRY principle])
+- Annotate functions with complexity analysis of running time and space (memory)
+
+## Stretch Challenges
+- Implement permutation generating functions (try both iterative and recursive versions)
+- Implement anagram generating functions (try both iterative and recursive versions)
+    - *Hint:* Use the Unix dictionary words list located at: `/usr/share/dict/words`
+
+<!--## Minute-by-Minute
 
 | **Elapsed** | **Time**  | **Activity**              |
 | ----------- | --------- | ------------------------- |
-| 0:00        | 0:15      | Discuss Palindrome Notes                |
+| 0:00        | 0:03      | Progress Tracker                |
+| 0:03        | 0:02      | Factoid of the Day                  |
 | 0:05        | 1:20      | Code Review + Presentations       |
+| 1:25        | 0:10      | TT - Algorithm Analysis                     |
 | 1:35        | 0:10      | Break      |
 | 1:45        | 0:05      | Wrap up      |
-| TOTAL       | 1:50      |                           |
+| TOTAL       | 1:50      |                           |-->
 
 ## Progress Tracker (3 min)
 
 - Fill out attendance, challenges completed, etc.
+- Turn in Binary/Integers worksheet up at the front of class
+
+## Factoid of the Day (2 min)
+
+[Binary Coins from Thingiverse](https://www.thingiverse.com/thing:3512086) that represent powers of two
+
 
 ## Palindromes (15 min)
 - Discuss Palindrome Notes with a partner.  Compare iterative and recursive solutions.
@@ -73,7 +123,7 @@ EX: Check if "nas" is in "bananas"
 - loop through letters in bananas to check if "nas" is in "bananas"
 - if so will have one check per row under corresponding col of "bananas"
 
-
+```
     INITIAL MATRIX
     [| |b|a|n|a|n|a|s|]
     [|n| | | | | | | |]
@@ -85,72 +135,17 @@ EX: Check if "nas" is in "bananas"
     [|n|X|X|O|X|O| | |]
     [|a| | | |O| |O| |]
     [|s| | | | |X| |O|]
-
+```
 
 #### Complexity
 
 - Algorithm analysis - area of the rectangle (length of text * length of pattern) : O(nm)
 
+## Break (10 min)
+
 ## Wrap Up (5 min)
 
-Go over the challenges for next class, and allow for clarifying questions.
-
-**Next topic: Arrays and Linked Lists**
-- Differences between Linked List and Array
-    - can access arbitrary address of array in constant time - so can find middle element with binary search.  
-    - In Linked List, you can't access the middle directly (have to traverse from beginning) so binary search would not work.
-- Similarity between Array and Linked List?
-    - they both are ordered
-    - both implements methods: insert, append, prepend, read
-- List Abstract Data Type - ADT
-    - Arrays and Linked List are concrete Data Structures that can implement the ADT / Interface / Protocol
-
-#### Preview of Challenges for next class (20 min):
-Implement methods on linked list class so interface is the same as an array. [On repo - includes example, unit tests, starter code]
-
-
-
-## Resources
-- Read Stack Overflow's answers to the question "[What is unit testing?]"
-- Read The Hitchhiker's Guide to Python's tutorial on [testing your code]
-- Consult documentation for Python's [`unittest` module] and [`pytest` tool]
-- Play around with Wordsmith's [Internet Anagram Server]
-- Watch HackerRank's [anagram problem solution video]
-
-## Challenges
-- Implement palindrome checking functions using [palindromes starter code]:
-    - Implement `is_palindrome_iterative` - iterative version of `is_palindrome`
-    - Implement `is_palindrome_recursive` - recursive version of `is_palindrome`
-    - Run `python palindromes.py string1 string2 ... stringN` to test `is_palindrome`, for example:
-        ```
-        $ python palindromes.py ABC noon RaceCar 'Taco, Cat'
-        FAIL: 'ABC' is not a palindrome
-        PASS: 'noon' is a palindrome
-        PASS: 'RaceCar' is a palindrome
-        PASS: 'Taco, Cat' is a palindrome
-        ```
-    - Run `pytest palindromes_test.py` to run the [palindromes unit tests] and fix any failures
-- Implement string searching functions (try both iterative and recursive versions) using [strings starter code]:
-    - Implement `contains(text, pattern)` - a boolean indicating whether `pattern` occurs in `text`
-    - Implement `find_index(text, pattern)` - the starting index of the first occurrence of `pattern` in `text`
-    - Implement `find_all_indexes(text, pattern)` - a list of starting indexes of all occurrences of `pattern` in `text`
-    - Run `python strings.py text pattern` to test string searching algorithms, for example:
-        ```
-        $ python strings.py 'abra cadabra' 'abra'
-        contains('abra cadabra', 'abra') => True
-        find_index('abra cadabra', 'abra') => 0
-        find_all_indexes('abra cadabra', 'abra') => [0, 8]
-        ```
-    - Run `pytest strings_test.py` to run the [strings unit tests] and fix any failures
-- Write additional test cases to expand the [strings unit tests] to ensure your string searching algorithms are robust
-    - Include several test cases that are both positive (examples) and negative (counterexamples)
-- Refactor functions to increase code reuse and avoid duplication ([DRY principle])
-- Annotate functions with complexity analysis of running time and space (memory)
-
-## Stretch Challenges
-- Implement permutation generating functions (try both iterative and recursive versions)
-- Implement anagram generating functions (try both iterative and recursive versions)
-    - *Hint:* Use the Unix dictionary words list located at: `/usr/share/dict/words`
+Go over what the challenges for next class, and allow for clarifying questions
 
 
 [unit testing]: https://en.wikipedia.org/wiki/Unit_testing

@@ -12,8 +12,7 @@ By this end of this lesson, students should be able to...
 1. Practice more advanced techniques with lists and arrays
 1. Implement list manipulation methods such as insert and replace
 
-
-## Minute-by-Minute
+<!--## Minute-by-Minute
 
 | **Elapsed** | **Time**  | **Activity**              |
 | ----------- | --------- | ------------------------- |
@@ -22,54 +21,7 @@ By this end of this lesson, students should be able to...
 | 1:35        | 0:10      | Break      |
 | 1:45        | 0:05      | Wrap up      |
 | TOTAL       | 1:50      |                           |
-
-## Progress Tracker (10 min)
-
-- Fill out attendance, challenges completed, etc.
-- Tracker leaderboard - students who have completed most challenges
-- Technical Articles : write a draft by next Wed 4/24.
-    - Requirements:
-        - 5 min read on medium.
-        - Topic - anything we've covered in this class - or you can go into something deeper.
-        - draft - topic and outine
-        - needs diagrams (can be borrowed) - *no tolerance of plagiarism*
-- Added code review tracking to progress tracker - everyone should do at least one live code review before end of course.
-
-## Code Review + Presentations (80 min)
-### Student Code Review Presentation (Linked List - Insert) (20 min)
-Linked List Insertion Highlights:
-- Draw a diagram Linked List containing: "I", "Love", "Cats" (in that order).  Walk through the diagram as the student presents their code
-
-- What does the method 'insert_at_index(index, value) - value goes at index, items shift down
-- Explore the range function by running code `range(1) = [0]`, `range(3)=[0,1,2]`
-- Write a test case to find bugs. Don't rewrite code without showing the bug.
-- Review: when to use a for loop or while loop: while has condition, for loop uses an index (counter controlled)  
-
-**Whiteboard Tips**
-- Switch colors of markers between setup and implementation.
-
-### Student Code Review Presentation (Linked List - Insert) (20 min)
-Linked List Replace Highlights:
-- Run your personal code on your whiteboard diagram as student explains
-- discussion : difference between break and return.
-    - using return means the ValueError doesn't run if found.
-- What part of this code 'node=node.next' what is evaluated first?  
-    - need to evaluate the right hand side first before assignment.
-- Code doesn't use 'return self' because replace doesn't expect a return value.
-
-## Break (10 min)
-
-#### Preview of Challenges for next class (20 min):
-See slides and notes on next lesson (Stacks and Queues).
-
-Concrete Data Structures
-- in CS 1 you learned about Arrays - what are the two types? List is an ordered sequence of items you can store items in, add, remove, replace,
-- Abstract Data Structures: List (both arrays and LinkedLists are Concrete examples of the List ADT)
-(Whiteboard (Left is ADT | Concrete Data Type))
-ADT is like the API | Concrete is like backend - implementation details hidden from ADT (frontend)
-- An ADT is like an interface in Java, a protocol in Swift.
-- Types of arrays : dynamic, static
-- Types of linked lists: doubly linked, single linked
+-->
 
 ## Resources
 - Review Make School's [array and linked list slides]
@@ -89,11 +41,29 @@ ADT is like the API | Concrete is like backend - implementation details hidden f
     - Run `pytest linkedlist_test.py` to run the [linked list unit tests] and fix any failures
 - Annotate methods with complexity analysis of running time and space (memory)
 
-### Stretch Challenges
+## Stretch Challenges
 - Implement `DoublyLinkedList` class with `BinaryNode` objects, which have both `next` and `previous` properties
 - Write unit tests for to ensure the `DoublyLinkedList` class is robust
     - Include test cases for each class instance method and property
 - Annotate methods with complexity analysis of running time and space (memory)
+
+## Progress Tracker (3 min)
+
+- Fill out attendance, challenges completed, etc.
+
+## Arrays and Linked Lists (5 min)
+
+- Differences between Linked List and Array
+    - can access arbitrary address of array in constant time - so can find middle element with binary search.  
+    - In Linked List, you can't access the middle directly (have to traverse from beginning) so binary search would not work.
+- Similarity between Array and Linked List?
+    - they both are ordered
+    - both implements methods: insert, append, prepend, read
+- List Abstract Data Type - ADT
+    - Arrays and Linked List are concrete Data Structures that can implement the ADT / Interface / Protocol
+
+#### Preview of Challenges for next class (20 min):
+Implement methods on linked list class so interface is the same as an array. [On repo - includes example, unit tests, starter code]
 
 
 [abstract data types]: https://en.wikipedia.org/wiki/Abstract_data_type
