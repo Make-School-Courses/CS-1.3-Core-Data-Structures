@@ -56,8 +56,8 @@ Students by the end of the course will be able to ...
 |  10   |    Wednesday, May 1    | [Trees & Binary Search Trees Review](Lessons/Class8.md)               | [Tree Traversals](Lessons/Class9.md)
 |  11   |    Monday, May 6       | [Tree Traversals Review](Lessons/Class9.md#code-review-80-min)         | N/A
 |  12   |    Wednesday, May 8    |       N/A            |[Call Routing Project](project/Project.md)                   |
-|  13   |    Monday, May 13      |       N/A            |Call Routing Project Presentations                 |
-|  14   |    Wednesday, May 15   |       N/A            |Final Exam                                         |
+|  13   |    Monday, May 13      |       N/A            |      Final Exam           |
+|  14   |    Wednesday, May 15   |       N/A            |Call Routing Project Presentations                                         |
 
 
 ## Repository Setup Instructions
