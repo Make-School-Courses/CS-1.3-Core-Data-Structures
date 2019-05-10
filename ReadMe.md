@@ -69,7 +69,7 @@ Please follow [these instructions](Setup.md) exactly to set up your fork of this
 
 ### Projects
 
-- [Call Routing Project](project/Project.md)
+- [Call Routing Project](project/ReadMe.md)
 
 **All projects will require a minimum of 10 commits, and must take place throughout the entirety of the course**
 
