@@ -6,7 +6,6 @@ This project is inspired by a real-world problem at a telephony API company – 
 The primary task is to implement an international phone call routing system that finds the least cost route through multiple carriers.
 One of the goals of this project is to demonstrate the wide variety of solutions and compare the tradeoffs with each.
 
-1. Solve the challenges for the 5 scenarios in order, as they are given in increasing difficulty.
 1. Read the project background on phone numbers, routes, and carriers which contains information that may help guide your solution.
 1. Read the description of input and output data file format and inspect a few small [data files].
 1. Solve the challenges for the 5 scenarios in order, as they are given in increasing difficulty.
