@@ -2,27 +2,13 @@
 
 ## Course Description
 
-This course explores the foundations of computer science including discrete mathematics, abstract data types, data structures, and algorithm analysis and design. Students will compare and contrast iterative and recursive algorithms to analyze design and performance tradeoffs. Students will apply and test data structures like lists, stacks, queues, sets, maps, and trees in real-world problems such as phone call routing. Students will also write technical blog articles about these topics in order to deepen their understanding and gain valuable online presence as knowledgeable and proficient software engineers.
+This course explores the foundations of computer science including discrete mathematics, abstract data types, data structures, and algorithm analysis and design. Students will compare and contrast iterative and recursive algorithms to analyze design and performance tradeoffs. Students will implement and test data structures including lists, stacks, queues, sets, maps, and trees. Students will then apply these to real-world problems like phone call routing to understand their tradeoffs. Students will also write technical blog articles about these topics to deepen understanding, improve technical writing, and bolster their online presence as knowledgeable and proficient software engineers.
 
 ### Why you should know this
 Data structures are the building blocks of computer science. It's the foundation that allows engineers to store and manipulate data. Once you have a place to store the data, if you need to find data or sort it in a specific way, you'll need search algorithms in order to do that.
 
 Implementations of these concepts are how some of the largest tech companies in the world were built. Displaying relevant search results and finding friends and peers on social networks would be impossible without these core concepts. They're also **the most common topics for software engineering interviews**, and leveling up your knowledge on these topics is required to nail that technical interview!
 
-## Prerequisites:  
-
-- [CS 1.2](https://github.com/Make-School-Courses/CS-1.2-How-Data-Structures-Work)
-
-## Learning Outcomes
-
-Students by the end of the course will be able to ...
-
-1. Compare and contrast iterative and recursive algorithms
-1. Analyze the complexity of an algorithm to determine its runtime
-1. Implement various data structures such as stacks, queues, sets, maps, and trees
-1. Implement iterative and recursive sorting algorithms
-1. Build out different types of tree traversals
-1. Practice writing technical articles
 
 ## Schedule
 
@@ -67,26 +53,52 @@ Students by the end of the course will be able to ...
 [Call Routing Project]: project/ReadMe.md
 
 
-## Repository Setup Instructions
+## Prerequisites
 
-Please follow [these instructions](Setup.md) exactly to set up your fork of this repository.
+Students must pass the following course and demonstrate mastery of its competencies:
+- [CS 1.2: How Data Structures Work](https://make.sc/cs12-repo)
 
 
-## Class Assignments
+## Learning Outcomes
+
+By the end of this course, students will be able to:
+1. Implement, compare and contrast iterative and recursive algorithms
+1. Analyze best-case and worst-case time and space complexity of an algorithm
+1. Implement several abstract data types and data structures including linked lists, stacks, queues, hash tables, maps, sets, and binary search trees
+1. Implement tree traversal algorithms: depth-first and breadth-first ordering
+1. Write technical articles to deepen understanding and demonstrate mastery
+
+
+## Assignments
+
+### Coding Challenges
+
+Each lesson has an associated set of coding challenges with starter code and unit tests provided. Full details can be found in the "Challenges" section of each lesson linked in the schedule above.
 
 ### Projects
 
+The following self-guided projects are meant to test students' understanding of concepts covered in the course. Due to their open-ended nature, the projects are expected to be more challenging than the coding challenges with starter code and unit tests provided. Students will complete one of the projects, depending on the number of class sessions scheduled in the term.
+
+- [Word Jumble Project](Lessons/WordJumble.md)
 - [Call Routing Project](project/ReadMe.md)
+
 
 ## Evaluation
 
-To pass this course you must meet the following requirements:
-
-- Complete all required tutorials
-- Pass all projects according to the associated project rubric
-- Pass the final summative assessment >=75%
+To pass this course, students must meet the following requirements:
+- Complete and submit all required coding challenges
+- Pass all coding challenges according to the [associated rubrics](https://make.sc/cs13-rubrics)
+- Pass the written assessment (final exam) – use the [study guide](https://make.sc/cs11-study-guide) to prepare
 - Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
+- No more than two unexcused absences ("no-call-no-shows")
+- No more than four excused absences (communicated in advance)
+
+
+## Repository Setup
+
+Please follow [these instructions](Setup.md) exactly to set up your repository.
+
 
 ## Make School Course Policies
 
