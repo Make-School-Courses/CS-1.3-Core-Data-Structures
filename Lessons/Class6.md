@@ -206,5 +206,5 @@ Student presents their answer to the challenges
 [BaseCS hash functions]: https://medium.com/basecs/hashing-out-hash-functions-ea5dd8beb4dd
 [visualgo hash table]: https://visualgo.net/hashtable
 
-[hash table starter code]: source/hashtable.py
-[hash table unit tests]: source/hashtable_test.py
+[hash table starter code]: ../Code/hashtable.py
+[hash table unit tests]: ../Code/hashtable_test.py

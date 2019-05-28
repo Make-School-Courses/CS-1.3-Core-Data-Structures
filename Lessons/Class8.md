@@ -196,5 +196,5 @@ Insertion and deletion both require first searching through the tree to find whe
 [Leandro TK trees]: https://medium.freecodecamp.org/all-you-need-to-know-about-tree-data-structures-bceacb85490c
 [visualgo bst]: https://visualgo.net/bst
 
-[binary tree starter code]: source/binarytree.py
-[binary tree unit tests]: source/binarytree_test.py
+[binary tree starter code]: ../Code/binarytree.py
+[binary tree unit tests]: ../Code/binarytree_test.py

@@ -103,5 +103,5 @@ By this end of this lesson, students should be able to...
 [selection sort with Gypsy folk dance]: https://www.youtube.com/watch?v=0-W8OEwLebQ
 [insertion sort with Romanian folk dance]: https://www.youtube.com/watch?v=EdIKIf9mHk0
 
-[sorting starter code]: source/sorting.py
-[sorting unit tests]: source/sorting_test.py
+[sorting starter code]: ../Code/sorting.py
+[sorting unit tests]: ../Code/sorting_test.py

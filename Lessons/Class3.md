@@ -162,7 +162,7 @@ Go over what the challenges for next class, and allow for clarifying questions
 [Internet Anagram Server]: http://www.wordsmith.org/anagram/
 [anagram problem solution video]: https://www.youtube.com/watch?v=3MwRGPPB4tw
 
-[palindromes starter code]: source/palindromes.py
-[palindromes unit tests]: source/palindromes_test.py
-[strings starter code]: source/strings.py
-[strings unit tests]: source/strings_test.py
+[palindromes starter code]: ../Code/palindromes.py
+[palindromes unit tests]: ../Code/palindromes_test.py
+[strings starter code]: ../Code/strings.py
+[strings unit tests]: ../Code/strings_test.py

@@ -82,5 +82,5 @@ By this end of this lesson, students should be able to...
 [BaseCS radix sort]: https://medium.com/basecs/getting-to-the-root-of-sorting-with-radix-sort-f8e9240d4224
 [Obama sorting question]: https://www.youtube.com/watch?v=k4RRi_ntQc8
 
-[sorting starter code]: source/sorting.py
-[sorting unit tests]: source/sorting_test.py
+[sorting starter code]: ../Code/sorting.py
+[sorting unit tests]: ../Code/sorting_test.py

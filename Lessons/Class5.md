@@ -227,7 +227,7 @@ Once you're done, switch the "front" and "back" labels. The "front" of queue sho
 [BaseCS queue]: https://medium.com/basecs/to-queue-or-not-to-queue-2653bcde5b04
 [visualgo list]: https://visualgo.net/list
 
-[stack starter code]: source/stack.py
-[stack unit tests]: source/stack_test.py
-[queue starter code]: source/queue.py
-[queue unit tests]: source/queue_test.py
+[stack starter code]: ../Code/stack.py
+[stack unit tests]: ../Code/stack_test.py
+[queue starter code]: ../Code/queue.py
+[queue unit tests]: ../Code/queue_test.py

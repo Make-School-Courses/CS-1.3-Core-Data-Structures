@@ -84,5 +84,5 @@ Implement methods on linked list class so interface is the same as an array. [On
 [BaseCS linked list 2]: https://medium.com/basecs/whats-a-linked-list-anyway-part-2-131d96f71996
 [visualgo list]: https://visualgo.net/list
 
-[linked list starter code]: source/linkedlist.py
-[linked list unit tests]: source/linkedlist_test.py
+[linked list starter code]: ../Code/linkedlist.py
+[linked list unit tests]: ../Code/linkedlist_test.py

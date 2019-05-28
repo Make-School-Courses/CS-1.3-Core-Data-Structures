@@ -238,5 +238,5 @@ There are a few different ways to represent negative numbers:
 [understanding bases video]: https://www.youtube.com/watch?v=ZL-LhaaMTTE
 [numbers and base systems video]: https://www.youtube.com/watch?v=LpuPe81bc2w
 
-[starter code]: source/bases.py
-[unit tests]: source/bases_test.py
+[starter code]: ../Code/bases.py
+[unit tests]: ../Code/bases_test.py

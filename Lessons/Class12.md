@@ -118,5 +118,5 @@ By this end of this lesson, students should be able to...
 [quick sort with Hungarian folk dance]: https://www.youtube.com/watch?v=3San3uKKHgg
 [ineffective sorts]: https://xkcd.com/1185/
 
-[sorting starter code]: source/sorting.py
-[sorting unit tests]: source/sorting_test.py
+[sorting starter code]: ../Code/sorting.py
+[sorting unit tests]: ../Code/sorting_test.py

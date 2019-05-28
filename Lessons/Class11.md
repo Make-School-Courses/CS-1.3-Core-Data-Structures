@@ -93,5 +93,5 @@ By this end of this lesson, students should be able to...
 [23 sorting algorithms]: https://www.youtube.com/watch?v=rqI6KT6cOas
 [merge sort with German folk dance]: https://www.youtube.com/watch?v=dENca26N6V4
 
-[sorting starter code]: source/sorting.py
-[sorting unit tests]: source/sorting_test.py
+[sorting starter code]: ../Code/sorting.py
+[sorting unit tests]: ../Code/sorting_test.py

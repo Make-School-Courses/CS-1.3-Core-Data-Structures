@@ -228,5 +228,5 @@ Finish all challenges before we kick off the Call Routing project next class!
 [BaseCS BFS]: https://medium.com/basecs/breaking-down-breadth-first-search-cebe696709d9
 [visualgo bst]: https://visualgo.net/bst
 
-[binary tree starter code]: source/binarytree.py
-[binary tree unit tests]: source/binarytree_test.py
+[binary tree starter code]: ../Code/binarytree.py
+[binary tree unit tests]: ../Code/binarytree_test.py
