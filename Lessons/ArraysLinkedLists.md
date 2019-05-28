@@ -1,4 +1,4 @@
-# Class 4: Arrays & Linked Lists
+# Arrays & Linked Lists
 
 ## Topics
 - Compare [abstract data types] and [concrete data structures][data structures]

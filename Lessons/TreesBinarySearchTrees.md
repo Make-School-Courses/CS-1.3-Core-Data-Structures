@@ -1,4 +1,4 @@
-# Class 8: Trees & Binary Search Trees
+# Trees & Binary Search Trees
 
 ## Learning Objectives (5 min)
 

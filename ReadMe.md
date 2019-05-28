@@ -26,29 +26,45 @@ Students by the end of the course will be able to ...
 
 ## Schedule
 
-**NOTE:** Due to the shorter summer sessions, for some class sessions you will see multiple topics covered. This is to ensure that we cover the same material that we normally would in non-summer terms.
+**Course Dates:** Wednesday, May 29 – Wednesday, July 3, 2019 (6 weeks)
 
-**Course Dates:** Monday, April 1 – Wednesday, May 15, 2019 (7 weeks)
-
-**Class Times:** Monday and Wednesday at 1:30-3:20pm **and** 3:30–5:20pm (14 class sessions)
+**Class Times:** Monday & Wednesday at 3:30–5:20pm (11 class sessions)
 
 
-| Class |          Date          |  Review of Prior Topic | New Topic / Challenges       |
-|:-----:|:----------------------:|:------------------------------------------:| :------- |
-|   1   |    Monday, April 1     |      N/A            | [Number Bases](Lessons/Class1.md) |
-|   2   |    Wednesday, April 3  | [Number Bases Review](Lessons/Class1.md#code-review-in-pairs-25-min) | [Recursion & Search Algorithms](Lessons/Class2.md) |
-|   3   |    Monday, April 8     | [Recursion & Search Algorithms Review](Lessons/Class2.md#code-review--presentations-80-min) |[String Algorithms](Lessons/Class3.md)             |
-|   4   |    Wednesday, April 10 | [String Algorithms Review](Lessons/Class3.md#code-review--presentations-80-min)             |[Arrays & Linked Lists](Lessons/Class4.md)         |
-|   5   |    Monday, April 15    | [Arrays & Linked Lists Review](Lessons/Class4.md)         |[Lists, Stacks & Queues](Lessons/Class5.md)        |
-|   6   |    Wednesday, April 17 | [Lists, Stacks & Queues Review](Lessons/Class5.md#activity---stacks-and-queues-worksheet---overview--15-min)        |[Maps & Hash Tables](Lessons/Class6.md)            |
-|   7   |    Monday, April 22    | [Maps & Hash Tables Review](Lessons/Class6.md#activity---drawing-a-hashtable--35-min)            |[Sets & Circular Buffers](Lessons/Class7.md)       |
-|   8   |    Wednesday, April 24 | [Sets & Circular Buffers Review](Lessons/Class7.md)       | Technical Article Peer Review     |
-|   9   |    Monday, April 29    | N/A   | [Trees & Binary Search Trees](Lessons/Class8.md)
-|  10   |    Wednesday, May 1    | [Trees & Binary Search Trees Review](Lessons/Class8.md)               | [Tree Traversals](Lessons/Class9.md)
-|  11   |    Monday, May 6       | [Tree Traversals Review](Lessons/Class9.md#code-review-80-min)         | N/A
-|  12   |    Wednesday, May 8    |       [Design Challenge](Lessons/design-challenge.md)            |[Call Routing Project](project/ReadMe.md)                   |
-|  13   |    Monday, May 13      |       N/A            |      Final Exam           |
-|  14   |    Wednesday, May 15   |       N/A            | Call Routing Project Presentations        |
+| Class |     Date     |     Review of Prior Topic     |      New Topic & Challenges       |
+|:-----:|:------------:|:-----------------------------:|:---------------------------------:|
+|   1   | Wed, May 29  |               –               | [Number Bases][]                  |
+|   2   | Mon, June 3  | [Number Bases Review][]       | [Recursion & Search Algorithms][] |
+|   3   | Wed, June 5  | [Search Algorithms Review][]  | [String Algorithms][]             |
+|   4   | Mon, June 10 | [String Algorithms Review][]  | [Arrays & Linked Lists][]         |
+|   5   | Wed, June 12 | [Linked Lists Review][]       | [Lists, Stacks & Queues][]        |
+|   6   | Mon, June 17 | [Stacks & Queues Review][]    | [Maps & Hash Tables][]            |
+|   7   | Wed, June 19 | [Maps & Hash Tables Review][] | [Trees & Binary Search Trees][]   |
+|   8   | Mon, June 24 | [Binary Search Trees Review][]| [Tree Traversals][]               |
+|   9   | Wed, June 26 | [Tree Traversals Review][]    | [Sets & Circular Buffers][]       |
+|  10   | Mon, July 1  | [Sets Review][]               | Technical Article Peer Review     |
+|  11   | Wed, July 3  |               –               | [Word Jumble Challenge][]         |
+
+[Number Bases]: Lessons/NumberBases.md
+[Number Bases Review]: Lessons/NumberBases.md#code-review-in-pairs-25-min
+[Recursion & Search Algorithms]: Lessons/RecursionSearchAlgorithms.md
+[Search Algorithms Review]: Lessons/RecursionSearchAlgorithms.md#code-review--presentations-80-min
+[String Algorithms]: Lessons/StringAlgorithms.md
+[String Algorithms Review]: Lessons/StringAlgorithms.md#code-review--presentations-80-min
+[Arrays & Linked Lists]: Lessons/ArraysLinkedLists.md
+[Linked Lists Review]: Lessons/ArraysLinkedLists.md
+[Lists, Stacks & Queues]: Lessons/ListsStacksQueues.md
+[Stacks & Queues Review]: Lessons/ListsStacksQueues.md#activity---stacks-and-queues-worksheet---overview--15-min
+[Maps & Hash Tables]: Lessons/MapsHashTables.md
+[Maps & Hash Tables Review]: Lessons/MapsHashTables.md#activity---drawing-a-hashtable--35-min
+[Trees & Binary Search Trees]: Lessons/TreesBinarySearchTrees.md
+[Binary Search Trees Review]: Lessons/TreesBinarySearchTrees.md
+[Tree Traversals]: Lessons/TreeTraversals.md
+[Tree Traversals Review]: Lessons/TreeTraversals.md#code-review-80-min
+[Sets & Circular Buffers]: Lessons/SetsCircularBuffers.md
+[Sets Review]: Lessons/SetsCircularBuffers.md
+[Word Jumble Challenge]: Lessons/WordJumble.md
+[Call Routing Project]: project/ReadMe.md
 
 
 ## Repository Setup Instructions

@@ -1,4 +1,4 @@
-# Class 2: Recursion & Search Algorithms
+# Recursion & Search Algorithms
 
 ## Topics
 - Compare [iteration] and [recursion] with [factorial] function

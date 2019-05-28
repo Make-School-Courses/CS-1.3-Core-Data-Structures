@@ -1,4 +1,4 @@
-# Class 3: String Algorithms
+# String Algorithms
 
 ## Topics
 - [Palindromes]: strings that read the same forwards and backwards, ignoring punctuation, whitespace, and letter casing

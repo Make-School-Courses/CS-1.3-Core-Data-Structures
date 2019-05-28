@@ -1,4 +1,4 @@
-# Class 7: Sets & Circular Buffers
+# Sets & Circular Buffers
 
 ## Learning Objectives
 

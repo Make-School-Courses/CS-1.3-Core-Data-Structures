@@ -1,4 +1,4 @@
-# Class 1: Number Bases
+# Number Bases
 
 ## Topics
 - Number bases: [decimal], [binary], [hexadecimal]

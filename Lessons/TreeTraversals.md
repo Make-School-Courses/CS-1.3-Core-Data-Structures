@@ -1,4 +1,4 @@
-# Class 9: Tree Traversals
+# Tree Traversals
 
 ## Learning Objectives
 

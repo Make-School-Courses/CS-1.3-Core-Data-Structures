@@ -1,4 +1,4 @@
-# Class 6: Maps & Hash Tables
+# Maps & Hash Tables
 
 ## Learning Objectives (5 min)
 

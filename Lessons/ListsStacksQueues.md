@@ -1,4 +1,4 @@
-# Class 5: Lists, Stacks & Queues
+# Lists, Stacks & Queues
 
 <!--## Minute-by-Minute [OPTIONAL]
 
