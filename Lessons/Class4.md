@@ -73,7 +73,7 @@ Implement methods on linked list class so interface is the same as an array. [On
 [dynamic array]: https://en.wikipedia.org/wiki/Dynamic_array
 [linked list]: https://en.wikipedia.org/wiki/Linked_list
 
-[array and linked list slides]: slides/ArraysLinkedLists.pdf
+[array and linked list slides]: ../Slides/ArraysLinkedLists.pdf
 [array and linked list video lecture]: https://www.youtube.com/watch?v=3WWuf4H61Nk
 [linked list video]: https://www.youtube.com/watch?v=njTh_OwMljA
 [array video]: https://www.youtube.com/watch?v=7EdaoE46BTI

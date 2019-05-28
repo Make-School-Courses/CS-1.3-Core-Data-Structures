@@ -57,7 +57,7 @@ By this end of this lesson, students should be able to...
 
 ![tree-traversals](./assets/tree-traversals.png)
 
-See [slides](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/blob/master/Lessons/slides/TreeTraversals.pdf)
+See [tree traversal slides]
 
 - What if you wanted to have a tree give all of its elements, instead of just one in particular?
 - The goal of a traversal is to **visit** each node once and only once. Whatever action you do on a visit is arbitrary.
@@ -69,7 +69,7 @@ See [slides](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/
 
 ### DFS
 
-Within DFS we can visit nodes in three different ways: 
+Within DFS we can visit nodes in three different ways:
 
 1. **In-order**
 1. **Pre-order**
@@ -111,7 +111,7 @@ Fill in fourth row of the worksheet
 
 ### Work in groups (30 min)
 
-We’ll begin class today by **code reviewing the binary search tree traversals** (in-order, pre-order, post-order, and level-order). 
+We’ll begin class today by **code reviewing the binary search tree traversals** (in-order, pre-order, post-order, and level-order).
 
 - Please **update the progress tracker**
 -  _Then_ **form groups of 2-3 people** (ideally, with 2 who have implemented the traversals so you can compare solutions)
@@ -137,7 +137,7 @@ We first learned about tree traversals last wednesday. Walk through these traver
     - The maximum number of functions on the function call stack is exactly the height of the tree, therefore we know that _the maximum space we would need would be the height of the tree_
     - If the tree is NOT balanced, height could be ~`n` (i.e. if the tree is all leaning to one side)
 
-    
+
 #### Level-order traversal - iterative
 
 - Time complexity: `O(n)`, where `n` is the number of nodes
@@ -153,7 +153,7 @@ We first learned about tree traversals last wednesday. Walk through these traver
     - We know `h = log(n)` with log base 2.
     - The last level has `(n+1)/2` nodes in a perfectly balanced tree. Since the bottomost will always contain the most, we know this is the largest space we will need, and can simplify  `O((n+1)/2)` to `O(n)`
 
-    
+
 ## Break (10 min)
 
 ## Abstract Data Types vs Concrete Data Structures Wrapup (20 min)
@@ -214,7 +214,7 @@ Finish all challenges before we kick off the Call Routing project next class!
 [map]: https://en.wikipedia.org/wiki/Associative_array
 [Python `dict` type]: https://docs.python.org/3/library/stdtypes.html#dict
 
-[tree traversal slides]: slides/TreeTraversals.pdf
+[tree traversal slides]: ../Slides/TreeTraversals.pdf
 [tree traversal video lecture]: https://www.youtube.com/watch?v=Qd8dKFaRu9I
 [HR trees video]: https://www.youtube.com/watch?v=oSWTXtMglKE
 [HR bst interview problem]: https://www.youtube.com/watch?v=i_Q0v_Ct5lY

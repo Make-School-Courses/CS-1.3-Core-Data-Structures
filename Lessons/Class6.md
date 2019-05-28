@@ -128,7 +128,7 @@ Grab individual whiteboards and markers
 Draw a hash table with the entries below, showing how it's organized in memory.
 
 - There must be `b=5` buckets and each bucket is a linked list
-- Use slides/diagrams from the previous class to help you
+- Use ../Slides/diagrams from the previous class to help you
 
 | **Key** | **Hash**  | **Value**   |
 | ----------- | --------- | ------- |
@@ -196,7 +196,7 @@ Student presents their answer to the challenges
 [quadratic probing]: https://en.wikipedia.org/wiki/Quadratic_probing
 [double hashing]: https://en.wikipedia.org/wiki/Double_hashing
 
-[hash table slides]: slides/HashTables.pdf
+[hash table slides]: ../Slides/HashTables.pdf
 [hash table video lecture]: https://www.youtube.com/watch?v=nLWXJ6IDKmQ
 [hash table video]: https://www.youtube.com/watch?v=shs0KM3wKv8
 [old hash table video]: https://www.youtube.com/watch?v=h2d9b_nEzoA

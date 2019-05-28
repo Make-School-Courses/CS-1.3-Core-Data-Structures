@@ -76,7 +76,7 @@ By this end of this lesson, students should be able to...
 [bucket sort]: https://en.wikipedia.org/wiki/Bucket_sort
 [sample sort]: https://en.wikipedia.org/wiki/Samplesort
 
-[algorithm analysis slides]: slides/AlgorithmAnalysis.pdf
+[algorithm analysis slides]: ../Slides/AlgorithmAnalysis.pdf
 [VisuAlgo sorting]: https://visualgo.net/en/sorting
 [USF sorting]: https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html
 [sorting animations]: https://www.toptal.com/developers/sorting-algorithms/

@@ -119,7 +119,7 @@ Both base ten and two always start with base^0, which is why they're always equa
 ## Integers and Bases Worksheet (15 min)
 
 ### Individual Work (10 min)
-Each person should fill out the _first two sections_ of [integers and bases worksheet](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/blob/master/Lessons/slides/NumberBasesWorksheet.pdf)
+Each person should fill out the _first two sections_ of [number bases worksheet]
 
 - Note that students should have 8 bits in your answer
 - Use subscripts to notate what base a number is in
@@ -171,7 +171,7 @@ Give brief history of how base 64 is used for the web, commonly used to pass inf
 
 ## Integers and Bases Worksheet Pt 2 (15 min)
 
-Each person should fill out the hex section of the [previous worksheet](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/blob/master/Lessons/slides/NumberBasesWorksheet.pdf)
+Each person should fill out the hex section of the [number bases worksheet]
 
 - Can work with a partner, but you'll need to understand this on your own to do the homework!
 - Tip: write out some basic hex/binary conversions to use for help
@@ -225,8 +225,8 @@ There are a few different ways to represent negative numbers:
 [two's complement]: https://en.wikipedia.org/wiki/Two%27s_complement
 [radix point]: https://en.wikipedia.org/wiki/Radix_point
 
-[number bases slides]: slides/NumberBases.pdf
-[number bases worksheet]: slides/NumberBasesWorksheet.pdf
+[number bases slides]: ../Slides/NumberBases.pdf
+[number bases worksheet]: ../Slides/NumberBasesWorksheet.pdf
 [number bases article]: https://betterexplained.com/articles/numbers-and-bases/
 [BaseCS binary]: https://medium.com/basecs/bits-bytes-building-with-binary-13cb4289aafa
 [BaseCS hexadecimal]: https://medium.com/basecs/hexs-and-other-magical-numbers-9785bc26b7ee

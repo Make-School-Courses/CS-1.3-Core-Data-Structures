@@ -96,7 +96,7 @@ By this end of this lesson, students should be able to...
 [recurrence relations]: https://en.wikipedia.org/wiki/Recurrence_relation
 [master theorem]: https://en.wikipedia.org/wiki/Master_theorem
 
-[recursive algorithm analysis slides]: slides/AlgorithmAnalysisRecursive.pdf
+[recursive algorithm analysis slides]: ../Slides/AlgorithmAnalysisRecursive.pdf
 [VisuAlgo sorting]: https://visualgo.net/en/sorting
 [USF sorting]: https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html
 [sorting animations]: https://www.toptal.com/developers/sorting-algorithms/

@@ -217,7 +217,7 @@ Once you're done, switch the "front" and "back" labels. The "front" of queue sho
 [dynamic array]: https://en.wikipedia.org/wiki/Dynamic_array
 [linked list]: https://en.wikipedia.org/wiki/Linked_list
 
-[stack and queue slides]: slides/StacksQueues.pdf
+[stack and queue slides]: ../Slides/StacksQueues.pdf
 [stack and queue video lecture]: https://www.youtube.com/watch?v=AXWnk4gege4
 [stack and queue video]: https://www.youtube.com/watch?v=wjI1WNcIntg
 [stack video]: https://www.youtube.com/watch?v=9Tp8wHD66lw
