@@ -17,19 +17,19 @@ Implementations of these concepts are how some of the largest tech companies in 
 **Class Times:** Monday & Wednesday at 3:30–5:20pm (11 class sessions)
 
 
-| Class |     Date     |     Review of Prior Topic     |      New Topic & Challenges       |
-|:-----:|:------------:|:-----------------------------:|:---------------------------------:|
-|   1   | Wed, May 29  |               –               | [Number Bases][]                  |
-|   2   | Mon, June 3  | [Number Bases Review][]       | [Recursion & Search Algorithms][] |
-|   3   | Wed, June 5  | [Search Algorithms Review][]  | [String Algorithms][]             |
-|   4   | Mon, June 10 | [String Algorithms Review][]  | [Arrays & Linked Lists][]         |
-|   5   | Wed, June 12 | [Linked Lists Review][]       | [Lists, Stacks & Queues][]        |
-|   6   | Mon, June 17 | [Stacks & Queues Review][]    | [Maps & Hash Tables][]            |
-|   7   | Wed, June 19 | [Maps & Hash Tables Review][] | [Trees & Binary Search Trees][]   |
-|   8   | Mon, June 24 | [Binary Search Trees Review][]| [Tree Traversals][]               |
-|   9   | Wed, June 26 | [Tree Traversals Review][]    | [Sets & Circular Buffers][]       |
-|  10   | Mon, July 1  | [Sets Review][]               | Technical Article Peer Review     |
-|  11   | Wed, July 3  |               –               | [Word Jumble Challenge][]         |
+| Class | Date         | Quiz Topic        | Review of Prior Topic         | New Topic & Challenges            |
+|:-----:|:------------:|:-----------------:|:-----------------------------:|:---------------------------------:|
+|   1   | Wed, May 29  |                   |                               | [Number Bases][]                  |
+|   2   | Mon, June 3  |                   | [Number Bases Review][]       | [Recursion & Search Algorithms][] |
+|   3   | Wed, June 5  | Number Bases      | [Search Algorithms Review][]  | [String Algorithms][]             |
+|   4   | Mon, June 10 |                   | [String Algorithms Review][]  | [Arrays & Linked Lists][]         |
+|   5   | Wed, June 12 | Search Algorithms | [Linked Lists Review][]       | [Lists, Stacks & Queues][]        |
+|   6   | Mon, June 17 |                   | [Stacks & Queues Review][]    | [Maps & Hash Tables][]            |
+|   7   | Wed, June 19 | Stacks & Queues   | [Maps & Hash Tables Review][] | [Trees & Binary Search Trees][]   |
+|   8   | Mon, June 24 |                   | [Binary Search Trees Review][]| [Tree Traversals][]               |
+|   9   | Wed, June 26 | Hash Tables       | [Tree Traversals Review][]    | [Sets & Circular Buffers][]       |
+|  10   | Mon, July 1  |                   | [Sets Review][]               | Technical Article Peer Review     |
+|  11   | Wed, July 3  | Trees & Sets      |                               | [Word Jumble Challenge][]         |
 
 [Number Bases]: Lessons/NumberBases.md
 [Number Bases Review]: Lessons/NumberBases.md#code-review-in-pairs-25-min
@@ -88,7 +88,7 @@ The following self-guided projects are meant to test students' understanding of 
 To pass this course, students must meet the following requirements:
 - Complete and submit all required coding challenges
 - Pass all coding challenges according to the [associated rubrics](https://make.sc/cs13-rubrics)
-- Pass the written assessment (final exam) – use the [study guide](https://make.sc/cs11-study-guide) to prepare
+- Pass the written assessment (summation of weekly quizzes) – use the [study guide](https://make.sc/cs11-study-guide) to prepare
 - Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
 - No more than two unexcused absences ("no-call-no-shows")
