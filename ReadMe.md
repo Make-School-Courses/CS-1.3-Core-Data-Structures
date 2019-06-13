@@ -21,10 +21,10 @@ Implementations of these concepts are how some of the largest tech companies in 
 |:-----:|:------------:|:-----------------:|:-----------------------------:|:---------------------------------:|
 |   1   | Wed, May 29  |                   |                               | [Number Bases][]                  |
 |   2   | Mon, June 3  |                   | [Number Bases Review][]       | [Recursion & Search Algorithms][] |
-|   3   | Wed, June 5  | Number Bases      | [Search Algorithms Review][]  | [String Algorithms][]             |
-|   4   | Mon, June 10 |                   | [String Algorithms Review][]  | [Arrays & Linked Lists][]         |
-|   5   | Wed, June 12 | Search Algorithms | [Linked Lists Review][]       | [Lists, Stacks & Queues][]        |
-|   6   | Mon, June 17 |                   | [Stacks & Queues Review][]    | [Maps & Hash Tables][]            |
+|   3   | Wed, June 5  |                   | [Search Algorithms Review][]  | [String Algorithms][]             |
+|   4   | Mon, June 10 | Number Bases      | [String Algorithms Review][]  | [Arrays & Linked Lists][]         |
+|   5   | Wed, June 12 |                   | [Linked Lists Review][]       | [Lists, Stacks & Queues][]        |
+|   6   | Mon, June 17 | Search Algorithms | [Stacks & Queues Review][]    | [Maps & Hash Tables][]            |
 |   7   | Wed, June 19 | Stacks & Queues   | [Maps & Hash Tables Review][] | [Trees & Binary Search Trees][]   |
 |   8   | Mon, June 24 |                   | [Binary Search Trees Review][]| [Tree Traversals][]               |
 |   9   | Wed, June 26 | Hash Tables       | [Tree Traversals Review][]    | [Sets & Circular Buffers][]       |
