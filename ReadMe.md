@@ -25,11 +25,11 @@ Implementations of these concepts are how some of the largest tech companies in 
 |   4   | Mon, June 10 | Number Bases      | [String Algorithms Review][]  | [Arrays & Linked Lists][]         |
 |   5   | Wed, June 12 |                   | [Linked Lists Review][]       | [Lists, Stacks & Queues][]        |
 |   6   | Mon, June 17 | Search Algorithms | [Stacks & Queues Review][]    | [Maps & Hash Tables][]            |
-|   7   | Wed, June 19 | Stacks & Queues   | [Maps & Hash Tables Review][] | [Trees & Binary Search Trees][]   |
-|   8   | Mon, June 24 |                   | [Binary Search Trees Review][]| [Tree Traversals][]               |
+|   7   | Wed, June 19 |                   | [Hash Tables Review][]        | [Trees & Binary Search Trees][]   |
+|   8   | Mon, June 24 | Stacks & Queues   | [Binary Search Trees Review][]| [Tree Traversals][]               |
 |   9   | Wed, June 26 | Hash Tables       | [Tree Traversals Review][]    | [Sets & Circular Buffers][]       |
 |  10   | Mon, July 1  |                   | [Sets Review][]               | Technical Article Peer Review     |
-|  11   | Wed, July 3  | Trees & Sets      |                               | [Word Jumble Challenge][]         |
+|  11   | Wed, July 3  | Trees & Sets      |                               | [Word Jumble Project][]           |
 
 [Number Bases]: Lessons/NumberBases.md
 [Number Bases Review]: Lessons/NumberBases.md#code-review-in-pairs-25-min
@@ -42,14 +42,14 @@ Implementations of these concepts are how some of the largest tech companies in 
 [Lists, Stacks & Queues]: Lessons/ListsStacksQueues.md
 [Stacks & Queues Review]: Lessons/ListsStacksQueues.md#activity---stacks-and-queues-worksheet---overview--15-min
 [Maps & Hash Tables]: Lessons/MapsHashTables.md
-[Maps & Hash Tables Review]: Lessons/MapsHashTables.md#activity---drawing-a-hashtable--35-min
+[Hash Tables Review]: Lessons/MapsHashTables.md#activity---drawing-a-hashtable--35-min
 [Trees & Binary Search Trees]: Lessons/TreesBinarySearchTrees.md
 [Binary Search Trees Review]: Lessons/TreesBinarySearchTrees.md
 [Tree Traversals]: Lessons/TreeTraversals.md
 [Tree Traversals Review]: Lessons/TreeTraversals.md#code-review-80-min
 [Sets & Circular Buffers]: Lessons/SetsCircularBuffers.md
 [Sets Review]: Lessons/SetsCircularBuffers.md
-[Word Jumble Challenge]: Lessons/WordJumble.md
+[Word Jumble Project]: Lessons/WordJumble.md
 [Call Routing Project]: project/ReadMe.md
 
 
@@ -79,8 +79,8 @@ Each lesson has an associated set of coding challenges with starter code and uni
 
 The following self-guided projects are meant to test students' understanding of concepts covered in the course. Due to their open-ended nature, the projects are expected to be more challenging than the coding challenges with starter code and unit tests provided. Students will complete one of the projects, depending on the number of class sessions scheduled in the term.
 
-- [Word Jumble Project](Lessons/WordJumble.md)
-- [Call Routing Project](project/ReadMe.md)
+- [Word Jumble Project][]
+- [Call Routing Project][]
 
 
 ## Evaluation
