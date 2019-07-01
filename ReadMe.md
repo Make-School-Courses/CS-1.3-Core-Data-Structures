@@ -82,6 +82,13 @@ The following self-guided projects are meant to test students' understanding of 
 - [Word Jumble Project][]
 - [Call Routing Project][]
 
+### Technical Articles
+
+Students will also write a technical article about a topic related to course content to deepen their understanding, improve their technical writing skills, and demonstrate mastery of computer science, which will bolster their online presence as knowledgeable and proficient software engineers.
+Refer to the [technical article guidelines][] for more information about article requirements and detailed tips on how to select a topic related to computer science, research the topic, create an outline, write your article, cite all sources of borrowed material, and provide feedback to other students.
+
+[technical article guidelines]: https://make.sc/cs13-article-guidelines
+
 ### Submissions
 
 Students will submit their coding challenges, project, and technical article according to the following due dates listed below.
