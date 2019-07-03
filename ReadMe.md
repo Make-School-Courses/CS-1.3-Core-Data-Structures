@@ -108,17 +108,20 @@ Students can improve their code and writing, reassess it against the rubric, and
 |  1         | Thu, June 13 | [Number Bases & Search Algorithms][] | Fri, June 28      |
 |  2         | Wed, June 19 | [Palindromes & String Algorithms][]  | Fri, June 28      |
 |  3         | Fri, June 21 | [Linked Lists, Stacks & Queues][]    | Fri, June 28      |
-|  4         | Wed, June 26 | [Hash Tables & Article Draft][]      | Mon, July 1       |
+|  4         | Sun, June 30 | [Hash Tables & Article Draft][]      | Wed, July 3       |
 |  5         | Mon, July 1  | [Trees & Tree Traversals][]          | Wed, July 3       |
-|  6         | Wed, July 3  | [Sets & Word Jumble Project][]       | Thu, July 4       |
+|  6         | Wed, July 3  | [Sets & Set Operations][]            | Thu, July 4       |
+|  7         | Wed, July 3  | [Word Jumble Project][]              | Thu, July 4       |
+|  8         | Wed, July 3  | [Technical Article][]                | Thu, July 4       |
 
 [Number Bases & Search Algorithms]: https://make.sc/cs13-submit-bases-search
 [Palindromes & String Algorithms]: https://make.sc/cs13-submit-palindromes-strings
 [Linked Lists, Stacks & Queues]: https://make.sc/cs13-submit-linked-lists-stacks-queues
 [Hash Tables & Article Draft]: https://make.sc/cs13-submit-hash-tables-article
 [Trees & Tree Traversals]: https://make.sc/cs13-submit-trees-traversals
-[Sets & Word Jumble Project]: https://make.sc/cs13-submit-sets-word-jumble
-
+[Sets & Set Operations]: https://make.sc/cs13-submit-sets-set-operations
+[Word Jumble Project]: https://make.sc/cs13-submit-word-jumble-project
+[Technical Article]: https://make.sc/cs13-submit-technical-article
 
 ## Evaluation
 
