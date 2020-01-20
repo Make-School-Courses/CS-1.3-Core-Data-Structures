@@ -1,21 +1,24 @@
 ## Repository Setup Instructions
 
-This course repository (located at `https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures`) contains course materials including the schedule, class topics, lesson plans, challenges, starter code, unit tests, slides, and links to resources.
+The course's *upstream* repository (located at `https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures`) contains course materials including the schedule, class topics, tutorial milestones, challenges, starter code, unit tests, slides, and links to resources.
 It will be periodically updated throughout the course, so you will need to regularly *pull* from it to get new materials.
-(Note that you cannot *push* to the course repository.)
-However, you can *clone* it to create a copy and push code to your own repo.
+(Note that you cannot *push* to the course's upstream repository.)
+However, you can *clone* this repo to get upstream changes and also push your code to your own repo.
 
 **Important:**
-Please follow these instructions *exactly*. If you skip a step or do them out of order, it may not work correctly or you may not earn credit towards your GitHub commit streak.
+Please follow these instructions *exactly* to correctly set up your clone of this repository. If you skip a step or do them out of order, it may not work.
 
-### Local Repo
-Set up your local clone of this repo on your computer to access course materials and starter code.
+**Step 1:**
+Set up your local clone of this course repo on your computer.
 
-1. **Clone** (do not *fork*) the course repo on GitHub onto your local computer.
-  - First open your terminal and navigate into the folder where you keep your coursework:
+1. **Clone** (do not *fork*) the course repo from GitHub onto your local computer.
+
+  - First open your terminal and navigate into the folder where you keep your course material and projects:
   `cd ~/MakeSchool/Courses` (or something similar for your folders)
+
   - Then run this command to *clone* the course repo:
   `git clone https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures.git`
+
   - Now navigate into the new folder Git just created:
   `cd CS-1.3-Core-Data-Structures`
 
@@ -32,22 +35,17 @@ Set up your local clone of this repo on your computer to access course materials
 1. **Push your commits** to your remote GitHub repo when you want to publish and backup your code:
 `git push` (the `-u` in the previous command lets you omit `origin master` afterward).
 
-### Course Remote
-Follow these instructions *exactly* to access new and improved course materials and starter code as the course repo is updated.
+**Step 2:**
+Connect your local clone of this course repo to the *upstream* repo on GitHub.
 
-1. **Add a new remote** to your local repo that points to this course repo:
-`git remote add course https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures.git`
+1. Add this course's upstream repo as another *remote* to your local repo with:
+`git remote add upstream https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures.git`
 
-1. **Pull from the `course` remote** when you want to access new course materials.
-  - First be sure you've committed and pushed your recent work (run `git status` to check if it says `Your branch is up to date with 'origin/master'`).
-  - Then *pull* new commits from the course repo:
-  `git pull course master`
-  and fix any merge conflicts that may occur if you edited any files that were updated.
-
-1. **Verify both remotes** (`course` and `origin`) are set up correctly on your local repo:
+1. Verify that you have two remotes: `origin` (with your username in the URL) and `upstream` (with `Make-School-Courses`):
 `git remote -v`
-should show output like this:
-        course	https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures.git (fetch)
-        course	https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures.git (push)
-        origin	https://github.com/<your-username>/CS-1.3-Core-Data-Structures.git (fetch)
-        origin	https://github.com/<your-username>/CS-1.3-Core-Data-Structures.git (push)
+
+1. When you want to access new course materials, first be sure you've committed and pushed your recent work (run `git status` to check) and then *pull* from the course's upstream repo with:
+`git pull upstream master`
+
+**Note:**
+To avoid unnecessary merge conflicts when pulling changes from `upstream`, write all of your project code inside the `Code` folder and **do not** modify or delete any existing files outside of the `Code` folder that may change upstream.
