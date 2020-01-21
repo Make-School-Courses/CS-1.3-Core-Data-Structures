@@ -12,24 +12,27 @@ Implementations of these concepts are how some of the largest tech companies in 
 
 ## Schedule
 
-**Course Dates:** Wednesday, May 29 – Wednesday, July 3, 2019 (6 weeks)
+**Course Dates:**
+Tuesday, January 21 – Thursday, March 5, 2020 (7 weeks, 13 class sessions)
 
-**Class Times:** Monday & Wednesday at 3:30–5:20pm (11 class sessions)
+**Class Times:**
+2:30–5:15pm on Monday & Wednesday (Section A) or Tuesday & Thursday (Section B)
 
-
-| Class | Date         | Quiz Topic        | Review of Prior Topic         | New Topic & Challenges            |
-|:-----:|:------------:|:-----------------:|:-----------------------------:|:---------------------------------:|
-|   1   | Wed, May 29  |                   |                               | [Number Bases][]                  |
-|   2   | Mon, June 3  |                   | [Number Bases Review][]       | [Recursion & Search Algorithms][] |
-|   3   | Wed, June 5  |                   | [Search Algorithms Review][]  | [String Algorithms][]             |
-|   4   | Mon, June 10 | Number Bases      | [String Algorithms Review][]  | [Arrays & Linked Lists][]         |
-|   5   | Wed, June 12 |                   | [Linked Lists Review][]       | [Lists, Stacks & Queues][]        |
-|   6   | Mon, June 17 | Search Algorithms | [Stacks & Queues Review][]    | [Maps & Hash Tables][]            |
-|   7   | Wed, June 19 |                   | [Hash Tables Review][]        | [Trees & Binary Search Trees][]   |
-|   8   | Mon, June 24 | Stacks & Queues   | [Binary Search Trees Review][]| [Tree Traversals][]               |
-|   9   | Wed, June 26 | Hash Tables       | [Tree Traversals Review][]    | [Sets & Circular Buffers][]       |
-|  10   | Mon, July 1  |                   | [Sets Review][]               | Technical Article Peer Review     |
-|  11   | Wed, July 3  | Trees & Sets      |                               | [Word Jumble Project][]           |
+| Class | Date            | Review of Prior Topic         | New Topic & Challenges            | Quiz or Deliverable Due               |
+|:-----:|:---------------:|:------------------------------|:----------------------------------|:--------------------------------------|
+|  1 | Tue/Wed, Jan 21/22 | N/A                           | [Number Bases][]                  | N/A                                   |
+|  2 | Mon/Tue, Jan 27/28 | [Number Bases Review][]       | [Recursion & Search Algorithms][] | N/A                                   |
+|  3 | Wed/Thu, Jan 29/30 | [Search Algorithms Review][]  | [String Algorithms][]             | Quiz: Number Bases                    |
+|  4 | Mon/Tue, Feb  3/4  | [String Algorithms Review][]  | [Arrays & Linked Lists][]         | Due: Number Bases & Search Algorithms |
+|  5 | Wed/Thu, Feb  5/6  | [Linked Lists Review][]       | [Lists, Stacks & Queues][]        | Quiz: Search Algorithms               |
+|  6 | Mon/Tue, Feb 10/11 | [Stacks & Queues Review][]    | [Maps & Hash Tables][]            | Due: Palindromes & String Algorithms  |
+|  7 | Wed/Thu, Feb 12/13 | [Hash Tables Review][]        | Technical Article Peer Review     | Quiz: Lists, Stacks & Queues          |
+|  8 | Mon/Tue, Feb 17/18 | N/A                           | [Trees & Binary Search Trees][]   | Due: Lists, Stacks & Queues           |
+|  9 | Wed/Thu, Feb 19/20 | [Binary Search Trees Review][]| [Tree Traversals][]               | Quiz: Hash Tables                     |
+| 10 | Mon/Tue, Feb 24/25 | [Tree Traversals Review][]    | [Sets & Circular Buffers][]       | Due: Hash Tables & Article Draft      |
+| 11 | Wed/Thu, Feb 26/27 | [Sets Review][]               | Technical Article Peer Review     | Due: Trees & Tree Traversals          |
+| 12 | Mon/Tue, Mar  2/3  | N/A                           | [Word Jumble Project][]           | Quiz: Trees & Sets, Due: Sets         |
+| 13 | Wed/Thu, Mar  4/5  | N/A                           | [Word Jumble Project][]           | Due: Technical Article & Project      |
 
 [Number Bases]: Lessons/NumberBases.md
 [Number Bases Review]: Lessons/NumberBases.md#code-review-in-pairs-25-min
@@ -103,16 +106,16 @@ The instructor or teaching assistants will review students' submissions and veri
 
 Students can improve their code and writing, reassess it against the rubric, and resubmit their improved rubric scores before the last resubmission date listed below. Submissions received after the due date will not be considered unless the instructor has approved an extension in writing due to exceptional circumstances.
 
-| Submission | Due Date     | Topics Included in Submission        | Last Resubmission |
-|:----------:|:------------:|:------------------------------------:|:-----------------:|
-|  1         | Thu, June 13 | [Number Bases & Search Algorithms][] | Fri, June 28      |
-|  2         | Wed, June 19 | [Palindromes & String Algorithms][]  | Fri, June 28      |
-|  3         | Fri, June 21 | [Linked Lists, Stacks & Queues][]    | Fri, June 28      |
-|  4         | Sun, June 30 | [Hash Tables & Article Draft][]      | Wed, July 3       |
-|  5         | Mon, July 1  | [Trees & Tree Traversals][]          | Wed, July 3       |
-|  6         | Wed, July 3  | [Sets & Set Operations][]            | Thu, July 4       |
-|  7         | Wed, July 3  | [Word Jumble Project][]              | Thu, July 4       |
-|  8         | Wed, July 3  | [Technical Article][]                | Thu, July 4       |
+| Submission | Date Started | Date Due    | Topics Included in Submission        |
+|:----------:|:------------:|:-----------:|:-------------------------------------|
+|  1         | Wed, Jan 22  | Tue, Feb  4 | [Number Bases & Search Algorithms][] |
+|  2         | Thu, Jan 30  | Tue, Feb 11 | [Palindromes & String Algorithms][]  |
+|  3         | Thu, Feb  6  | Tue, Feb 18 | [Linked Lists, Stacks & Queues][]    |
+|  4         | Tue, Feb 11  | Tue, Feb 25 | [Hash Tables & Article Draft][]      |
+|  5         | Tue, Feb 18  | Thu, Feb 27 | [Trees & Tree Traversals][]          |
+|  6         | Tue, Feb 25  | Tue, Mar  3 | [Sets & Set Operations][]            |
+|  7         | Tue, Feb 11  | Thu, Mar  5 | [Technical Article][]                |
+|  8         | Tue, Mar  3  | Thu, Mar  5 | [Word Jumble Project][]              |
 
 [Number Bases & Search Algorithms]: https://make.sc/cs13-submit-bases-search
 [Palindromes & String Algorithms]: https://make.sc/cs13-submit-palindromes-strings
@@ -141,7 +144,7 @@ To pass this course, students must meet the following requirements:
 
 ## Repository Setup
 
-Please follow [these instructions](Setup.md) exactly to set up your repository.
+:warning: **Important:** Please follow [these instructions](Setup.md) exactly to set up your clone of this course repository.
 
 
 ## Make School Course Policies
