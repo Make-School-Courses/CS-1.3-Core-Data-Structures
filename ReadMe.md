@@ -22,17 +22,17 @@ Tuesday, January 21 – Thursday, March 5, 2020 (7 weeks, 13 class sessions)
 |:-----:|:---------------:|:------------------------------|:----------------------------------|:--------------------------------------|
 |  1 | Tue/Wed, Jan 21/22 | N/A                           | [Number Bases][]                  | N/A                                   |
 |  2 | Mon/Tue, Jan 27/28 | [Number Bases Review][]       | [Recursion & Search Algorithms][] | N/A                                   |
-|  3 | Wed/Thu, Jan 29/30 | [Search Algorithms Review][]  | [String Algorithms][]             | Quiz: Number Bases                    |
-|  4 | Mon/Tue, Feb  3/4  | [String Algorithms Review][]  | [Arrays & Linked Lists][]         | Due: Number Bases & Search Algorithms |
-|  5 | Wed/Thu, Feb  5/6  | [Linked Lists Review][]       | [Lists, Stacks & Queues][]        | Quiz: Search Algorithms               |
-|  6 | Mon/Tue, Feb 10/11 | [Stacks & Queues Review][]    | Technical Article Kickoff         | Due: Palindromes & String Algorithms  |
-|  7 | Wed/Thu, Feb 12/13 | Technical Article Peer Review | [Maps & Hash Tables][]            | Quiz: Lists, Stacks & Queues          |
-|  8 | Mon/Tue, Feb 17/18 | [Hash Tables Review][]        | [Trees & Binary Search Trees][]   | Due: Lists, Stacks & Queues           |
-|  9 | Wed/Thu, Feb 19/20 | [Binary Search Trees Review][]| [Tree Traversals][]               | Quiz: Hash Tables                     |
-| 10 | Mon/Tue, Feb 24/25 | [Tree Traversals Review][]    | Programming Lab Time              | Due: Hash Tables & Article Draft      |
-| 11 | Wed/Thu, Feb 26/27 | N/A                           | [Sets & Circular Buffers][]       | Due: Trees & Tree Traversals          |
-| 12 | Mon/Tue, Mar  2/3  | [Sets Review][]               | [Word Jumble Project][]           | Due: Sets & Set Operations            |
-| 13 | Wed/Thu, Mar  4/5  | Technical Article Peer Review | [Word Jumble Project][]           | Quiz: Trees & Sets, Due: Article & Project |
+|  3 | Wed/Thu, Jan 29/30 | [Search Algorithms Review][]  | [String Algorithms][]             | [Quiz]: Number Bases                    |
+|  4 | Mon/Tue, Feb  3/4  | [String Algorithms Review][]  | [Arrays & Linked Lists][]         | [Due]: Number Bases & Search Algorithms |
+|  5 | Wed/Thu, Feb  5/6  | [Linked Lists Review][]       | [Lists, Stacks & Queues][]        | [Quiz]: Search Algorithms               |
+|  6 | Mon/Tue, Feb 10/11 | [Stacks & Queues Review][]    | [Technical Article][] Kickoff     | [Due]: Palindromes & String Algorithms  |
+|  7 | Wed/Thu, Feb 12/13 | Technical Article Peer Review | [Maps & Hash Tables][]            | [Quiz]: Lists, Stacks & Queues          |
+|  8 | Mon/Tue, Feb 17/18 | [Hash Tables Review][]        | [Trees & Binary Search Trees][]   | [Due]: Lists, Stacks & Queues           |
+|  9 | Wed/Thu, Feb 19/20 | [Binary Search Trees Review][]| [Tree Traversals][]               | [Quiz]: Hash Tables                     |
+| 10 | Mon/Tue, Feb 24/25 | [Tree Traversals Review][]    | Programming Lab Time              | [Due]: Hash Tables & Article Draft      |
+| 11 | Wed/Thu, Feb 26/27 | N/A                           | [Sets & Circular Buffers][]       | [Due]: Trees & Tree Traversals          |
+| 12 | Mon/Tue, Mar  2/3  | [Sets Review][]               | [Word Jumble Project][]           | [Due]: Sets & Set Operations            |
+| 13 | Wed/Thu, Mar  4/5  | Technical Article Peer Review | [Word Jumble Project][]           | [Quiz]: Trees & Sets <br> [Due]: Article & Project |
 
 [Number Bases]: Lessons/NumberBases.md
 [Number Bases Review]: Lessons/NumberBases.md#code-review-in-pairs-25-min
@@ -54,6 +54,10 @@ Tuesday, January 21 – Thursday, March 5, 2020 (7 weeks, 13 class sessions)
 [Sets Review]: Lessons/SetsCircularBuffers.md
 [Word Jumble Project]: Lessons/WordJumble.md
 [Call Routing Project]: project/ReadMe.md
+
+[Technical Article]: ReadMe.md#Technical-Article
+[Due]: ReadMe.md#Deliverable-Schedule
+[Quiz]: https://make.sc/cs13-quiz-study-guides
 
 
 ## Prerequisites
@@ -85,7 +89,7 @@ The following self-guided projects are meant to test students' understanding of 
 - [Word Jumble Project][]
 - [Call Routing Project][]
 
-### Technical Articles
+### Technical Article
 
 Students will also write a technical article about a topic related to course content to deepen their understanding, improve their technical writing skills, and demonstrate mastery of computer science, which will bolster their online presence as knowledgeable and proficient software engineers.
 Refer to the [technical article guidelines][] for more information about article requirements and detailed tips on how to select a topic related to computer science, research the topic, create an outline, write your article, cite all sources of borrowed material, and provide feedback to other students.
@@ -106,6 +110,8 @@ The instructor or teaching assistants will review students' submissions and veri
 
 Students can improve their code and writing, reassess it against the rubric, and resubmit their improved rubric scores before the last resubmission date listed below. Submissions received after the due date will not be considered unless the instructor has approved an extension in writing due to exceptional circumstances.
 
+### Deliverable Schedule
+
 | Submission | Date Started | Date Due    | Topics Included in Submission        |
 |:----------:|:------------:|:-----------:|:-------------------------------------|
 |  1         | Wed, Jan 22  | Tue, Feb  4 | [Number Bases & Search Algorithms][] |
@@ -114,8 +120,8 @@ Students can improve their code and writing, reassess it against the rubric, and
 |  4         | Tue, Feb 11  | Tue, Feb 25 | [Hash Tables & Article Draft][]      |
 |  5         | Tue, Feb 18  | Thu, Feb 27 | [Trees & Tree Traversals][]          |
 |  6         | Tue, Feb 25  | Tue, Mar  3 | [Sets & Set Operations][]            |
-|  7         | Tue, Feb 11  | Thu, Mar  5 | [Technical Article][]                |
-|  8         | Tue, Mar  3  | Thu, Mar  5 | [Word Jumble Project][]              |
+|  7         | Tue, Mar  3  | Thu, Mar  5 | [Word Jumble Project Code][]         |
+|  8         | Tue, Feb 11  | Thu, Mar  5 | [Published Technical Article][]      |
 
 [Number Bases & Search Algorithms]: https://make.sc/cs13-submit-bases-search
 [Palindromes & String Algorithms]: https://make.sc/cs13-submit-palindromes-strings
@@ -123,8 +129,8 @@ Students can improve their code and writing, reassess it against the rubric, and
 [Hash Tables & Article Draft]: https://make.sc/cs13-submit-hash-tables-article
 [Trees & Tree Traversals]: https://make.sc/cs13-submit-trees-traversals
 [Sets & Set Operations]: https://make.sc/cs13-submit-sets-set-operations
-[Word Jumble Project]: https://make.sc/cs13-submit-word-jumble-project
-[Technical Article]: https://make.sc/cs13-submit-technical-article
+[Word Jumble Project Code]: https://make.sc/cs13-submit-word-jumble-project
+[Published Technical Article]: https://make.sc/cs13-submit-technical-article
 
 ## Evaluation
 
@@ -132,14 +138,15 @@ To pass this course, students must meet the following requirements:
 - Complete all required coding challenges, projects, and technical articles
 - Submit all code and writing with rubric scores by the due dates listed above
 - Pass all submissions according to the associated [coding challenge rubrics][]
-- Pass the written assessment (summation of weekly quizzes) – use the [study guide][] to prepare
+- Pass the written assessment (total of all quiz scores)
+  - Review the [quiz study guides][] with the lesson topics and learning outcomes (skills) you need to demonstrate, links to the best lesson activities, slides, and resources to review while preparing
 - Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
 - No more than two unexcused absences ("no-call-no-shows")
 - No more than four excused absences (communicated in advance)
 
 [coding challenge rubrics]: https://make.sc/cs13-rubrics
-[study guide]: https://make.sc/cs13-study-guide
+[quiz study guides]: https://make.sc/cs13-quiz-study-guides
 
 
 ## Repository Setup
