@@ -18,8 +18,8 @@ Tuesday, January 21 – Thursday, March 5, 2020 (7 weeks, 13 class sessions)
 **Class Times:**
 2:30–5:15pm on Monday & Wednesday (Section A) or Tuesday & Thursday (Section B)
 
-| Class | Date            | Review of Prior Topic         | New Topic & Challenges            | Quiz or Deliverable Due               |
-|:-----:|:---------------:|:------------------------------|:----------------------------------|:--------------------------------------|
+| Class | Date&nbsp;by&nbsp;Section | Review of Prior Topic         | New Topic & Challenges            | Quiz or Deliverable Due               |
+|:-----:|:-------------------------:|:------------------------------|:----------------------------------|:--------------------------------------|
 |  1 | A: Wed, Jan 22 <br> B: Tue, Jan 21 | N/A                           | [Number Bases][]                  | N/A                                   |
 |  2 | A: Mon, Jan 27 <br> B: Tue, Jan 28 | [Number Bases Review][]       | [Recursion & Search Algorithms][] | N/A                                   |
 |  3 | A: Wed, Jan 29 <br> B: Thu, Jan 30 | [Search Algorithms Review][]  | [String Algorithms][]             | [Quiz]: Number Bases                    |
