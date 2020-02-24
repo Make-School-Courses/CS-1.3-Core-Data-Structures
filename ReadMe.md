@@ -25,14 +25,14 @@ Tuesday, January 21 – Thursday, March 5, 2020 (7 weeks, 13 class sessions)
 |  3 | Wed/Thu, Jan 29/30 | [Search Algorithms Review][]  | [String Algorithms][]             | Quiz: Number Bases                    |
 |  4 | Mon/Tue, Feb  3/4  | [String Algorithms Review][]  | [Arrays & Linked Lists][]         | Due: Number Bases & Search Algorithms |
 |  5 | Wed/Thu, Feb  5/6  | [Linked Lists Review][]       | [Lists, Stacks & Queues][]        | Quiz: Search Algorithms               |
-|  6 | Mon/Tue, Feb 10/11 | [Stacks & Queues Review][]    | [Maps & Hash Tables][]            | Due: Palindromes & String Algorithms  |
-|  7 | Wed/Thu, Feb 12/13 | [Hash Tables Review][]        | Technical Article Peer Review     | Quiz: Lists, Stacks & Queues          |
-|  8 | Mon/Tue, Feb 17/18 | N/A                           | [Trees & Binary Search Trees][]   | Due: Lists, Stacks & Queues           |
+|  6 | Mon/Tue, Feb 10/11 | [Stacks & Queues Review][]    | Technical Article Kickoff         | Due: Palindromes & String Algorithms  |
+|  7 | Wed/Thu, Feb 12/13 | Technical Article Peer Review | [Maps & Hash Tables][]            | Quiz: Lists, Stacks & Queues          |
+|  8 | Mon/Tue, Feb 17/18 | [Hash Tables Review][]        | [Trees & Binary Search Trees][]   | Due: Lists, Stacks & Queues           |
 |  9 | Wed/Thu, Feb 19/20 | [Binary Search Trees Review][]| [Tree Traversals][]               | Quiz: Hash Tables                     |
-| 10 | Mon/Tue, Feb 24/25 | [Tree Traversals Review][]    | [Sets & Circular Buffers][]       | Due: Hash Tables & Article Draft      |
-| 11 | Wed/Thu, Feb 26/27 | [Sets Review][]               | Technical Article Peer Review     | Due: Trees & Tree Traversals          |
-| 12 | Mon/Tue, Mar  2/3  | N/A                           | [Word Jumble Project][]           | Quiz: Trees & Sets, Due: Sets         |
-| 13 | Wed/Thu, Mar  4/5  | N/A                           | [Word Jumble Project][]           | Due: Technical Article & Project      |
+| 10 | Mon/Tue, Feb 24/25 | [Tree Traversals Review][]    | Programming Lab Time              | Due: Hash Tables & Article Draft      |
+| 11 | Wed/Thu, Feb 26/27 | N/A                           | [Sets & Circular Buffers][]       | Due: Trees & Tree Traversals          |
+| 12 | Mon/Tue, Mar  2/3  | [Sets Review][]               | [Word Jumble Project][]           | Due: Sets & Set Operations            |
+| 13 | Wed/Thu, Mar  4/5  | Technical Article Peer Review | [Word Jumble Project][]           | Quiz: Trees & Sets, Due: Article & Project |
 
 [Number Bases]: Lessons/NumberBases.md
 [Number Bases Review]: Lessons/NumberBases.md#code-review-in-pairs-25-min
