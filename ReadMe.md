@@ -30,7 +30,7 @@ Monday and Wednesday at 2:30–5:20pm(Section A) or Tuesday & Thursday at some t
 |  2 | A: Wed, April 1 <br> B: Thu, April 2   | [Number Bases Review][]       | [Recursion & Search Algorithms][] | N/A                                   |
 |  3 | A:  Mon, April 6 <br> B: Tue, April 7  | [Search Algorithms Review][]  | [String Algorithms][]             | Quiz: 1                   |
 |  4 | A: Wed, April 8   <br> B: Thu, April 9   | [String Algorithms Review][]  | [Arrays & Linked Lists][]         | [Due]: Number Bases & Search Algorithms |
-|  5 | A: Mon, April 13   <br> B:  Tue, April 14   | [Linked Lists Review][]       | [Lists, Stacks & Queues][]        | [Quiz]: Search Algorithms               |
+|  5 | A: Mon, April 13   <br> B:  Tue, April 14   | [Linked Lists Review][]       | [Lists, Stacks & Queues][]        | N/A              |
 |  6 | A: Wed, April 15 <br> B: Thu, April 16  | [Stacks & Queues Review][]    | [Technical Article][] Kickoff     | [Due]: Palindromes & String Algorithms  |
 |  7 | A: Mon, April 20  <br> B: Tue, April 21  | Technical Article Peer Review | [Maps & Hash Tables][]            | Quiz: 2        |
 |  8 | A: Wed, April 22  <br> B: Thu, April 23 | [Hash Tables Review][]        | [Trees & Binary Search Trees][]   | [Due]: Lists, Stacks & Queues           |
