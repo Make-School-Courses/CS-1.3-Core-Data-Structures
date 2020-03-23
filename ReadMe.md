@@ -9,14 +9,18 @@ Data structures are the building blocks of computer science. It's the foundation
 
 Implementations of these concepts are how some of the largest tech companies in the world were built. Displaying relevant search results and finding friends and peers on social networks would be impossible without these core concepts. They're also **the most common topics for software engineering interviews**, and leveling up your knowledge on these topics is required to nail that technical interview!
 
+## Important Links
+
+[Gradescope Assignment Submission Page](https://www.gradescope.com/courses/104809)
+
 
 ## Schedule
 
 **Course Dates:**
-Tuesday, January 21 – Thursday, March 5, 2020 (7 weeks, 13 class sessions)
+Monday, March 30 – Wednesday, May 13, 2020 (7 weeks)
 
 **Class Times:**
-2:30–5:15pm on Monday & Wednesday (Section A) or Tuesday & Thursday (Section B)
+Monday and Wednesday at 2:30–5:20pm(Section A) or Tuesday & Thursday at some time (Section B)
 
 | Class | Date&nbsp;by&nbsp;Section | Review of Prior Topic         | New Topic & Challenges            | Quiz or Deliverable Due               |
 |:-----:|:-------------------------:|:------------------------------|:----------------------------------|:--------------------------------------|
@@ -80,14 +84,7 @@ By the end of this course, students will be able to:
 
 ### Coding Challenges
 
-Each lesson has an associated set of coding challenges with starter code and unit tests provided. Full details can be found in the "Challenges" section of each lesson linked in the schedule above.
-
-### Projects
-
-The following self-guided projects are meant to test students' understanding of concepts covered in the course. Due to their open-ended nature, the projects are expected to be more challenging than the coding challenges with starter code and unit tests provided. Students will complete one of the projects, depending on the number of class sessions scheduled in the term.
-
-- [Word Jumble Project][]
-- [Call Routing Project][]
+Each lesson has an associated set of coding challenges with starter code and unit tests provided. Full details can be found in the "Challenges" section of each lesson linked in the schedule above. You will submit each coding challenge on Gradescope in its own repo.
 
 ### Technical Article
 
@@ -98,39 +95,16 @@ Refer to the [technical article guidelines][] for more information about article
 
 ### Submissions
 
-Students will submit their coding challenges, project, and technical article according to the following due dates listed below.
-Completion will be assessed according to the associated [coding challenge rubrics][].
-Students will first self-assess by reviewing their code and writing to evaluate it against each row of the rubric, then submit their rubric scores using the associated form linked below.
+Completion of coding challenges will be assessed according to the associated [coding challenge rubrics][].
 
 To pass each submission, students must earn the required number of points or higher indicated on the associated rubric. Note that all points within one submission are fungible (that is, interchangeable) and so if one portion of work is below the "Met All Expectations" column of the rubric, another portion of work submitted can "Exceed Expectations" (generally by completing stretch challenges) to earn an extra point to make up for the missing one. Therefore, it's wise to complete stretch challenges as "insurance" in case some work does not meet expectations.
 
 Another way to think of the submissions is a game where your goal is to earn enough points to pass in whatever way you see fit, with rubrics as the rules of the game that you can optimize against and "win" to pass the course.
 
-The instructor or teaching assistants will review students' submissions and verify or correct their self-assessed scores, then share feedback with the student through a GitHub issue opened on their repository. Feedback will include their status on that submission (that is, whether their work is passing the rubric or the student needs to improve and resubmit their work to pass).
+The instructor or teaching assistants will review students' submissions, then share feedback with the student through Gradescope. Feedback will include their status on that submission (that is, whether their work is passing the rubric or the student needs to improve and resubmit their work to pass).
 
-Students can improve their code and writing, reassess it against the rubric, and resubmit their improved rubric scores before the last resubmission date listed below. Submissions received after the due date will not be considered unless the instructor has approved an extension in writing due to exceptional circumstances.
+Submissions received after the due date will not be considered unless the instructor has approved an extension.
 
-### Deliverable Schedule
-
-| Submission | Date Started | Date Due    | Topics Included in Submission        |
-|:----------:|:------------:|:-----------:|:-------------------------------------|
-|  1         | Wed, Jan 22  | Tue, Feb  4 | [Number Bases & Search Algorithms][] |
-|  2         | Thu, Jan 30  | Tue, Feb 11 | [Palindromes & String Algorithms][]  |
-|  3         | Thu, Feb  6  | Tue, Feb 18 | [Linked Lists, Stacks & Queues][]    |
-|  4         | Tue, Feb 11  | Tue, Feb 25 | [Hash Tables & Article Draft][]      |
-|  5         | Tue, Feb 18  | Thu, Feb 27 | [Trees & Tree Traversals][]          |
-|  6         | Tue, Feb 25  | Tue, Mar  3 | [Sets & Set Operations][]            |
-|  7         | Tue, Mar  3  | Thu, Mar  5 | [Word Jumble Project Code][]         |
-|  8         | Tue, Feb 11  | Thu, Mar  5 | [Published Technical Article][]      |
-
-[Number Bases & Search Algorithms]: https://make.sc/cs13-submit-bases-search
-[Palindromes & String Algorithms]: https://make.sc/cs13-submit-palindromes-strings
-[Linked Lists, Stacks & Queues]: https://make.sc/cs13-submit-linked-lists-stacks-queues
-[Hash Tables & Article Draft]: https://make.sc/cs13-submit-hash-tables-article
-[Trees & Tree Traversals]: https://make.sc/cs13-submit-trees-traversals
-[Sets & Set Operations]: https://make.sc/cs13-submit-sets-set-operations
-[Word Jumble Project Code]: https://make.sc/cs13-submit-word-jumble-project
-[Published Technical Article]: https://make.sc/cs13-submit-technical-article
 
 ## Evaluation
 
@@ -149,18 +123,13 @@ To pass this course, students must meet the following requirements:
 [quiz study guides]: https://make.sc/cs13-quiz-study-guides
 
 
-## Repository Setup
-
-:warning: **Important:** Please follow [these instructions](Setup.md) exactly to set up your clone of this course repository.
-
-
 ## Make School Course Policies
 
-- [Program Learning Outcomes](https://make.sc/program-learning-outcomes)
-- [Grading System](https://make.sc/grading-system)
-- [Diversity and Inclusion Statement](https://make.sc/diversity-and-inclusion-statement)
-- [Academic Honesty](https://make.sc/academic-honesty-policy)
-- [Attendance Policy](https://make.sc/attendance-policy)
-- [Course Credit Policy](https://make.sc/course-credit-policy)
-- [Disability Services (Academic Accommodations)](https://make.sc/disability-services)
-- [Student Handbook](https://make.sc/student-handbook)
+- [Program Learning Outcomes](https://make.sc/program-learning-outcomes) - What you will achieve after finishing Make School, all courses are designed around these outcomes.
+- [Grading System](https://make.sc/grading-system) - How grading is done at Make School
+- [Diversity and Inclusion Statement](https://make.sc/diversity-and-inclusion-statement) - Learn about Diversity and Inclusion at Make School
+- [Academic Honesty](https://make.sc/academic-honesty-policy) - Our policies around plagerism, cheating, and other forms of academic misconduct 
+- [Attendance Policy](https://make.sc/attendance-policy) - What we expect from you in terms of attendance for all classes at Make School
+- [Course Credit Policy](https://make.sc/course-credit-policy) - Our policy for how you obtain credit for your courses
+- [Disability Services (Academic Accommodations)](https://make.sc/disability-services) - Services and accommodations we provide for students
+- [Student Handbook](https://make.sc/student-handbook) - Guidelines, policies, and resources for all Make School students
