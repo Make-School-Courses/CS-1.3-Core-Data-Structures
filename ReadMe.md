@@ -12,7 +12,9 @@ Implementations of these concepts are how some of the largest tech companies in 
 ## Important Links
 
 [Gradescope Assignment Submission Page](https://www.gradescope.com/courses/104809)
-
+[All Slides]()
+[All Rubrics]()
+[All Videos]()
 
 ## Schedule
 
