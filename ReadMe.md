@@ -38,8 +38,8 @@ Monday and Wednesday at 2:30–5:20pm(Section A) or Tuesday & Thursday at some t
 | 10 | A: Wed, April 29  <br> B: Thu, April 30  | [Tree Traversals Review][]    | Programming Lab Time              | [Due]: Hash Tables & Article Draft      |
 | 11 | A: Mon, May 4  <br> B: Tue, May 5  | N/A                           | [Sets & Circular Buffers][]       | [Due]: Trees & Tree Traversals          |
 | 12 | A: Wed, May 6    <br> B: Thu, May 7   | [Sets Review][]               | [Word Jumble Project][]           |    [Quiz]: 3        |
-| 13 | A: Mon, May 11  <br> B: Tue, May 12  | Lab Day| N/A         | [Due]: Sets & Set Operations <br> [Due]: Article & Project |
-| 14 | A: Wed, May 13   <br> B: Thu, May 14  | Lab Day | N/A           | [Quiz]: Trees & Sets <br> [Due]: Article & Project |
+| 13 | A: Mon, May 11  <br> B: Tue, May 12  | Lab Day| N/A         | [Due]: Sets & Set Operations <br> |
+| 14 | A: Wed, May 13   <br> B: Thu, May 14  | Lab Day | N/A           | [Due]: Article & Word Jumble Project |
 
 [Number Bases]: Lessons/NumberBases.md
 [Number Bases Review]: Lessons/NumberBases.md#code-review-in-pairs-25-min
