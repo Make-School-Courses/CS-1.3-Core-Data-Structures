@@ -11,10 +11,10 @@ Implementations of these concepts are how some of the largest tech companies in 
 
 ## Important Links
 
-[Gradescope Assignment Submission Page](https://www.gradescope.com/courses/104809)
-[All Slides]()
-[All Rubrics]()
-[All Videos]()
+- [Gradescope Assignment Submission Page](https://www.gradescope.com/courses/104809)
+- [All Slides]()
+- [All Rubrics]()
+- [All Videos]()
 
 ## Schedule
 
@@ -26,19 +26,20 @@ Monday and Wednesday at 2:30–5:20pm(Section A) or Tuesday & Thursday at some t
 
 | Class | Date&nbsp;by&nbsp;Section | Review of Prior Topic         | New Topic & Challenges            | Quiz or Deliverable Due               |
 |:-----:|:-------------------------:|:------------------------------|:----------------------------------|:--------------------------------------|
-|  1 | A: Wed, Jan 22 <br> B: Tue, Jan 21 | N/A                           | [Number Bases][]                  | N/A                                   |
-|  2 | A: Mon, Jan 27 <br> B: Tue, Jan 28 | [Number Bases Review][]       | [Recursion & Search Algorithms][] | N/A                                   |
-|  3 | A: Wed, Jan 29 <br> B: Thu, Jan 30 | [Search Algorithms Review][]  | [String Algorithms][]             | [Quiz]: Number Bases                    |
-|  4 | A: Mon, Feb 3  <br> B: Tue, Feb 4  | [String Algorithms Review][]  | [Arrays & Linked Lists][]         | [Due]: Number Bases & Search Algorithms |
-|  5 | A: Wed, Feb 5  <br> B: Thu, Feb 6  | [Linked Lists Review][]       | [Lists, Stacks & Queues][]        | [Quiz]: Search Algorithms               |
-|  6 | A: Mon, Feb 10 <br> B: Tue, Feb 11 | [Stacks & Queues Review][]    | [Technical Article][] Kickoff     | [Due]: Palindromes & String Algorithms  |
-|  7 | A: Wed, Feb 12 <br> B: Thu, Feb 13 | Technical Article Peer Review | [Maps & Hash Tables][]            | [Quiz]: Lists, Stacks & Queues          |
-|  8 | A: Mon, Feb 17 <br> B: Tue, Feb 18 | [Hash Tables Review][]        | [Trees & Binary Search Trees][]   | [Due]: Lists, Stacks & Queues           |
-|  9 | A: Wed, Feb 19 <br> B: Thu, Feb 20 | [Binary Search Trees Review][]| [Tree Traversals][]               | [Quiz]: Hash Tables                     |
-| 10 | A: Mon, Feb 24 <br> B: Tue, Feb 25 | [Tree Traversals Review][]    | Programming Lab Time              | [Due]: Hash Tables & Article Draft      |
-| 11 | A: Wed, Feb 26 <br> B: Thu, Feb 27 | N/A                           | [Sets & Circular Buffers][]       | [Due]: Trees & Tree Traversals          |
-| 12 | A: Mon, Mar 2  <br> B: Tue, Mar 3  | [Sets Review][]               | [Word Jumble Project][]           | [Due]: Sets & Set Operations            |
-| 13 | A: Wed, Mar 4  <br> B: Thu, Mar 5  | Technical Article Peer Review | [Word Jumble Project][]           | [Quiz]: Trees & Sets <br> [Due]: Article & Project |
+|  1 | A: Mon, March 30 <br> B: Tue, March 31 | N/A                           | [Number Bases][]                  | N/A                                   |
+|  2 | A: Wed, April 1 <br> B: Thu, April 2   | [Number Bases Review][]       | [Recursion & Search Algorithms][] | N/A                                   |
+|  3 | A:  Mon, April 6 <br> B: Tue, April 7  | [Search Algorithms Review][]  | [String Algorithms][]             | [Quiz]: Number Bases                    |
+|  4 | A: Wed, April 8   <br> B: Thu, April 9   | [String Algorithms Review][]  | [Arrays & Linked Lists][]         | [Due]: Number Bases & Search Algorithms |
+|  5 | A: Mon, April 13   <br> B:  Tue, April 14   | [Linked Lists Review][]       | [Lists, Stacks & Queues][]        | [Quiz]: Search Algorithms               |
+|  6 | A: Wed, April 15 <br> B: Thu, April 16  | [Stacks & Queues Review][]    | [Technical Article][] Kickoff     | [Due]: Palindromes & String Algorithms  |
+|  7 | A: Mon, April 20  <br> B: Tue, April 21  | Technical Article Peer Review | [Maps & Hash Tables][]            | [Quiz]: Lists, Stacks & Queues          |
+|  8 | A: Wed, April 22  <br> B: Thu, April 23 | [Hash Tables Review][]        | [Trees & Binary Search Trees][]   | [Due]: Lists, Stacks & Queues           |
+|  9 | A: Mon, April 27  <br> B: Tue, April 28 | [Binary Search Trees Review][]| [Tree Traversals][]               | [Quiz]: Hash Tables                     |
+| 10 | A: Wed, April 29  <br> B: Thu, April 30  | [Tree Traversals Review][]    | Programming Lab Time              | [Due]: Hash Tables & Article Draft      |
+| 11 | A: Mon, May 4  <br> B: Tue, May 5  | N/A                           | [Sets & Circular Buffers][]       | [Due]: Trees & Tree Traversals          |
+| 12 | A: Wed, May 6    <br> B: Thu, May 7   | [Sets Review][]               | [Word Jumble Project][]           | [Due]: Sets & Set Operations            |
+| 13 | A: Mon, May 11  <br> B: Tue, May 12  | Technical Article Peer Review | [Word Jumble Project][]           | [Quiz]: Trees & Sets <br> [Due]: Article & Project |
+| 14 | A: Wed, May 13   <br> B: Thu, May 14  | Technical Article Peer Review | [Word Jumble Project][]           | [Quiz]: Trees & Sets <br> [Due]: Article & Project |
 
 [Number Bases]: Lessons/NumberBases.md
 [Number Bases Review]: Lessons/NumberBases.md#code-review-in-pairs-25-min
