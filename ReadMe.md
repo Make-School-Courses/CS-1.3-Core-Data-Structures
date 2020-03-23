@@ -111,18 +111,16 @@ Submissions received after the due date will not be considered unless the instru
 ## Evaluation
 
 To pass this course, students must meet the following requirements:
-- Complete all required coding challenges, projects, and technical articles
-- Submit all code and writing with rubric scores by the due dates listed above
-- Pass all submissions according to the associated [coding challenge rubrics][]
-- Pass the written assessment (total of all quiz scores)
-  - Review the [quiz study guides][] with the lesson topics and learning outcomes (skills) you need to demonstrate, links to the best lesson activities, slides, and resources to review while preparing
+
+- Complete the required coding challenges
+- Pass the coding challenges  according to the associated coding challenge rubrics
+- Complete all coding challenges by the due dates above
+- Complete all lab deliverables by the end of class
+- Pass all quizzes (there will be a total of 3 quizzes, you can retake each quiz to get it up to a passing score)
 - Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
-- No more than two unexcused absences ("no-call-no-shows")
-- No more than four excused absences (communicated in advance)
 
 [coding challenge rubrics]: https://make.sc/cs13-rubrics
-[quiz study guides]: https://make.sc/cs13-quiz-study-guides
 
 
 ## Make School Course Policies
