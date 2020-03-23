@@ -13,7 +13,7 @@ Implementations of these concepts are how some of the largest tech companies in 
 
 - [Gradescope Assignment Submission Page](https://www.gradescope.com/courses/104809)
 - [All Slides](https://drive.google.com/drive/folders/12TsnbwV5PUVB7hbCp8u-gjefflCt0AsU?usp=sharing)
-- [All Rubrics](https://drive.google.com/open?id=1gMPOU7B_tRgPZalU2b35DLdtzs13C83W)
+- [All Rubrics](https://drive.google.com/open?id=1QMm-cc0jieP-sLXOsXGxNPupz5FYYP0C)
 - [All Videos](https://www.youtube.com/playlist?list=PLiAsaqRV_eSj961qIMgXxsDWHI-Vvrp5I)
 
 ## Schedule
@@ -121,7 +121,7 @@ To pass this course, students must meet the following requirements:
 - Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
 
-[coding challenge rubrics]: https://make.sc/cs13-rubrics
+[coding challenge rubrics]: https://drive.google.com/open?id=1QMm-cc0jieP-sLXOsXGxNPupz5FYYP0C
 
 
 ## Make School Course Policies
