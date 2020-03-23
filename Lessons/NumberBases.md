@@ -1,5 +1,12 @@
 # Number Bases
 
+## Important Links
+- [Number Bases Slides]()
+- [Number Bases Coding Challenge Starter Code]()
+- [Number Bases Coding Challenge Rubric]()
+
+SUBMIT YOUR CODING CHALLENGE ON GRADESCOPE BY THE DUE DATE
+
 ## Topics
 - Number bases: [decimal], [binary], [hexadecimal]
 - [Signed number representations]: signed magnitude, [ones' complement], [two's complement]
