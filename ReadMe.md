@@ -15,6 +15,7 @@ Implementations of these concepts are how some of the largest tech companies in 
 - [All Slides](https://drive.google.com/drive/folders/12TsnbwV5PUVB7hbCp8u-gjefflCt0AsU?usp=sharing)
 - [All Rubrics](https://drive.google.com/open?id=1QMm-cc0jieP-sLXOsXGxNPupz5FYYP0C)
 - [All Videos](https://www.youtube.com/playlist?list=PLiAsaqRV_eSj961qIMgXxsDWHI-Vvrp5I)
+= [Starter Code](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code)
 
 ## Schedule
 
@@ -35,8 +36,8 @@ Monday and Wednesday at 2:30–5:20pm(Section A) or Tuesday & Thursday at some t
 |  7 | A: Mon, April 20  <br> B: Tue, April 21  | Technical Article Peer Review | [Maps & Hash Tables][]            | Quiz: 2        |
 |  8 | A: Wed, April 22  <br> B: Thu, April 23 | [Hash Tables Review][]        | [Trees & Binary Search Trees][]   | [Due]: Lists, Stacks & Queues           |
 |  9 | A: Mon, April 27  <br> B: Tue, April 28 | [Binary Search Trees Review][]| [Tree Traversals][]               | N/A                    |
-| 10 | A: Wed, April 29  <br> B: Thu, April 30  | [Tree Traversals Review][]    | Programming Lab Time              | [Due]: Hash Tables & Article Draft      |
-| 11 | A: Mon, May 4  <br> B: Tue, May 5  | N/A                           | [Sets & Circular Buffers][]       | [Due]: Trees & Tree Traversals          |
+| 10 | A: Wed, April 29  <br> B: Thu, April 30  | [Tree Traversals Review][]    | Lab Day            | [Due]: Hash Tables & Article Draft      |
+| 11 | A: Mon, May 4  <br> B: Tue, May 5  | N/A                           | [Sets][]       | [Due]: Trees & Tree Traversals          |
 | 12 | A: Wed, May 6    <br> B: Thu, May 7   | [Sets Review][]               | [Word Jumble Project][]           |    Quiz: 3        |
 | 13 | A: Mon, May 11  <br> B: Tue, May 12  | Lab Day| N/A         | [Due]: Sets & Set Operations <br> |
 | 14 | A: Wed, May 13   <br> B: Thu, May 14  | Lab Day | N/A           | [Due]: Article & Word Jumble Project |
