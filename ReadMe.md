@@ -16,6 +16,7 @@ Implementations of these concepts are how some of the largest tech companies in 
 - [All Rubrics](https://drive.google.com/open?id=1QMm-cc0jieP-sLXOsXGxNPupz5FYYP0C)
 - [All Videos](https://www.youtube.com/playlist?list=PLiAsaqRV_eSj961qIMgXxsDWHI-Vvrp5I)
 - [Starter Code](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code)
+- [Office Hours Sign Up Sheet](https://docs.google.com/spreadsheets/d/1uka2aMUDKNTD_teliUsYTKbeZiaMcRPuBR_LLtA2SZo/edit#gid=0)
 
 ## Schedule
 
