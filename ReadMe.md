@@ -114,16 +114,17 @@ Submissions received after the due date will not be considered unless the instru
 
 To pass this course, students must meet the following requirements:
 
-- Complete the required coding challenges
+- Complete the required coding challenges (you must attempt all coding challenges but can drop one that isn't the final word jumble project)
 - Pass the coding challenges  according to the associated coding challenge rubrics
 - Complete all coding challenges by the due dates above
 - Complete all lab deliverables by the end of class
-- Pass all quizzes (there will be a total of 3 quizzes, you can retake each quiz to get it up to a passing score)
+- Pass all quizzes
 - Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
 
 [coding challenge rubrics]: https://drive.google.com/open?id=1QMm-cc0jieP-sLXOsXGxNPupz5FYYP0C
 
+There will be a total of 3 quizzes. If you do not pass a quiz the first time you will be given some small assignments and a recommendation on what to study. You will be given a week to complete these and after you have completed them you can retake the quiz questions you missed to get your overall score up to passing for that quiz.
 
 ## Make School Course Policies
 
