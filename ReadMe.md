@@ -58,7 +58,7 @@ Monday and Wednesday at 2:30–5:20pm(Section A) or Tuesday & Thursday at some t
 [Binary Search Trees Review]: Lessons/TreesBinarySearchTrees.md
 [Tree Traversals]: Lessons/TreeTraversals.md
 [Tree Traversals Review]: Lessons/TreeTraversals.md#code-review-80-min
-[Sets & Circular Buffers]: Lessons/SetsCircularBuffers.md
+[Sets]: Lessons/SetsCircularBuffers.md
 [Sets Review]: Lessons/SetsCircularBuffers.md
 [Word Jumble Project]: Lessons/WordJumble.md
 [Call Routing Project]: project/ReadMe.md
