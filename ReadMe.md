@@ -15,7 +15,7 @@ Implementations of these concepts are how some of the largest tech companies in 
 - [All Slides](https://drive.google.com/drive/folders/12TsnbwV5PUVB7hbCp8u-gjefflCt0AsU?usp=sharing)
 - [All Rubrics](https://drive.google.com/open?id=1QMm-cc0jieP-sLXOsXGxNPupz5FYYP0C)
 - [All Videos](https://www.youtube.com/playlist?list=PLiAsaqRV_eSj961qIMgXxsDWHI-Vvrp5I)
-= [Starter Code](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code)
+- [Starter Code](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code)
 
 ## Schedule
 
