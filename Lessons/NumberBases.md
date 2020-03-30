@@ -1,9 +1,9 @@
 # Number Bases
 
 ## Important Links
-- [Number Bases Slides]()
-- [Number Bases Coding Challenge Starter Code]()
-- [Number Bases Coding Challenge Rubric]()
+- [Number Bases Slides](https://docs.google.com/presentation/d/1-1DyXDG2XGJ4rh1YR5UA2aQfSiy7_HPC1wAjwqF8G9o/edit#slide=id.g827cbc5ae4_0_78)
+- [Number Bases Coding Challenge Starter Code](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/number-bases)
+- [Number Bases Coding Challenge Rubric](https://drive.google.com/file/d/1QMm-cc0jieP-sLXOsXGxNPupz5FYYP0C/view?usp=sharing)
 
 SUBMIT YOUR CODING CHALLENGE ON GRADESCOPE BY THE DUE DATE
 
