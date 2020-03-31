@@ -1,5 +1,10 @@
 # Recursion & Search Algorithms
 
+## Important links
+- [Slides](https://docs.google.com/presentation/d/1m8c02CY9i5Vq35ooqVEf4zOwUI6DnUZt7piUOOJVgMk/edit?usp=sharing)
+- [Starter Code](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/recursion-and-search)
+- [Code Rubrics](https://drive.google.com/file/d/1QMm-cc0jieP-sLXOsXGxNPupz5FYYP0C/view?usp=sharing)
+
 ## Topics
 - Compare [iteration] and [recursion] with [factorial] function
 - Search algorithms: [linear search] and [binary search]
