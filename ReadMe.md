@@ -31,9 +31,9 @@ Monday and Wednesday at 2:30–5:20pm(Section A) or Tuesday & Thursday at some t
 |:-----:|:-------------------------:|:------------------------------|:----------------------------------|:--------------------------------------|
 |  1 | A: Mon, March 30 <br> B: Tue, March 31 | N/A                           | [Number Bases][]                  | N/A                                   |
 |  2 | A: Wed, April 1 <br> B: Thu, April 2   | [Number Bases Review][]       | [Recursion & Search Algorithms][] | N/A                                   |
-|  3 | A:  Mon, April 6 <br> B: Tue, April 7  | [Search Algorithms Review][]  |  [Recursion & Search Algorithms][] II           |                   |
+|  3 | A:  Mon, April 6 <br> B: Tue, April 7  | [Search Algorithms Review][]  |  [Recursion & Search Algorithms][] II           |   N/A                |
 |  4 | A: Wed, April 8   <br> B: Thu, April 9   | N/A  |  [String Algorithms][]         | [Due]: Number Bases & Search Algorithms |
-|  5 | A: Mon, April 13   <br> B:  Tue, April 14   | [String Algorithms Review][]      | [Arrays & Linked Lists][]        | N/A              | Quiz: 1 
+|  5 | A: Mon, April 13   <br> B:  Tue, April 14   | [String Algorithms Review][]      | [Arrays & Linked Lists][]        | Quiz: 1               | 
 |  6 | A: Wed, April 15 <br> B: Thu, April 16  |   [Linked Lists Review][]   | [Technical Article][] Kickoff & [Lists, Stacks & Queues][]   | [Due]: Palindromes & String Algorithms  |
 |  7 | A: Mon, April 20  <br> B: Tue, April 21  | Technical Article Peer Review & [Stacks & Queues Review][]| [Maps & Hash Tables][]            | Quiz: 2        |
 |  8 | A: Wed, April 22  <br> B: Thu, April 23 | [Hash Tables Review][]        | [Trees & Binary Search Trees][]   | [Due]: Lists, Stacks & Queues           |
