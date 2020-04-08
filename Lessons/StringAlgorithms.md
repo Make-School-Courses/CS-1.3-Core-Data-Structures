@@ -1,5 +1,11 @@
 # String Algorithms
 
+## Important Links
+
+- [Slides](https://docs.google.com/presentation/d/1KE-qfPeadgs8Ogq9Eb2-AcFd8XGjm1Ge2rpdBQN741U/edit#slide=id.g831eb0c475_0_108)
+- [Starter Code](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/palindromes-and-strings)
+- [Rubrics](https://drive.google.com/file/d/1QMm-cc0jieP-sLXOsXGxNPupz5FYYP0C/view)
+
 ## Topics
 - [Palindromes]: strings that read the same forwards and backwards, ignoring punctuation, whitespace, and letter casing
 - [String searching]: find occurrences of a pattern in a longer string of text
