@@ -1,5 +1,10 @@
 # Arrays & Linked Lists
 
+## Important Links
+- [Slides](https://docs.google.com/presentation/d/18UtE0wphIOrETR0PKUSIkMdNrVV-8IHAu5-LrjEFS68/edit#slide=id.g835fc15bd0_0_63)
+- [Starter Code](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/linked-list)
+- [Rubric](https://drive.google.com/open?id=1QMm-cc0jieP-sLXOsXGxNPupz5FYYP0C)
+
 ## Topics
 - Compare [abstract data types] and [concrete data structures][data structures]
 - Abstract data types: [list]
