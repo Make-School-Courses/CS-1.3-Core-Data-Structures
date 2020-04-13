@@ -41,7 +41,7 @@ Monday and Wednesday at 2:30–5:20pm(Section A) or Tuesday & Thursday at some t
 | 10 | A: Wed, April 29  <br> B: Thu, April 30  | [Tree Traversals Review][]    | Lab Day            | [Due]: [Hash Tables](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/hash-table) & Article Draft      |
 | 11 | A: Mon, May 4  <br> B: Tue, May 5  | N/A                           | [Sets][]       | [Due]: [Trees & Tree Traversals](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/trees)          |
 | 12 | A: Wed, May 6    <br> B: Thu, May 7   | [Sets Review][]               | [Word Jumble Project][]           |    Quiz: 3        |
-| 13 | A: Mon, May 11  <br> B: Tue, May 12  | Lab Day| N/A         | [Due]: Sets & Set Operations <br> |
+| 13 | A: Mon, May 11  <br> B: Tue, May 12  | Lab Day| N/A         | N/A<br> |
 | 14 | A: Wed, May 13   <br> B: Thu, May 14  | Lab Day | N/A           | [Due]: Article & Word Jumble Project |
 
 [Number Bases]: Lessons/NumberBases.md
