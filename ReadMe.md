@@ -35,12 +35,12 @@ Monday and Wednesday at 2:30–5:20pm(Section A) or Tuesday & Thursday at some t
 |  4 | A: Wed, April 8   <br> B: Thu, April 9   | N/A  |  [String Algorithms][]         | [Due]: [Number Bases](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/number-bases) & [Search Algorithms](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/recursion-and-search) |
 |  5 | A: Mon, April 13   <br> B:  Tue, April 14   | [String Algorithms Review][]      | [Arrays & Linked Lists][]        | Quiz: 1               | 
 |  6 | A: Wed, April 15 <br> B: Thu, April 16  |   [Linked Lists Review][]   | [Technical Article][] Kickoff & [Lists, Stacks & Queues][]   | [Due]: [Palindromes & String Algorithms](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/palindromes-and-strings)  |
-|  7 | A: Mon, April 20  <br> B: Tue, April 21  | Technical Article Peer Review & [Stacks & Queues Review][]| [Maps & Hash Tables][]            | n/A      |
-|  8 | A: Wed, April 22  <br> B: Thu, April 23 | [Hash Tables Review][]        | [Trees & Binary Search Trees][]   | [Due]: [Lists](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/linked-list), [Stacks & Queues](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/stacks-and-queues)           |
-|  9 | A: Mon, April 27  <br> B: Tue, April 28 | [Binary Search Trees Review][]| [Tree Traversals][]               | Quiz: 2                     |
-| 10 | A: Wed, April 29  <br> B: Thu, April 30  | [Tree Traversals Review][]    | Lab Day            | [Due]: [Hash Tables](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/hash-table) & Article Draft      |
-| 11 | A: Mon, May 4  <br> B: Tue, May 5  | N/A                           | [Sets][]       | [Due]: [Trees & Tree Traversals](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/trees)          |
-| 12 | A: Wed, May 6    <br> B: Thu, May 7   | [Sets Review][]               | [Word Jumble Project][]           |    Quiz: 3        |
+|  7 | A: Mon, April 20  <br> B: Tue, April 21  | N/A|     [Lists, Stacks & Queues][] Part 2    | N/A      |
+|  8 | A: Wed, April 22  <br> B: Thu, April 23 |  Technical Article Peer Review & [Stacks & Queues Review][]      | [Maps & Hash Tables][]      | [Due]: [Lists](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/linked-list), [Stacks & Queues](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/stacks-and-queues)           |
+|  9 | A: Mon, April 27  <br> B: Tue, April 28 |[Hash Tables Review][]  |    [Trees & Binary Search Trees][]      | Quiz: 2                     |
+| 10 | A: Wed, April 29  <br> B: Thu, April 30  | [Binary Search Trees Review][]   |        [Tree Traversals][]           | [Due]: [Hash Tables](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/hash-table) & Article Draft      |
+| 11 | A: Mon, May 4  <br> B: Tue, May 5  | [Tree Traversals Review][]                           | Lab Day     | [Due]: [Trees & Tree Traversals](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/trees)          |
+| 12 | A: Wed, May 6    <br> B: Thu, May 7   | N/A           | [Word Jumble Project][]           |    Quiz: 3        |
 | 13 | A: Mon, May 11  <br> B: Tue, May 12  | Lab Day| N/A         | N/A<br> |
 | 14 | A: Wed, May 13   <br> B: Thu, May 14  | Lab Day | N/A           | [Due]: Article & Word Jumble Project |
 
