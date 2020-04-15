@@ -1,5 +1,10 @@
 # Lists, Stacks & Queues
 
+## Important Links
+- [Slides](https://docs.google.com/presentation/d/1z51icU9gjESHtyzmBLC2-2thaeLhfQrLdoI9RWUU7WM/edit#slide=id.g8382c44d4e_0_0)
+- [Code](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/stacks-and-queues)
+- [Rubrics](https://drive.google.com/open?id=1QMm-cc0jieP-sLXOsXGxNPupz5FYYP0C)
+
 <!--## Minute-by-Minute [OPTIONAL]
 
 **NOTE: Fill in with the appropriate items**
