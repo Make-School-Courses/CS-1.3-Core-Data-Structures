@@ -1,5 +1,12 @@
 # Maps & Hash Tables
 
+## Important Links
+
+- [Slides](https://docs.google.com/presentation/d/1lewBrWphOUW_j7NLp0OmaA2tEDDigEdX1hlJEsk-Ezw/edit#slide=id.p)
+- [Starter Code](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/hash-table)
+- [Rubrics](https://drive.google.com/file/d/1QMm-cc0jieP-sLXOsXGxNPupz5FYYP0C/view)
+
+
 ## Learning Objectives (5 min)
 
 By this end of this lesson, students should be able to...
