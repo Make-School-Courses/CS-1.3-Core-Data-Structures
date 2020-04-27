@@ -1,11 +1,5 @@
 # CS 1.3: Core Data Structures & Algorithms
 
-## Important Links
-
-- [Slides](https://docs.google.com/presentation/d/1lewBrWphOUW_j7NLp0OmaA2tEDDigEdX1hlJEsk-Ezw/edit#slide=id.p)
-- [Starter Code](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/hash-table)
-- [Rubrics](https://drive.google.com/file/d/1QMm-cc0jieP-sLXOsXGxNPupz5FYYP0C/view)
-
 ## Course Description
 
 This course explores the foundations of computer science including discrete mathematics, abstract data types, data structures, and algorithm analysis and design. Students will compare and contrast iterative and recursive algorithms to analyze design and performance tradeoffs. Students will implement and test data structures including lists, stacks, queues, sets, maps, and trees. Students will then apply these to real-world problems like phone call routing to understand their tradeoffs. Students will also write technical blog articles about these topics to deepen understanding, improve technical writing, and bolster their online presence as knowledgeable and proficient software engineers.
