@@ -1,5 +1,13 @@
 # Trees & Binary Search Trees
 
+## Important Links
+
+- [Slides](https://docs.google.com/presentation/d/1tKLQIpPTL9OwZ_DWwlq0pg4Ftym50hDbW-vbgf5TN9k/edit#slide=id.g845aebbd8a_0_324)
+- [Starter Code](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/trees)
+- [Rubrics](https://drive.google.com/file/d/1QMm-cc0jieP-sLXOsXGxNPupz5FYYP0C/view)
+
+
+
 ## Learning Objectives (5 min)
 
 By this end of this lesson, students should be able to...
