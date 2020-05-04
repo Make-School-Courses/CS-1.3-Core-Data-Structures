@@ -1,5 +1,9 @@
 # Tree Traversals
 
+## Important Linkes
+
+- [Slides](https://docs.google.com/presentation/d/1tKLQIpPTL9OwZ_DWwlq0pg4Ftym50hDbW-vbgf5TN9k/edit#slide=id.g76f7c9c761_0_148)
+
 ## Learning Objectives
 
 By this end of this lesson, students should be able to...
