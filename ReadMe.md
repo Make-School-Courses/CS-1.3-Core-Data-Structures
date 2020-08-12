@@ -11,38 +11,35 @@ Implementations of these concepts are how some of the largest tech companies in 
 
 ## Important Links
 
-- [Gradescope Assignment Submission Page](https://www.gradescope.com/courses/104809)
+- [Gradescope Assignment Submission Page](https://www.gradescope.com/courses/158814)
 - [All Slides](https://drive.google.com/drive/folders/12TsnbwV5PUVB7hbCp8u-gjefflCt0AsU?usp=sharing)
 - [All Rubrics](https://drive.google.com/open?id=1QMm-cc0jieP-sLXOsXGxNPupz5FYYP0C)
 - [All Videos](https://www.youtube.com/playlist?list=PLiAsaqRV_eSj961qIMgXxsDWHI-Vvrp5I)
 - [Starter Code](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code)
-- [Office Hours Sign Up Sheet](https://docs.google.com/spreadsheets/d/1uka2aMUDKNTD_teliUsYTKbeZiaMcRPuBR_LLtA2SZo/edit#gid=0)
-- [Makeschool Stackoverflow](https://stackoverflow.com/c/make-school/questions)
 
 ## Schedule
 
-**Course Dates:**
-Monday, March 30 – Wednesday, May 13, 2020 (7 weeks)
+**Course Dates:** Wednesday, August 19 – Wednesday, October 7, 2020 (7 weeks)
 
-**Class Times:**
-Monday and Wednesday at 2:30–5:20pm(Section A) or Tuesday & Thursday at some time (Section B)
+**Class Times:** Monday, Wednesday at 2:45 pm–5:30 pm (14 class sessions)
 
 | Class | Date&nbsp;by&nbsp;Section | Review of Prior Topic         | New Topic & Challenges            | Quiz or Deliverable Due               |
 |:-----:|:-------------------------:|:------------------------------|:----------------------------------|:--------------------------------------|
-|  1 | A: Mon, March 30 <br> B: Tue, March 31 | N/A                           | [Number Bases][]                  | N/A                                   |
-|  2 | A: Wed, April 1 <br> B: Thu, April 2   | [Number Bases Review][]       | [Recursion & Search Algorithms][] | N/A                                   |
-|  3 | A:  Mon, April 6 <br> B: Tue, April 7  | [Search Algorithms Review][]  |  [Recursion & Search Algorithms][] II           |   N/A                |
-|  4 | A: Wed, April 8   <br> B: Thu, April 9   | N/A  |  [String Algorithms][]         | [Due]: [Number Bases](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/number-bases) & [Search Algorithms](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/recursion-and-search) |
-|  5 | A: Mon, April 13   <br> B:  Tue, April 14   | [String Algorithms Review][]      | [Arrays & Linked Lists][]        | Quiz: 1               | 
-|  6 | A: Wed, April 15 <br> B: Thu, April 16  |   [Linked Lists Review][]   | [Technical Article][] Kickoff & [Lists, Stacks & Queues][]   | [Due]: [Palindromes & String Algorithms](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/palindromes-and-strings)  |
-|  7 | A: Mon, April 20  <br> B: Tue, April 21  | N/A|     [Lists, Stacks & Queues][] Part 2    | N/A      |
-|  8 | A: Wed, April 22  <br> B: Thu, April 23 |  Technical Article Peer Review & [Stacks & Queues Review][]      | [Maps & Hash Tables][]      | [Due]: [Lists](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/linked-list), [Stacks & Queues](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/stacks-and-queues)           |
-|  9 | A: Mon, April 27  <br> B: Tue, April 28 | N/A |    [Maps & Hash Tables][] Part 2      | Quiz: 2                     |
-| 10 | A: Wed, April 29  <br> B: Thu, April 30  | [Hash Tables Review][]  |          [Trees & Binary Search Trees][]        | [Due]: [Hash Tables](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/hash-table) & Article Draft      |
-| 11 | A: Mon, May 4  <br> B: Tue, May 5  | [Binary Search Trees Review][]                            | [Tree Traversals][]     | [Due]: [Trees & Tree Traversals](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/trees)          |
-| 12 | A: Wed, May 6    <br> B: Thu, May 7   | N/A           | Extra Credit [Word Jumble Project][]           |    N/A        |
-| 13 | A: Mon, May 11  <br> B: Tue, May 12  | Lab Day| N/A         | Quiz: 3<br> |
-| 14 | A: Wed, May 13   <br> B: Thu, May 14  | Lab Day | N/A           | [Due]: Article|
+|  1 | Wed, Aug 19  | N/A                           | [Number Bases][]                  | N/A                                   |
+|  2 | Mon, Aug 24    | [Number Bases Review][]       | [Recursion & Search Algorithms][] | N/A                                   |
+|  3 | Wed, Aug 26  | [Search Algorithms Review][]  |  [Recursion & Search Algorithms][] II           |   N/A                |
+|  4 | Mon, Aug 31   | N/A  |  [String Algorithms][]         | [Due]: [Number Bases](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/number-bases) & [Search Algorithms](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/recursion-and-search) |
+|  5 | Wed, Sept 2    | [String Algorithms Review][]      | [Arrays & Linked Lists][]        | Quiz: 1               | 
+|  - |  Mon, Sept 7               | **Holiday- Labor Day** |
+|  6 | Wed, Sept 9  |   [Linked Lists Review][]   | [Technical Article][] Kickoff & [Lists, Stacks & Queues][]   | [Due]: [Palindromes & String Algorithms](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/palindromes-and-strings)  |
+|  7 | Mon, Sept 14  | N/A|     [Lists, Stacks & Queues][] Part 2    | N/A      |
+|  8 | Wed, Sept 16 |  Technical Article Peer Review & [Stacks & Queues Review][]      | [Maps & Hash Tables][]      | [Due]: [Lists](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/linked-list), [Stacks & Queues](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/stacks-and-queues)           |
+|  9 | Mon, Sept 21  | N/A |    [Maps & Hash Tables][] Part 2      | Quiz: 2                     |
+| 10 | Wed, Sept 23 | [Hash Tables Review][]  |          [Trees & Binary Search Trees][]        | [Due]: [Hash Tables](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/hash-table) & Article Draft      |
+| 11 | Mon, Sept 28   | [Binary Search Trees Review][]                            | [Tree Traversals][]     | [Due]: [Trees & Tree Traversals](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/trees)          |
+| 12 | Wed, Sept 30   | N/A           | [Word Jumble Project][]           |    N/A        |
+| 13 | Mon, Oct 5   | Lab Day| N/A         | Quiz: 3<br> |
+| 14 | Wed, Oct 7   | Lab Day | N/A           | [Due]: Article|
 
 [Number Bases]: Lessons/NumberBases.md
 [Number Bases Review]: Lessons/NumberBases.md#code-review-in-pairs-25-min
@@ -99,41 +96,25 @@ Refer to the [technical article guidelines][] for more information about article
 
 [technical article guidelines]: https://make.sc/cs13-article-guidelines
 
-### Submissions
-
-Completion of coding challenges will be assessed according to the associated [coding challenge rubrics][].
-
-To pass each submission, students must earn the required number of points or higher indicated on the associated rubric. Note that all points within one submission are fungible (that is, interchangeable) and so if one portion of work is below the "Met All Expectations" column of the rubric, another portion of work submitted can "Exceed Expectations" (generally by completing stretch challenges) to earn an extra point to make up for the missing one. Therefore, it's wise to complete stretch challenges as "insurance" in case some work does not meet expectations.
-
-Another way to think of the submissions is a game where your goal is to earn enough points to pass in whatever way you see fit, with rubrics as the rules of the game that you can optimize against and "win" to pass the course.
-
-The instructor or teaching assistants will review students' submissions, then share feedback with the student through Gradescope. Feedback will include their status on that submission (that is, whether their work is passing the rubric or the student needs to improve and resubmit their work to pass).
-
-Submissions received after the due date will not be considered unless the instructor has approved an extension.
-
 
 ## Evaluation
 
-To pass this course, students must meet the following requirements:
+To pass this course you must meet the following requirements:
 
-- Complete the required coding challenges (you must attempt all coding challenges but can drop one that isn't the final word jumble project)
-- Pass the coding challenges  according to the associated coding challenge rubrics
-- Complete all coding challenges by the due dates above
-- Complete all lab deliverables by the end of class
-- Pass all quizzes
+- Complete all required assignments
+- Pass all assignments according to the associated assignment rubric
+- Pass all quizzes with a score 70% or higher 
+- If an assignment or quiz is not passing you will have up to a week after your grade is received to retake and bring your score up to passing
 - Actively participate in class and abide by the attendance policy
+    - Your participation in in-class activities will be a part of your overall grade, each time your participate in the majority of day's activities you will earn a point, you must earn at least 12/14 activity participation points to pass this class
 - Make up all classwork from all absences
-
-[coding challenge rubrics]: https://drive.google.com/open?id=1QMm-cc0jieP-sLXOsXGxNPupz5FYYP0C
-
-There will be a total of 3 quizzes. If you do not pass a quiz the first time you will be given some small assignments and a recommendation on what to study. You will be given a week to complete these and after you have completed them you can retake the quiz questions you missed to get your overall score up to passing for that quiz.
 
 ## Make School Course Policies
 
 - [Program Learning Outcomes](https://make.sc/program-learning-outcomes) - What you will achieve after finishing Make School, all courses are designed around these outcomes.
 - [Grading System](https://make.sc/grading-system) - How grading is done at Make School
-- [Diversity and Inclusion Statement](https://make.sc/diversity-and-inclusion-statement) - Learn about Diversity and Inclusion at Make School
-- [Academic Honesty](https://make.sc/academic-honesty-policy) - Our policies around plagerism, cheating, and other forms of academic misconduct 
+- [Code of Conduct, Equity, and Inclusion](https://make.sc/code-of-conduct) - Learn about Diversity and Inclusion at Make School
+- [Academic Honesty](https://make.sc/academic-honesty-policy) - Our policies around plagerism, cheating, and other forms of academic misconduct
 - [Attendance Policy](https://make.sc/attendance-policy) - What we expect from you in terms of attendance for all classes at Make School
 - [Course Credit Policy](https://make.sc/course-credit-policy) - Our policy for how you obtain credit for your courses
 - [Disability Services (Academic Accommodations)](https://make.sc/disability-services) - Services and accommodations we provide for students
