@@ -12,10 +12,6 @@ Implementations of these concepts are how some of the largest tech companies in 
 ## Important Links
 
 - [Gradescope Assignment Submission Page](https://www.gradescope.com/courses/158814)
-- [All Slides](https://drive.google.com/drive/folders/12TsnbwV5PUVB7hbCp8u-gjefflCt0AsU?usp=sharing)
-- [All Rubrics](https://drive.google.com/open?id=1QMm-cc0jieP-sLXOsXGxNPupz5FYYP0C)
-- [All Videos](https://www.youtube.com/playlist?list=PLiAsaqRV_eSj961qIMgXxsDWHI-Vvrp5I)
-- [Starter Code](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code)
 
 ## Schedule
 
@@ -23,23 +19,23 @@ Implementations of these concepts are how some of the largest tech companies in 
 
 **Class Times:** Monday, Wednesday at 2:45 pm–5:30 pm (14 class sessions)
 
-| Class | Date&nbsp;by&nbsp;Section | Review of Prior Topic         | New Topic & Challenges            | Quiz or Deliverable Due               |
-|:-----:|:-------------------------:|:------------------------------|:----------------------------------|:--------------------------------------|
-|  1 | Wed, Aug 19  | N/A                           | [Number Bases][]                  | N/A                                   |
-|  2 | Mon, Aug 24    | [Number Bases Review][]       | [Recursion & Search Algorithms][] | N/A                                   |
-|  3 | Wed, Aug 26  | [Search Algorithms Review][]  |  [Recursion & Search Algorithms][] II           |   N/A                |
-|  4 | Mon, Aug 31   | N/A  |  [String Algorithms][]         | [Due]: [Number Bases](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/number-bases) & [Search Algorithms](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/recursion-and-search) |
-|  5 | Wed, Sept 2    | [String Algorithms Review][]      | [Arrays & Linked Lists][]        | Quiz: 1               | 
+| Class | Date  | Topic          | Quizzes and Assignment               |
+|:-----:|:-------------------------:|:----------------------------------|:--------------------------------------|
+|  1 | Wed, Aug 19  | [Number Bases][]                  |                                  |
+|  2 | Mon, Aug 24  | Recursion & Search Algorithms |                                 |
+|  3 | Wed, Aug 26  |  Recursion & Search Algorithms II           |                 |
+|  4 | Mon, Aug 31  | String Algorithms | Due: Number Bases & Search Algorithms |
+|  5 | Wed, Sept 2  | Arrays & Linked Lists       | Quiz: 1               | 
 |  - |  Mon, Sept 7               | **Holiday- Labor Day** |
-|  6 | Wed, Sept 9  |   [Linked Lists Review][]   | [Technical Article][] Kickoff & [Lists, Stacks & Queues][]   | [Due]: [Palindromes & String Algorithms](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/palindromes-and-strings)  |
-|  7 | Mon, Sept 14  | N/A|     [Lists, Stacks & Queues][] Part 2    | N/A      |
-|  8 | Wed, Sept 16 |  Technical Article Peer Review & [Stacks & Queues Review][]      | [Maps & Hash Tables][]      | [Due]: [Lists](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/linked-list), [Stacks & Queues](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/stacks-and-queues)           |
-|  9 | Mon, Sept 21  | N/A |    [Maps & Hash Tables][] Part 2      | Quiz: 2                     |
-| 10 | Wed, Sept 23 | [Hash Tables Review][]  |          [Trees & Binary Search Trees][]        | [Due]: [Hash Tables](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/hash-table) & Article Draft      |
-| 11 | Mon, Sept 28   | [Binary Search Trees Review][]                            | [Tree Traversals][]     | [Due]: [Trees & Tree Traversals](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/trees)          |
-| 12 | Wed, Sept 30   | N/A           | [Word Jumble Project][]           |    N/A        |
-| 13 | Mon, Oct 5   | Lab Day| N/A         | Quiz: 3<br> |
-| 14 | Wed, Oct 7   | Lab Day | N/A           | [Due]: Article|
+|  6 | Wed, Sept 9  | Technical Article Kickoff & Lists, Stacks & Queues   | Due: Palindromes & String Algorithms |
+|  7 | Mon, Sept 14  |Lists, Stacks & Queues Part 2    |    |
+|  8 | Wed, Sept 16 | Maps & Hash Tables      | Due: Lists, Stacks & Queues          |
+|  9 | Mon, Sept 21  |Maps & Hash Tables Part 2      | Quiz: 2                     |
+| 10 | Wed, Sept 23 | Trees & Binary Search Trees      | Due: Hash Tables & Article Draft      |
+| 11 | Mon, Sept 28   | Tree Traversals     | Due: Trees & Tree Traversals         |
+| 12 | Wed, Sept 30 |  Word Jumble Project           |         |
+| 13 | Mon, Oct 5   | Lab Day | Quiz: 3<br> |
+| 14 | Wed, Oct 7   | Lab Day | Due: Article|
 
 [Number Bases]: Lessons/NumberBases.md
 [Number Bases Review]: Lessons/NumberBases.md#code-review-in-pairs-25-min
