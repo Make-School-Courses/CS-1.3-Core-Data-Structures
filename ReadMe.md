@@ -81,9 +81,15 @@ By the end of this course, students will be able to:
 
 ## Assignments
 
+## Piazza
+
+This term we will be using Piazza for class discussion. The system is highly catered to getting you help fast and efficiently from classmates, the TA, and myself. Rather than emailing questions to the teaching staff, I encourage you to post your questions on Piazza. If you have any problems or feedback for the developers, email team@piazza.com.
+
+Find our class signup link at: https://piazza.com/makeschool.com/fall2020/cs13
+
 ### Coding Challenges
 
-Each lesson has an associated set of coding challenges with starter code and unit tests provided. Full details can be found in the "Challenges" section of each lesson linked in the schedule above. You will submit each coding challenge on Gradescope in its own repo.
+Each lesson has an associated set of coding challenges with starter code and unit tests provided. Full details can be found in the "Challenges" section of each lesson linked in the schedule above. You will submit each coding challenge on Gradescope in its own repo and also submit a video demoing your completed code.
 
 ### Technical Article
 
