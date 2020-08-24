@@ -22,7 +22,7 @@ Implementations of these concepts are how some of the largest tech companies in 
 | Class | Date  | Topic          | Quizzes and Assignment               |
 |:-----:|:-------------------------:|:----------------------------------|:--------------------------------------|
 |  1 | Wed, Aug 19  | [Number Bases][]                  |                                  |
-|  2 | Mon, Aug 24  | Recursion & Search Algorithms |                                 |
+|  2 | Mon, Aug 24  | [Recursion & Search Algorithms][] |                                 |
 |  3 | Wed, Aug 26  |  Recursion & Search Algorithms II           |                 |
 |  4 | Mon, Aug 31  | String Algorithms | Due: Number Bases & Search Algorithms |
 |  5 | Wed, Sept 2  | Arrays & Linked Lists       | Quiz: 1               | 
