@@ -21,21 +21,21 @@ Implementations of these concepts are how some of the largest tech companies in 
 
 | Class | Date  | Topic          | Quizzes and Assignment               |
 |:-----:|:-------------------------:|:----------------------------------|:--------------------------------------|
-|  1 | Wed, Aug 19  | [Number Bases][]                  |                                  |
-|  2 | Mon, Aug 24  | [Recursion & Search Algorithms][] |                                 |
-|  3 | Wed, Aug 26  |  Recursion & Search Algorithms II           |                 |
-|  4 | Mon, Aug 31  | String Algorithms | Due: Number Bases & Search Algorithms |
+|  1 | Wed, Aug 19  | [Number Bases][]                  |                            [Number Bases Code Challenge](make.sc/cs13-numberbases-starter)      |
+|  2 | Mon, Aug 24  | [Number Bases][] II ||                                 |
+|  3 | Wed, Aug 26  |  [Recursion & Search Algorithms]            |   [Recursion and Search Code Challenge](make.sc/cs13-recusion-starter)            |
+|  4 | Mon, Aug 31  | String Algorithms |  |
 |  5 | Wed, Sept 2  | Arrays & Linked Lists       | Quiz: 1               | 
-|  - |  Mon, Sept 7               | **Holiday- Labor Day** |
-|  6 | Wed, Sept 9  | Technical Article Kickoff & Lists, Stacks & Queues   | Due: Palindromes & String Algorithms |
+|  - |  Mon, Sept 7               | **Holiday- Labor Day** | 
+|  6 | Wed, Sept 9  | Technical Article Kickoff & Lists, Stacks & Queues   |  |
 |  7 | Mon, Sept 14  |Lists, Stacks & Queues Part 2    |    |
-|  8 | Wed, Sept 16 | Maps & Hash Tables      | Due: Lists, Stacks & Queues          |
+|  8 | Wed, Sept 16 | Maps & Hash Tables      |          |
 |  9 | Mon, Sept 21  |Maps & Hash Tables Part 2      | Quiz: 2                     |
-| 10 | Wed, Sept 23 | Trees & Binary Search Trees      | Due: Hash Tables & Article Draft      |
-| 11 | Mon, Sept 28   | Tree Traversals     | Due: Trees & Tree Traversals         |
+| 10 | Wed, Sept 23 | Trees & Binary Search Trees      |      |
+| 11 | Mon, Sept 28   | Tree Traversals     |      |
 | 12 | Wed, Sept 30 |  Word Jumble Project           |         |
 | 13 | Mon, Oct 5   | Lab Day | Quiz: 3<br> |
-| 14 | Wed, Oct 7   | Lab Day | Due: Article|
+| 14 | Wed, Oct 7   | Lab Day | |
 
 [Number Bases]: Lessons/NumberBases.md
 [Number Bases Review]: Lessons/NumberBases.md#code-review-in-pairs-25-min
