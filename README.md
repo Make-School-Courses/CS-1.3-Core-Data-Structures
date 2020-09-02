@@ -26,7 +26,7 @@ Implementations of these concepts are how some of the largest tech companies in 
 |  2 | Mon, Aug 24  | [Number Bases][] II ||                                 |
 |  3 | Wed, Aug 26  |  [Recursion & Search Algorithms]            |   [Recursion and Search Code Challenge](make.sc/cs13-recusion-starter)            |
 |  4 | Mon, Aug 31  | String Algorithms |  |
-|  5 | Wed, Sept 2  | Arrays & Linked Lists       | Quiz: 1               | 
+|  5 | Wed, Sept 2  | Arrays & Linked Lists       | [Quiz 1]              | 
 |  - |  Mon, Sept 7               | **Holiday- Labor Day** | 
 |  6 | Wed, Sept 9  | Technical Article Kickoff & Lists, Stacks & Queues   |  |
 |  7 | Mon, Sept 14  |Lists, Stacks & Queues Part 2    |    |
@@ -61,7 +61,7 @@ Implementations of these concepts are how some of the largest tech companies in 
 
 [Technical Article]: ReadMe.md#Technical-Article
 [Due]: https://www.gradescope.com/courses/104809
-[Quiz]: https://make.sc/cs13-quiz-study-guides
+[Quiz1]: Lessons/quiz1.md
 
 
 ## Prerequisites

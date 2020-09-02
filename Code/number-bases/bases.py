@@ -41,7 +41,7 @@ def encode(number, base):
     # TODO: Encode number in any base (2 up to 36)
     # ...
 
-
+#convert("101", 2, 16)
 def convert(digits, base1, base2):
     """Convert given digits in base1 to digits in base2.
     digits: str -- string representation of number (in base1)
@@ -59,6 +59,9 @@ def convert(digits, base1, base2):
     # ...
     # TODO: Convert digits from any base to any base (2 up to 36)
     # ...
+    base10result = decode(digits, base1)
+    finalresult = encode(base10result, base2)
+    return finalresult
 
 
 def main():
@@ -78,4 +81,6 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    #main()
+    base10 = decode("101", 2)
+    print(base10)
