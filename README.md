@@ -14,6 +14,12 @@ Implementations of these concepts are how some of the largest tech companies in 
 - [Gradescope Assignment Submission Page](https://www.gradescope.com/courses/158814)
 - [Assignment Rubrics](https://drive.google.com/file/d/1QMm-cc0jieP-sLXOsXGxNPupz5FYYP0C/view?usp=sharing)
 
+## Course Specifics
+
+**Course Delivery**: online | 7 weeks | 14 sessions
+
+**Course Credits**: 3 units | 37.5 Seat Hours | 75 Total Hours
+
 ## Schedule
 
 **Course Dates:** Wednesday, August 19 – Wednesday, October 7, 2020 (7 weeks)
@@ -111,6 +117,12 @@ To pass this course you must meet the following requirements:
 - Actively participate in class and abide by the attendance policy
     - Your participation in in-class activities will be a part of your overall grade, each time your participate in the majority of day's activities you will earn a point, you must earn at least 12/14 activity participation points to pass this class
 - Make up all classwork from all absences
+
+##  Information Resources
+
+Any additional resources you may need (online books, etc.) can be found here. You can also find additional resources through the library linked below:
+
+- [make.sc/library](http://make.sc/library)
 
 ## Make School Course Policies
 
