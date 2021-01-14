@@ -9,11 +9,6 @@ Data structures are the building blocks of computer science. It's the foundation
 
 Implementations of these concepts are how some of the largest tech companies in the world were built. Displaying relevant search results and finding friends and peers on social networks would be impossible without these core concepts. They're also **the most common topics for software engineering interviews**, and leveling up your knowledge on these topics is required to nail that technical interview!
 
-## Important Links
-
-- [Gradescope Assignment Submission Page](https://www.gradescope.com/courses/158814)
-- [Assignment Rubrics](https://drive.google.com/file/d/1QMm-cc0jieP-sLXOsXGxNPupz5FYYP0C/view?usp=sharing)
-
 ## Course Specifics
 
 **Course Delivery**: online | 7 weeks | 14 sessions
@@ -22,41 +17,41 @@ Implementations of these concepts are how some of the largest tech companies in 
 
 ## Schedule
 
-**Course Dates:** Wednesday, August 19 – Wednesday, October 7, 2020 (7 weeks)
+**Course Dates:** Tuesday, January 19 – Thursday, March 4, 2021 (7 weeks)
 
-**Class Times:** Monday, Wednesday at 2:45 pm–5:30 pm (14 class sessions)
+**Class Times:** Tuesday and Thursday at 9:30am–12:15pm (13 class sessions)
 
-| Class | Date  | Topic          | Quizzes and Assignment               |
-|:-----:|:-------------------------:|:----------------------------------|:--------------------------------------|
-|  1 | Wed, Aug 19  | [Number Bases][]                  |                            [Number Bases Code Challenge](make.sc/cs13-numberbases-starter)      |
-|  2 | Mon, Aug 24  | [Number Bases][] II ||                                 |
-|  3 | Wed, Aug 26  |  [Recursion & Search Algorithms]            |   [Recursion and Search Code Challenge](make.sc/cs13-recusion-starter)            |
-|  4 | Mon, Aug 31  |  [Recursion & Search Algorithms]  |  |
-|  5 | Wed, Sept 2  | [Recursion & Search Algorithms]    | [Quiz 1]              | 
-|  - |  Mon, Sept 7               | **Holiday- Labor Day** | 
-|  6 | Wed, Sept 9  | [Arrays & Linked Lists] |  |
-|  7 | Mon, Sept 14  | Technical Article Kickoff & Lists, Stacks & Queues  |    |
-|  8 | Wed, Sept 16 | Maps & Hash Tables      |          |
-|  9 | Mon, Sept 21  |Maps & Hash Tables Part 2      | Quiz: 2                     |
-| 10 | Wed, Sept 23 | Trees & Binary Search Trees      |      |
-| 11 | Mon, Sept 28   | Tree Traversals     |      |
-| 12 | Wed, Sept 30 |  Word Jumble Project           |         |
-| 13 | Mon, Oct 5   | Lab Day | Quiz: 3<br> |
-| 14 | Wed, Oct 7   | Lab Day | |
+| Class |          Date          |                 Topics                  |  Quizzes and Assignments               |
+|:-----:|:----------------------:|:---------------------------------------:|:--------------------------------------|
+|  - |  Tue, Jan 19               | **No Class - MLK Day** |
+|  1 |  Thu, Jan 21               | [Number Bases] |
+|  2 |  Tue, Jan 26               | [Linked Lists] | Quiz 1
+|  3 |  Thu, Jan 28                | [Stacks and Queues | 
+|  4 |  Tue, Feb 2                | [Algorithm Analysis] |
+|  5 |  Thu, Feb 4                | [Hash Tables] |
+|  6 |  Tue, Feb 9               | [Recursion] |
+|  7 |  Thu, Feb 11               | [Trees] | Quiz 2
+|  8 |  Tue, Feb 16               | [Trees] |
+|  9 |  Thu, Feb 18               | [Graphs] |
+| 10 |  Tue, Feb 23               | [Graphs] | Quiz 3
+| 11 |  Thu, Feb 25                | Lab Day |
+| 12 |  Tue, Mar 2                | [Algorithm Optimization] | 
+| 13 |  Tue, Mar 4                | [Algorithm Optimization] | [Technical Article]
+
 
 [Number Bases]: Lessons/NumberBases.md
 [Number Bases Review]: Lessons/NumberBases.md#code-review-in-pairs-25-min
-[Recursion & Search Algorithms]: Lessons/RecursionSearchAlgorithms.md
+[Recursion]: Lessons/RecursionSearchAlgorithms.md
 [Search Algorithms Review]: Lessons/RecursionSearchAlgorithms.md#code-review--presentations-80-min
 [String Algorithms]: Lessons/StringAlgorithms.md
 [String Algorithms Review]: Lessons/StringAlgorithms.md#code-review--presentations-80-min
-[Arrays & Linked Lists]: Lessons/ArraysLinkedLists.md
+[Linked Lists]: Lessons/ArraysLinkedLists.md
 [Linked Lists Review]: Lessons/ArraysLinkedLists.md
-[Lists, Stacks & Queues]: Lessons/ListsStacksQueues.md
+[Stacks & Queues]: Lessons/ListsStacksQueues.md
 [Stacks & Queues Review]: Lessons/ListsStacksQueues.md#activity---stacks-and-queues-worksheet---overview--15-min
-[Maps & Hash Tables]: Lessons/MapsHashTables.md
+[Hash Tables]: Lessons/MapsHashTables.md
 [Hash Tables Review]: Lessons/MapsHashTables.md#activity---drawing-a-hashtable--35-min
-[Trees & Binary Search Trees]: Lessons/TreesBinarySearchTrees.md
+[Trees]: Lessons/TreesBinarySearchTrees.md
 [Binary Search Trees Review]: Lessons/TreesBinarySearchTrees.md
 [Tree Traversals]: Lessons/TreeTraversals.md
 [Tree Traversals Review]: Lessons/TreeTraversals.md#code-review-80-min
@@ -64,6 +59,7 @@ Implementations of these concepts are how some of the largest tech companies in 
 [Sets Review]: Lessons/SetsCircularBuffers.md
 [Word Jumble Project]: Lessons/WordJumble.md
 [Call Routing Project]: project/ReadMe.md
+[Graphs]: Lessons/Graphs.md
 
 [Technical Article]: ReadMe.md#Technical-Article
 [Due]: https://www.gradescope.com/courses/104809
@@ -88,15 +84,10 @@ By the end of this course, students will be able to:
 
 ## Assignments
 
-## Piazza
 
-This term we will be using Piazza for class discussion. The system is highly catered to getting you help fast and efficiently from classmates, the TA, and myself. Rather than emailing questions to the teaching staff, I encourage you to post your questions on Piazza. If you have any problems or feedback for the developers, email team@piazza.com.
+### Coding Modules
 
-Find our class signup link at: https://piazza.com/makeschool.com/fall2020/cs13
-
-### Coding Challenges
-
-Each lesson has an associated set of coding challenges with starter code and unit tests provided. Full details can be found in the "Challenges" section of each lesson linked in the schedule above. You will submit each coding challenge on Gradescope in its own repo and also submit a video demoing your completed code.
+Each lesson will have an associated module consisting of review, conceptual, and coding activities. At the end of each week you will turn your module work into gradescope for feedback and a score.
 
 ### Technical Article
 
@@ -110,12 +101,11 @@ Refer to the [technical article guidelines][] for more information about article
 
 To pass this course you must meet the following requirements:
 
-- Complete all required assignments
-- Pass all assignments according to the associated assignment rubric
+- Complete all required assignments (one quiz or coding module assignment can be dropped)
+- Pass all assignments according to the associated assignment rubric 
 - Pass all quizzes with a score 70% or higher 
 - If an assignment or quiz is not passing you will have up to a week after your grade is received to retake and bring your score up to passing
 - Actively participate in class and abide by the attendance policy
-    - Your participation in in-class activities will be a part of your overall grade, each time your participate in the majority of day's activities you will earn a point, you must earn at least 12/14 activity participation points to pass this class
 - Make up all classwork from all absences
 
 ##  Information Resources
