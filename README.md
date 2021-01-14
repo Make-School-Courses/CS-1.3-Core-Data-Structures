@@ -26,7 +26,7 @@ Implementations of these concepts are how some of the largest tech companies in 
 |  - |  Tue, Jan 19               | **No Class - MLK Day** |
 |  1 |  Thu, Jan 21               | [Number Bases] |
 |  2 |  Tue, Jan 26               | [Linked Lists] | Quiz 1
-|  3 |  Thu, Jan 28                | [Stacks and Queues | 
+|  3 |  Thu, Jan 28                | [Stacks and Queues] | 
 |  4 |  Tue, Feb 2                | [Algorithm Analysis] |
 |  5 |  Thu, Feb 4                | [Hash Tables] |
 |  6 |  Tue, Feb 9               | [Recursion] |
@@ -60,6 +60,8 @@ Implementations of these concepts are how some of the largest tech companies in 
 [Word Jumble Project]: Lessons/WordJumble.md
 [Call Routing Project]: project/ReadMe.md
 [Graphs]: Lessons/Graphs.md
+[Algorithm Analysis]: Lessons/AlgorithmAnalysis.md
+[Algorithm Optimization]: Lessons/AlgorithmOptimization.md
 
 [Technical Article]: ReadMe.md#Technical-Article
 [Due]: https://www.gradescope.com/courses/104809
@@ -87,7 +89,7 @@ By the end of this course, students will be able to:
 
 ### Coding Modules
 
-Each lesson will have an associated module consisting of review, conceptual, and coding activities. At the end of each week you will turn your module work into gradescope for feedback and a score.
+Each lesson will have an associated module consisting of review, conceptual, and coding activities as well as interview prep related to the topic. At the end of each week you will turn your module work into gradescope for feedback and a score.
 
 ### Technical Article
 
