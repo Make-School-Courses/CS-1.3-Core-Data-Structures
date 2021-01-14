@@ -98,6 +98,14 @@ Refer to the [technical article guidelines][] for more information about article
 
 [technical article guidelines]: https://make.sc/cs13-article-guidelines
 
+## Assignment Submissions
+
+We will be using [Gradescope](gradescope.com), which allows us to provide fast and accurate feedback on your work. *All assigned work will be submitted through Gradescope, and assignment and exam grades will be returned through Gradescope.*
+
+As soon as grades are posted, you will be notified immediately so that you can log in and see your feedback. You may also submit regrade requests if you feel we have made a mistake.
+
+Your Gradescope login is your Make School email, and your password can be changed at [https://gradescope.com/reset_password](https://gradescope.com/reset_password). The same link can be used if you need to set your password for the first time.
+
 
 ## Evaluation
 
