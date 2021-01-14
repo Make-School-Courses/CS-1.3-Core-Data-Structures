@@ -26,7 +26,7 @@ Implementations of these concepts are how some of the largest tech companies in 
 |  - |  Tue, Jan 19               | **No Class - MLK Day** |
 |  1 |  Thu, Jan 21               | [Number Bases] |
 |  2 |  Tue, Jan 26               | [Linked Lists] | Quiz 1
-|  3 |  Thu, Jan 28                | [Stacks and Queues] | 
+|  3 |  Thu, Jan 28                | [Stacks & Queues] | 
 |  4 |  Tue, Feb 2                | [Algorithm Analysis] |
 |  5 |  Thu, Feb 4                | [Hash Tables] |
 |  6 |  Tue, Feb 9               | [Recursion] |
