@@ -24,19 +24,19 @@ Implementations of these concepts are how some of the largest tech companies in 
 | Class |          Date          |                 Topics                  |  Quizzes and Assignments               |
 |:-----:|:----------------------:|:---------------------------------------:|:--------------------------------------|
 |  - |  Tue, Jan 19               | **No Class - MLK Day** |
-|  1 |  Thu, Jan 21               | [Number Bases] | Due: Module 1
-|  2 |  Tue, Jan 26               | [Linked Lists] | Released: Quiz 1
-|  3 |  Thu, Jan 28                | [Stacks & Queues] | Due: Module 2
-|  4 |  Tue, Feb 2                | [Algorithm Analysis] |
-|  5 |  Thu, Feb 4                | [Hash Tables] | Due: Module 3
-|  6 |  Tue, Feb 9               | [Recursion] |
-|  7 |  Thu, Feb 11               | [Trees] | Released: Quiz 2, Due: Module 4
-|  8 |  Tue, Feb 16               | [Trees] |
-|  9 |  Thu, Feb 18               | [Graphs] | Due: Module 5
-| 10 |  Tue, Feb 23               | [Graphs] | Released: Quiz 3
+|  1 |  Thu, Jan 21               | Number Bases | Due: Module 1
+|  2 |  Tue, Jan 26               | Linked Lists | Released: Quiz 1
+|  3 |  Thu, Jan 28                | Stacks & Queues | Due: Module 2
+|  4 |  Tue, Feb 2                | Algorithm Analysis |
+|  5 |  Thu, Feb 4                | Hash Tables | Due: Module 3
+|  6 |  Tue, Feb 9               | Recursion |
+|  7 |  Thu, Feb 11               | Trees | Released: Quiz 2, Due: Module 4
+|  8 |  Tue, Feb 16               | Trees |
+|  9 |  Thu, Feb 18               | Graphs | Due: Module 5
+| 10 |  Tue, Feb 23               | Graphs | Released: Quiz 3
 | 11 |  Thu, Feb 25                | Lab Day | Due: Module 6
-| 12 |  Tue, Mar 2                | [Algorithm Optimization] | 
-| 13 |  Tue, Mar 4                | [Algorithm Optimization] | Due: [Technical Article], Module 7
+| 12 |  Tue, Mar 2                | Algorithm Optimization | 
+| 13 |  Tue, Mar 4                | Algorithm Optimization | Due: [Technical Article], Module 7
 
 
 [Number Bases]: Lessons/NumberBases.md
