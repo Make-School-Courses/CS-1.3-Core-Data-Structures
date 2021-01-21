@@ -24,7 +24,7 @@ Implementations of these concepts are how some of the largest tech companies in 
 | Class |          Date          |                 Topics                  |  Quizzes and Assignments               |
 |:-----:|:----------------------:|:---------------------------------------:|:--------------------------------------|
 |  - |  Tue, Jan 19               | **No Class - MLK Day** |
-|  1 |  Thu, Jan 21               | Number Bases | Due: Module 1
+|  1 |  Thu, Jan 21               | [Number Bases] | Due: Module 1
 |  2 |  Tue, Jan 26               | Linked Lists | Released: Quiz 1
 |  3 |  Thu, Jan 28                | Stacks & Queues | Due: Module 2
 |  4 |  Tue, Feb 2                | Algorithm Analysis |
@@ -39,7 +39,7 @@ Implementations of these concepts are how some of the largest tech companies in 
 | 13 |  Tue, Mar 4                | Algorithm Optimization | Due: [Technical Article], Module 7
 
 
-[Number Bases]: Lessons/NumberBases.md
+[Number Bases]: https://docs.google.com/presentation/d/1Hdh8iJxhm65IZFJFgmj9cgCV4PkOmFxvQu10ze1zzkc/edit#slide=id.gb779b17009_0_5
 [Number Bases Review]: Lessons/NumberBases.md#code-review-in-pairs-25-min
 [Recursion]: Lessons/RecursionSearchAlgorithms.md
 [Search Algorithms Review]: Lessons/RecursionSearchAlgorithms.md#code-review--presentations-80-min
