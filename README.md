@@ -47,7 +47,7 @@ Implementations of these concepts are how some of the largest tech companies in 
 [Search Algorithms Review]: Lessons/RecursionSearchAlgorithms.md#code-review--presentations-80-min
 [String Algorithms]: Lessons/StringAlgorithms.md
 [String Algorithms Review]: Lessons/StringAlgorithms.md#code-review--presentations-80-min
-[Linked Lists]: (https://docs.google.com/presentation/d/1EkoP_bdvKz5Xtqvmkd6zEwXrjkfYFIdhHg1UKFL_uPI/edit#slide=id.gb901c85c77_0_1041)
+[Linked Lists]: (https://docs.google.com/presentation/d/1EkoP_bdvKz5Xtqvmkd6zEwXrjkfYFIdhHg1UKFL_uPI/edit?usp=sharing)
 [Linked Lists Review]: Lessons/ArraysLinkedLists.md
 [Stacks & Queues]: Lessons/ListsStacksQueues.md
 [Stacks & Queues Review]: Lessons/ListsStacksQueues.md#activity---stacks-and-queues-worksheet---overview--15-min
