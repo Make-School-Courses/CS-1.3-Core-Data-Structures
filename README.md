@@ -25,8 +25,8 @@ Implementations of these concepts are how some of the largest tech companies in 
 |:-----:|:----------------------:|:---------------------------------------:|:--------------------------------------|
 |  - |  Tue, Jan 19               | **No Class - MLK Day** |
 |  1 |  Thu, Jan 21               | [Number Bases] | Due: [Module 1]
-|  2 |  Tue, Jan 26               | Linked Lists | Released: Quiz 1
-|  3 |  Thu, Jan 28                | Stacks & Queues | Due: Module 2
+|  2 |  Tue, Jan 26               | [Linked Lists] | 
+|  3 |  Thu, Jan 28                | Stacks & Queues | Released: Quiz 1, Due: [Module 2] and 3
 |  4 |  Tue, Feb 2                | Algorithm Analysis |
 |  5 |  Thu, Feb 4                | Hash Tables | Due: Module 3
 |  6 |  Tue, Feb 9               | Recursion |
@@ -41,12 +41,13 @@ Implementations of these concepts are how some of the largest tech companies in 
 
 [Number Bases]: https://docs.google.com/presentation/d/1Hdh8iJxhm65IZFJFgmj9cgCV4PkOmFxvQu10ze1zzkc/edit#slide=id.gb779b17009_0_5
 [Module 1]: https://docs.google.com/forms/d/e/1FAIpQLSdCZiPNFdndjPDzV57Rc_dNgZElKkyiOz3Xfin2Mz7h1ijCRw/viewform?usp=sf_link
+[Module 2]: https://www.gradescope.com/courses/235530/assignments/965985
 [Number Bases Review]: Lessons/NumberBases.md#code-review-in-pairs-25-min
 [Recursion]: Lessons/RecursionSearchAlgorithms.md
 [Search Algorithms Review]: Lessons/RecursionSearchAlgorithms.md#code-review--presentations-80-min
 [String Algorithms]: Lessons/StringAlgorithms.md
 [String Algorithms Review]: Lessons/StringAlgorithms.md#code-review--presentations-80-min
-[Linked Lists]: Lessons/ArraysLinkedLists.md
+[Linked Lists]: (https://docs.google.com/presentation/d/1EkoP_bdvKz5Xtqvmkd6zEwXrjkfYFIdhHg1UKFL_uPI/edit#slide=id.gb901c85c77_0_1041)
 [Linked Lists Review]: Lessons/ArraysLinkedLists.md
 [Stacks & Queues]: Lessons/ListsStacksQueues.md
 [Stacks & Queues Review]: Lessons/ListsStacksQueues.md#activity---stacks-and-queues-worksheet---overview--15-min
