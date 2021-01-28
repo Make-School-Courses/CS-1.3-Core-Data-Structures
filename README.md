@@ -26,7 +26,7 @@ Implementations of these concepts are how some of the largest tech companies in 
 |  - |  Tue, Jan 19               | **No Class - MLK Day** |
 |  1 |  Thu, Jan 21               | [Number Bases] | Due: [Module 1]
 |  2 |  Tue, Jan 26               | [Linked Lists] | 
-|  3 |  Thu, Jan 28                | Stacks & Queues | Released: Quiz 1, Due: [Module 2] and 3
+|  3 |  Thu, Jan 28                | [Stacks & Queues] | Released: Quiz 1, Due: [Module 2] and [Module 3]
 |  4 |  Tue, Feb 2                | Algorithm Analysis |
 |  5 |  Thu, Feb 4                | Hash Tables | Due: Module 3
 |  6 |  Tue, Feb 9               | Recursion |
@@ -42,6 +42,7 @@ Implementations of these concepts are how some of the largest tech companies in 
 [Number Bases]: https://docs.google.com/presentation/d/1Hdh8iJxhm65IZFJFgmj9cgCV4PkOmFxvQu10ze1zzkc/edit#slide=id.gb779b17009_0_5
 [Module 1]: https://docs.google.com/forms/d/e/1FAIpQLSdCZiPNFdndjPDzV57Rc_dNgZElKkyiOz3Xfin2Mz7h1ijCRw/viewform?usp=sf_link
 [Module 2]: https://www.gradescope.com/courses/235530/assignments/965985
+[Module 3]: https://www.gradescope.com/courses/235530/assignments/972859
 [Number Bases Review]: Lessons/NumberBases.md#code-review-in-pairs-25-min
 [Recursion]: Lessons/RecursionSearchAlgorithms.md
 [Search Algorithms Review]: Lessons/RecursionSearchAlgorithms.md#code-review--presentations-80-min
@@ -49,7 +50,7 @@ Implementations of these concepts are how some of the largest tech companies in 
 [String Algorithms Review]: Lessons/StringAlgorithms.md#code-review--presentations-80-min
 [Linked Lists]: (https://docs.google.com/presentation/d/1EkoP_bdvKz5Xtqvmkd6zEwXrjkfYFIdhHg1UKFL_uPI/edit?usp=sharing)
 [Linked Lists Review]: Lessons/ArraysLinkedLists.md
-[Stacks & Queues]: Lessons/ListsStacksQueues.md
+[Stacks & Queues]: https://docs.google.com/presentation/d/15fB537McWZ_KTSSJUqkEGiYq6Su8fD4S2L_N24I2iHI/edit#slide=id.g8382c44d4e_0_25
 [Stacks & Queues Review]: Lessons/ListsStacksQueues.md#activity---stacks-and-queues-worksheet---overview--15-min
 [Hash Tables]: Lessons/MapsHashTables.md
 [Hash Tables Review]: Lessons/MapsHashTables.md#activity---drawing-a-hashtable--35-min
