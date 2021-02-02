@@ -27,7 +27,7 @@ Implementations of these concepts are how some of the largest tech companies in 
 |  1 |  Thu, Jan 21               | [Number Bases] | Due: [Module 1]
 |  2 |  Tue, Jan 26               | [Linked Lists] | 
 |  3 |  Thu, Jan 28                | [Stacks & Queues] | Released: Quiz 1, Due: [Module 2] and [Module 3]
-|  4 |  Tue, Feb 2                | Algorithm Analysis |
+|  4 |  Tue, Feb 2                | [Algorithm Analysis] |
 |  5 |  Thu, Feb 4                | Hash Tables | Due: Module 3
 |  6 |  Tue, Feb 9               | Recursion |
 |  7 |  Thu, Feb 11               | Trees | Released: Quiz 2, Due: Module 4
@@ -63,7 +63,7 @@ Implementations of these concepts are how some of the largest tech companies in 
 [Word Jumble Project]: Lessons/WordJumble.md
 [Call Routing Project]: project/ReadMe.md
 [Graphs]: Lessons/Graphs.md
-[Algorithm Analysis]: Lessons/AlgorithmAnalysis.md
+[Algorithm Analysis]: https://docs.google.com/presentation/d/1-feIzmJI1UrDyRXLBPTnGVR06AWuZT1a_hPmhGDnL7g/edit?usp=sharing
 [Algorithm Optimization]: Lessons/AlgorithmOptimization.md
 
 [Technical Article]: ReadMe.md#Technical-Article
