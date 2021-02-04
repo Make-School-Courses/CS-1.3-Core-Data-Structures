@@ -28,7 +28,7 @@ Implementations of these concepts are how some of the largest tech companies in 
 |  2 |  Tue, Jan 26               | [Linked Lists] | 
 |  3 |  Thu, Jan 28                | [Stacks & Queues] | Released: Quiz 1, Due: [Module 2] and [Module 3]
 |  4 |  Tue, Feb 2                | [Algorithm Analysis] |
-|  5 |  Thu, Feb 4                | Hash Tables | Due: Module 3
+|  5 |  Thu, Feb 4                | [Hash Tables] | Due: Module 3
 |  6 |  Tue, Feb 9               | Recursion |
 |  7 |  Thu, Feb 11               | Trees | Released: Quiz 2, Due: Module 4
 |  8 |  Tue, Feb 16               | Trees |
@@ -52,7 +52,7 @@ Implementations of these concepts are how some of the largest tech companies in 
 [Linked Lists Review]: Lessons/ArraysLinkedLists.md
 [Stacks & Queues]: https://docs.google.com/presentation/d/15fB537McWZ_KTSSJUqkEGiYq6Su8fD4S2L_N24I2iHI/edit#slide=id.g8382c44d4e_0_25
 [Stacks & Queues Review]: Lessons/ListsStacksQueues.md#activity---stacks-and-queues-worksheet---overview--15-min
-[Hash Tables]: Lessons/MapsHashTables.md
+[Hash Tables]: https://docs.google.com/presentation/d/1ozWxKKvnMeWmcvFQE1WC03zjKfeQyOmHSpT3i2JsxqU/edit#slide=id.p
 [Hash Tables Review]: Lessons/MapsHashTables.md#activity---drawing-a-hashtable--35-min
 [Trees]: Lessons/TreesBinarySearchTrees.md
 [Binary Search Trees Review]: Lessons/TreesBinarySearchTrees.md
