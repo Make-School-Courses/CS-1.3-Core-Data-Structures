@@ -29,7 +29,7 @@ Implementations of these concepts are how some of the largest tech companies in 
 |  3 |  Thu, Jan 28                | [Stacks & Queues] | Released: Quiz 1, Due: [Module 2] and [Module 3]
 |  4 |  Tue, Feb 2                | [Algorithm Analysis] |
 |  5 |  Thu, Feb 4                | [Hash Tables] | Due: Module 3
-|  6 |  Tue, Feb 9               | Recursion |
+|  6 |  Tue, Feb 9               | [Recursion] |
 |  7 |  Thu, Feb 11               | Trees | Released: Quiz 2, Due: Module 4
 |  8 |  Tue, Feb 16               | Trees |
 |  9 |  Thu, Feb 18               | Graphs | Due: Module 5
@@ -44,7 +44,7 @@ Implementations of these concepts are how some of the largest tech companies in 
 [Module 2]: https://www.gradescope.com/courses/235530/assignments/965985
 [Module 3]: https://www.gradescope.com/courses/235530/assignments/972859
 [Number Bases Review]: Lessons/NumberBases.md#code-review-in-pairs-25-min
-[Recursion]: Lessons/RecursionSearchAlgorithms.md
+[Recursion]: https://docs.google.com/presentation/d/1XoZtTOh7Oci0ArbNMD9HwJjevOljspMFZhD95uCimrc/edit#slide=id.gba3db0ea5e_0_5
 [Search Algorithms Review]: Lessons/RecursionSearchAlgorithms.md#code-review--presentations-80-min
 [String Algorithms]: Lessons/StringAlgorithms.md
 [String Algorithms Review]: Lessons/StringAlgorithms.md#code-review--presentations-80-min
