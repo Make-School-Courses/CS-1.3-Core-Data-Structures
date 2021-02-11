@@ -30,7 +30,7 @@ Implementations of these concepts are how some of the largest tech companies in 
 |  4 |  Tue, Feb 2                | [Algorithm Analysis] |
 |  5 |  Thu, Feb 4                | [Hash Tables] | Due: Module 3
 |  6 |  Tue, Feb 9               | [Recursion] |
-|  7 |  Thu, Feb 11               | Trees | Released: Quiz 2, Due: Module 4
+|  7 |  Thu, Feb 11               | [Trees] | Released: Quiz 2, Due: Module 4
 |  8 |  Tue, Feb 16               | Trees |
 |  9 |  Thu, Feb 18               | Graphs | Due: Module 5
 | 10 |  Tue, Feb 23               | Graphs | Released: Quiz 3
@@ -54,7 +54,7 @@ Implementations of these concepts are how some of the largest tech companies in 
 [Stacks & Queues Review]: Lessons/ListsStacksQueues.md#activity---stacks-and-queues-worksheet---overview--15-min
 [Hash Tables]: https://docs.google.com/presentation/d/1ozWxKKvnMeWmcvFQE1WC03zjKfeQyOmHSpT3i2JsxqU/edit#slide=id.p
 [Hash Tables Review]: Lessons/MapsHashTables.md#activity---drawing-a-hashtable--35-min
-[Trees]: Lessons/TreesBinarySearchTrees.md
+[Trees]: https://docs.google.com/presentation/d/1tGYvVLz2U1fcYDDYSNfvM_1iu_A_iRaSQbI0zUbFsY0/edit#slide=id.gbcb1f9630d_0_18
 [Binary Search Trees Review]: Lessons/TreesBinarySearchTrees.md
 [Tree Traversals]: Lessons/TreeTraversals.md
 [Tree Traversals Review]: Lessons/TreeTraversals.md#code-review-80-min
