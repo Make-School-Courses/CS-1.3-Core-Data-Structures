@@ -31,9 +31,9 @@ Implementations of these concepts are how some of the largest tech companies in 
 |  5 |  Thu, Feb 4                | [Hash Tables] | Due: Module 3
 |  6 |  Tue, Feb 9               | [Recursion] |
 |  7 |  Thu, Feb 11               | [Trees] | Released: Quiz 2, Due: Module 4
-|  8 |  Tue, Feb 16               | Trees |
-|  9 |  Thu, Feb 18               | Graphs | Due: Module 5
-| 10 |  Tue, Feb 23               | Graphs | Released: Quiz 3
+|  8 |  Tue, Feb 16               | [Trees] |
+|  9 |  Thu, Feb 18               | [Graphs] | Due: Module 5
+| 10 |  Tue, Feb 23               | [Graphs] | Released: Quiz 3
 | 11 |  Thu, Feb 25                | Lab Day | Due: Module 6
 | 12 |  Tue, Mar 2                | Algorithm Optimization | 
 | 13 |  Tue, Mar 4                | Algorithm Optimization | Due: [Technical Article], Module 7
@@ -62,7 +62,7 @@ Implementations of these concepts are how some of the largest tech companies in 
 [Sets Review]: Lessons/SetsCircularBuffers.md
 [Word Jumble Project]: Lessons/WordJumble.md
 [Call Routing Project]: project/ReadMe.md
-[Graphs]: Lessons/Graphs.md
+[Graphs]: https://docs.google.com/presentation/d/1vsoJB_ho4W5AMPWjqY_fnWkxGMFqaHrXHdhj8rA9lu0/edit#slide=id.gbdd193eb6d_0_0
 [Algorithm Analysis]: https://docs.google.com/presentation/d/1-feIzmJI1UrDyRXLBPTnGVR06AWuZT1a_hPmhGDnL7g/edit?usp=sharing
 [Algorithm Optimization]: Lessons/AlgorithmOptimization.md
 
