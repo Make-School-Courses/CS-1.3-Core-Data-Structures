@@ -38,8 +38,8 @@ Students must pass the following course and demonstrate mastery of its competenc
 **Course Dates:** Tuesday, March 30 – Thursday, May 13, 2021 (7 weeks)
 
 **Class Times:** 
-* **Section A**: Tuesday and Thursday at 9:30–12:15pm PST (13 class sessions)
-* **Section B**: Tuesday and Thursday at 2:30–5:15pm PST (13 class sessions)
+* **Section A**: Tuesday and Thursday at 9:30–12:15pm PT (13 class sessions)
+* **Section B**: Tuesday and Thursday at 2:30–5:15pm PT (13 class sessions)
 
 
 <br/>
