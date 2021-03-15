@@ -58,7 +58,7 @@ Students must pass the following course and demonstrate mastery of its competenc
 |   8   |  Tue, Apr 27 | [Trees]                     |                                             |
 |   9   |  Thu, Apr 29 | [Graphs]                    | [Module 8] <br/> due Wed, May 5 @ 11pm PST  |
 |   10  |  Tue, May 4  | [Graphs]                    |                                             | 
-|   11  |  Thu, May 6  | [Algorithm Optimization].   | [Technical Article] <br/> due Wed, May 12 @ 11pm PST |
+|   11  |  Thu, May 6  | [Algorithm Optimization]    | [Technical Article] <br/> due Wed, May 12 @ 11pm PST |
 |   12  |  Tue, May 11 | [Algorithm Optimization]    |                                             | 
 |   13  |  Thu, May 13 |  Lab Day                    |                                             |
 
