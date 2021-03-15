@@ -1,4 +1,5 @@
-*  **[Syllabus](README.md)**
+- **[Syllabus](README.md)**
+
 - **Lessons**
   - [Number Bases](https://docs.google.com/presentation/d/1izjO_H7DJWGUtSuuc1SWZ01HIaCf4WFSyQCqKNxuPm4)
   - [Linked Lists](https://docs.google.com/presentation/d/1K_lYh3ukPwG58mh-RnxUA8_VtrtrmPIVWQb8c1sNVhk)
