@@ -135,7 +135,9 @@ To pass this course you must meet the following requirements:
 - Instructor-granted extensions are only considered after all grace days are used and only given in exceptional situations.
 
 ### Self-Granted Extensions ("Grace Days")
-Grace days are “self-granted extensions”. We recognize that the competing demands of a challenging courseload and extracurriculars can be an unforgiving landscape and even the most careful of plans can be derailed by an unforeseen event. When the unexpected happens – you get the flu, the network goes down, you delete a critical file, a personal situation escalates – you would usually have to request an extension from the staff. Instead you are given the privilege to grant yourself an extension without our oversight. One grace day extends the deadline by 24 hours. 
+Grace days are “self-granted extensions”. One grace day extends the deadline by 24 hours.
+
+We recognize that the competing demands of a challenging courseload and extracurriculars can be an unforgiving landscape and even the most careful of plans can be derailed by an unforeseen event. When the unexpected happens – you get the flu, the network goes down, you delete a critical file, a personal situation escalates – you would usually have to request an extension from the staff. Instead you are given the privilege to grant yourself an extension without our oversight. 
 
 Grace days are your means to cover real problems: illness, stolen laptops, bike accidents, and so on. We don't intend them to cover ski trips, overcommitment, or poor planning, but you can use them as you choose and we don't check up on you. You may use all of your grace days for one assignment, distribute them across several assignments, or even better, hoard them for a crisis that thankfully never comes.
 
