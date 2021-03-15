@@ -47,16 +47,16 @@ Students must pass the following course and demonstrate mastery of its competenc
 
 | Class |      Date    |          Topics             |                 Assignments                 |
 |:-----:|:------------:|:---------------------------:|:--------------------------------------------|
-|   1   |  Tue, Mar 30 | [Number Bases]              | [Module 1] <br/> due Thur, Apr 1 @ 11pm PST |
+|   1   |  Tue, Mar 30 | [Number Bases]              | [Module 1] <br/> due Mon, Apr 5 @ 11pm PST  |
 |   -   |  Thu, Apr 1  | **No Class - Cesar Chavez** |
-|   2   |  Tue, Apr 6  | [Linked Lists]              | [Module 2] <br/> due Wed, Apr 7 @ 11pm PST  |
-|   3   |  Thu, Apr 8  | [Stacks & Queues]           | [Module 3] <br/> due Fri, Apr 9 @ 11pm PST  |
-|   4   |  Tue, Apr 13 | [Algorithm Analysis]        | [Module 4] <br/> due Wed, Apr 14 @ 11pm PST |
-|   5   |  Thu, Apr 15 | [Hash Tables]               | [Module 5] <br/> due Fri, Apr 16 @ 11pm PST |
-|   6   |  Tue, Apr 20 | [Recursion]                 | [Module 6] <br/> due Wed, Apr 21 @ 11pm PST |
-|   7   |  Thu, Apr 22 | [Trees]                     | [Module 7] <br/> due Wed, Apr 28 @ 11pm PST |
+|   2   |  Tue, Apr 6  | [Linked Lists]              | [Module 2] <br/> due Fri, Apr 9 @ 11pm PST  |
+|   3   |  Thu, Apr 8  | [Stacks & Queues]           | [Module 3] <br/> due Mon, Apr 12 @ 11pm PST |
+|   4   |  Tue, Apr 13 | [Algorithm Analysis]        | [Module 4] <br/> due Fri, Apr 16 @ 11pm PST |
+|   5   |  Thu, Apr 15 | [Hash Tables]               | [Module 5] <br/> due Mon, Apr 19 @ 11pm PST |
+|   6   |  Tue, Apr 20 | [Recursion]                 | [Module 6] <br/> due Fri, Apr 23 @ 11pm PST |
+|   7   |  Thu, Apr 22 | [Trees]                     | [Module 7] <br/> due Fri, Apr 30 @ 11pm PST |
 |   8   |  Tue, Apr 27 | [Trees]                     |                                             |
-|   9   |  Thu, Apr 29 | [Graphs]                    | [Module 8] <br/> due Wed, May 5 @ 11pm PST  |
+|   9   |  Thu, Apr 29 | [Graphs]                    | [Module 8] <br/> due Fri, May 7 @ 11pm PST  |
 |   10  |  Tue, May 4  | [Graphs]                    |                                             | 
 |   11  |  Thu, May 6  | [Algorithm Optimization]    | [Technical Article] <br/> due Thur, May 13 @ 11pm PST |
 |   12  |  Tue, May 11 | [Algorithm Optimization]    |                                             | 
