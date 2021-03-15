@@ -12,7 +12,7 @@
   - [Algorithm Optimization](https://docs.google.com/presentation/d/1dZ1-AdSCw2LSdP8bneJIIjhGVv-JxCfzXx4zq3o7rqw)
   - 
 - **Assignments**
-  - [[Module 1](https://www.gradescope.com/courses/248820/assignments/1038602)
+  - [Module 1](https://www.gradescope.com/courses/248820/assignments/1038602)
   - [Module 2](https://www.gradescope.com/courses/248820/assignments/1038603)
   - [Module 3](https://www.gradescope.com/courses/248820/assignments/1038604)
   - [Module 4](https://www.gradescope.com/courses/248820/assignments/1038605)
