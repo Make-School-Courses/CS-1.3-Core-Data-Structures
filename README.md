@@ -16,7 +16,7 @@ Students must pass the following course and demonstrate mastery of its competenc
 
 ## Course Specifics
 
-**Course Delivery**: Synchronous | 7 weeks | 19 sessions
+**Course Delivery**: Synchronous | 7 weeks | 18 sessions
 
 **Course Credits**: Synchronous: 3 units | 37.5 Contact Hours/Term | 92 Non-Contact Hours/Term | 129.5 Total Hours/Term
 
@@ -49,7 +49,7 @@ By the end of this course, students will be able to:
 |   8   | Fri, June 18 |                   Lab                    | Module 3                     |
 |   9   | Mon, June 21 |               [Recursion]                |                              |
 |  10   | Wed, June 23 |              [Hash Tables]               |                              |
-|  11   | Fri, June 25 |                   Lab                    | Module 4                     |
+|  11   | Fri, June 25 |                   Lab                    | Module 4  (Midterm Modules 1-3 MUST be turned in)                   |
 |  12   | Mon, June 28 |              [Hash Tables]               |                              |
 |  13   | Wed, June 30 |                 [Trees]                  |                              |
 |  14   | Fri, July 2  |                   Lab                    | Module 5                     |
@@ -70,14 +70,14 @@ By the end of this course, students will be able to:
 [Graphs]: https://docs.google.com/presentation/d/1b3dfuE11r08OFHEagXaHfP5hpsNlTWu5LAfFzj9I7fo
 [Algorithm Optimization]: https://docs.google.com/presentation/d/1dZ1-AdSCw2LSdP8bneJIIjhGVv-JxCfzXx4zq3o7rqw
 
-[Module 1]: https://www.gradescope.com/courses/248820/assignments/1038602
-[Module 2]: https://www.gradescope.com/courses/248820/assignments/1038603
-[Module 3]: https://www.gradescope.com/courses/248820/assignments/1038604
-[Module 4]: https://www.gradescope.com/courses/248820/assignments/1038605
-[Module 5]: https://www.gradescope.com/courses/248820/assignments/1038607
-[Module 6]: https://www.gradescope.com/courses/248820/assignments/1038608
-[Module 7]: https://www.gradescope.com/courses/248820/assignments/1038609
-[Module 8]: https://www.gradescope.com/courses/248820/assignments/1099887
+[Module 1]: 
+[Module 2]: 
+[Module 3]: 
+[Module 4]: 
+[Module 5]: 
+[Module 6]: 
+[Module 7]: 
+[Module 8]: 
 
 [Technical Article]: Assignments/TechnicalArticle.md
 
@@ -113,11 +113,11 @@ To pass this course you must meet the following requirements:
 ## Course Policies and Format
 
 * This course will use a self paced format
-* You will be given recommended dates to turn assignments in to stay on track, but you can turn in any assignment later than the recommended date with no penalty provided it is turned in no later than the last day of class (Fri July 16th) 
+* You will be given recommended dates to turn assignments in to stay on track, but you can turn in any assignment later than the recommended date with no penalty provided Modules 1-3 are turned in no later than midterm (Fri June 25th) and modules 3-7 and the technical article are turned in no later than the last day of class (Fri July 16th) 
 * You can resubmit any assignment after receiving feedback to improve your score provided it is turned in no later than the last day of class (Fri July 16th)
 * Assignments should be completed by the recommended date in the above schedules section in order to receive timely feedback. Students falling behind should connect with the instructor for help staying on pace! 
-* The absolute last date to turn in any assignment will be the last day of class (Fri July 16th)
-* Any assignments not complete by the final day of class (Fri July 16) will be given a score of 0
+* The absolute last date to turn in Modules 1-3 is Fri June 25th and  the last date to turn in modules 3-7 and the technical article is Fri July 16th
+* Any assignments not complete by the above midterm Fri June 25th and final day of class Fri July 16th dates will receive a score of 0
 * Lectures will be given during the first hour of class and will be optional (9:30 am - 10:30 am on M & W)
 * Labs will be during the last portion of the class and all of Friday sessions and attendance will be required (10:45 - 11:15 am M & W, 9:30 am - 11:15 am F)
 
